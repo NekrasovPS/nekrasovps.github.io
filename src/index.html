@@ -7,6 +7,8 @@
 	<meta name="author" content="Pavel Nekrasov">
 	<meta name="robots" content="all">
 	<title>мой первый сайт </title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 		<header>
@@ -26,7 +28,7 @@
 		</header>
 		<div class="main">
 			<div class="title__container">
-				<h1>Привет <br> Я Павел Некрасов</h1>
+				<h1>Привет, <br> я Павел Некрасов</h1>
 				<h4>Фул стек веб-разработчик и веб-дизайнер</h4>
 				<button>Обо мне</button>
 				<button>Мои работы</button>
@@ -35,63 +37,78 @@
 		<div class="me">
 			<div class="resume">
 				<h2>Обо мне</h2>
-				<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Eum praesentium, vel molestiae maxime eligendi libero odit, labore dolor itaque molestias cum commodi natus nisi explicabo animi voluptatibus omnis officia porro.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Deserunt numquam officiis voluptatum doloribus aliquam omnis, perferendis magni illo doloremque ducimus, sequi, quis dicta obcaecati! Temporibus similique culpa molestias natus itaque.</p>
+				 <div class="imgq">
+				 	<img src="img/me.png">
+				 </div>
+				 <div class="resume__p">
+					<p class="resumeq">Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Eum praesentium, vel molestiae maxime eligendi libero odit, labore dolor itaque molestias cum commodi natus nisi explicabo animi voluptatibus omnis officia porro.</p>
+					<p class="resumeww">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Deserunt numquam officiis voluptatum doloribus aliquam omnis, perferendis magni illo doloremque ducimus, sequi, quis dicta obcaecati! Temporibus similique culpa molestias natus itaque.</p>
+				</div>
 			</div>
 			<div class="down">
 				<button>Скачать резюме</button>
 			</div>
 		</div>
-		<div>
+		<div class="meskill">
 			<div class="aboutmy">
-				<h2>Обо мне</h2>
+				<h2>Что я умею</h2>
 			</div>
-			<div>
-				<div class="aboutmydesign">
-					<img src="">
-					<h4>Веб дизайн</h4>
-					<p>Lorem ipsum, dolor sit amet.</p>
-				</div>
-				<div class="aboutmydevelopment">
-					<img src="">
-					<h4>Разработка</h4>
-					<p>Lorem ipsum dolor sit amet.</p>
-				</div>
-				<div class="aboutmyoptimization">
-					<img src="">
-					<h4>Оптимизация</h4>
-					<p>Lorem ipsum dolor sit amet.</p>
-				</div>
-				<div class="aboutmymarketing">
-					<img src="">
-					<h4>Маркетинг</h4>
-					<p>Lorem ipsum dolor sit amet.</p>
-				</div>
+			<div class="skill">
+				<ul>
+					<li>
+						<img src="img/ноут.svg">
+						<h4>Веб дизайн</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, natus.</p>
+					</li>
+					<li>
+						<img src="img/знак.svg">
+						<h4>Разработка</h4>
+						<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Sint, aperiam..</p>
+					</li>
+					<li class="skillqqq">
+						<img src="img/ракета.svg">
+						<h4>Оптимизация</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, fuga!</p>
+					</li>
+					<li>
+						<img src="img/граммофон.svg">
+						<h4>Маркетинг</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quia!</p>
+					</li>
+				</ul>
 			</div>
 		</div>
 		<div class="cases">
 			<div class="infcase">
 				<div>
 					<h2>Кейсы</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, natus?</p>
+					<p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, natus?</p>
 				</div>
-				<div>
-					<img src="">
-					<h3>CLIENT</h3>
-					<P>какая-то компания</P>
-					<h3>WEBSITE</h3>
-					<p>http://www.somedomain.com</p>
-					<button>VISIT LIVE SITE</button>
+				<div class="casesjs">
+					<img src="img/casesfoto.jpg">
+					<div class="casesjsinfo">
+						<h3>CLIENT:</h3>
+						<P>какая-то компания</P>
+						<h3>WEBSITE:</h3>
+						<p>http://www.somedomain.com</p>
+					</div>
+					<div class="nameproject">
+						<h3>Название проекта</h3>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Suscipit, molestias.</p>
+					</div>
+					<div class="casebtn">
+						<button>VISIT LIVE SITE</button>
+					</div>	
 				</div>
 			</div>
 		</div>
-		<div>
-			<div>
+		<div class="calc">
+			<div class="calc__h">
 				<h2>Мои расчёты</h2>
 			</div>
-			<div>
+			<div class="calcme">
 				<h2>Тип сайта</h2>
-				<select placeholder="Выберите тип сайта">
+				<select >
 					<option value="">лендинг</option>
 					<option value="">корпоративный сайт</option>
 					<option value="">интернет магазин</option>
@@ -109,79 +126,103 @@
 					<option value="">все устройства</option>
 				</select>
 			</div>
+			<div class="calctime">
+				<h3>Сроки</h3>
+				<h3>Стоимоть</h3>
+			</div>
+			<div class="calcresult">
+				<h3>0</h3>
+				<h3>0</h3>
+			</div>
 		</div>
-		<div>
+		<div class="statics">
 			<div>
 				<h2>Немного статистики</h2>
 			</div>
-			<div>
-				<div>
-					<img src="" alt="">
-					<h4>120</h4>
-					<p>Счастливых клиентов</p>
-				</div>
-				<div>
-					<img src="" alt="">
-					<h4>4,600</h4>
-					<p>Часов работы</p>
-				</div>
-				<div>
-					<img src="" alt="">
-					<h4>340</h4>
-					<p>Проектов завершено</p>
-				</div>
-				<div>
-					<img src="" alt="">
-					<h4>23</h4>
-					<p>Награды</p>
-				</div>
+			<div class="staticsqq">
+				<ul class="azaz">
+					<li class="lii">
+						<img src="img/смайл.svg">
+						<h4>120</h4>
+						<p>Счастливых клиентов</p>
+					</li>
+					<li>
+						<img src="img/скобки.svg">
+						<h4>4,600</h4>
+						<p>Часов работы</p>
+					</li>
+					<li>
+						<img src="img/галочка.svg">
+						<h4>340</h4>
+						<p>Проектов завершено</p>
+					</li>
+					<li class="lii">
+						<img src="img/кубок.svg">
+						<h4>23</h4>
+						<p>Награды</p>
+					</li>
+				</ul>
 			</div>
 		</div>
-		<div>
+		<div class="otzv">
 			<div>
 				<h2>Отзывы</h2>
-				<img src="" alt="">
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae facilis, ex impedit tempora officiis eos nostrum fugiat unde in, error incidunt quisquam, quas provident ullam dolor vero blanditiis maxime nulla.</p>
-				<p><b>Михаил,</b> генеральный деректор ПАО "Газпром"</p>
+				<img src="img/men.svg">
+				<p class="qqq">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae facilis, ex impedit tempora officiis eos nostrum fugiat unde in, error incidunt quisquam, quas provident ullam dolor vero blanditiis maxime nulla.</p>
+				<p class="qq"><b>Михаил,</b> генеральный деректор ПАО "Газпром"</p>
 			</div>
 		</div>
-		<div>
-			<h2>Мои контакты</h2>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, repellendus!</p>
-		</div>
-		<div>
+		<div class="forma__on">
 			<div>
-				<img src="" alt="">
-				<p>Санкт-Петербург<br>Невский проспект 11</p>
+				<div class="forma__contakt">
+					<h2>Мои контакты</h2>
+					<p class="pp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, a.</p>
+				</div>
+				<div class="forma__spisok">
+					<ul>
+						<li>
+							<img src="img/гео.svg">
+						</li>
+						<li>
+							<img src="img/конверт.svg">
+						</li>
+						<li>
+							<img src="img/труба.svg">
+						</li>
+					</ul>
+				</div>
+				<div class="forma__spisokk">
+					<p class="q">Москва</p>
+					<p class="w">gsgsgsgsg@mail.com</p>
+					<p class="e">8900089037</p>
+				</div>	
 			</div>
-			<div>
-				<img src="" alt="">
-				<p>qwertyuiopyy@mail.com</p>
+			<div class="form">
+				<div class="form__h">
+					<h3>Оставте мне сообщение</h3>
+				</div>
+				<div class="form__input">
+					<form action="#">
+						<input class="form__input__text" type="text" placeholder="Имя">
+						<input class="form__input__email" type="email" placeholder="Email"><br>
+						<textarea class="form__input__area" placeholder="Сообщение"></textarea><br>
+						<input class="form__input__sunmit" type="submit" alt="Отправить">
+					</form>
+				</div>
 			</div>
-			<div>
-				<img src="" alt="">
-				<p>+79828828282</p>
+			<div class="form__i">
+				<div class="form__img">
+					<ul class="form__img__ul">
+						<li><img src="img/фб.svg"></li>
+						<li><img src="img/твитер.svg"></li>
+						<li><img src="img/мяч.svg"></li>
+						<li><img src="img/киса.svg"></li>
+						<li><img src="img/инст.svg"></li>
+						<li><img src="img/ин.svg"></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		<div>
-			<h2>Оставте мне сообщение </h2>
-		</div>
-		<div>
-			<form action="#">
-				<input type="text" name="name" placeholder="Ваше имя">
-				<input type="emaill" name="email" placeholder="Ваш Emaill"><br>
-				<textarea placeholder="Ваше сообщение"></textarea><br>
-				<input type="submit" value="Отправить">
-			</form>
-		</div>
-		<div>
-			<div><img src=""></div>
-			<div><img src=""></div>
-			<div><img src=""></div>
-			<div><img src=""></div>
-			<div><img src=""></div>
-			<div><img src=""></div>
-		</div>
-		<footer>Copyright © 2021 Некрасов Павел. Design by Web</footer>
+		<footer>Copyright © 2021 Павел Некрасов. Design by Web</footer>	
 </body>
 </html>

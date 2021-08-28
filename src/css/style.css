@@ -4,38 +4,61 @@ body{
 
 nav{
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	background: #222629;
-	border-bottom: 3px solid #61890f;
-
+	position: fixed;
 }
 
 .logo{
 	color: #61890f;
 	font-size: 22px;
 	padding-left: 150px;
-	line-height: 60px;
+	line-height: 50px;
 	float: left;
+	-webkit-animation: comming 3s;
+	-o-animation: comming 3s;
+	animation: comming 3s;
+}
 
+@keyframes comming{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
 }
 
 .menu{
 	float: left;
-	padding-left: 280px;
+	padding-left: 270px;
+	width: 70%;
 }
 
-.menu li{
+.menu li a{
 	float: left;
-	line-height: 60px;
+	line-height: 50px;
 	color: #61890f;
 	margin-right: 25px;
 	font-size: 12px;
 	text-transform: uppercase;
+	transition: all 0.1s;
+	transform: scale(1);
+	display: inline-block;
+}
+
+.menu li a:hover{
+	color: #86c232;
+	text-shadow: 1px 1px  10px #86c323;
+}
+
+.menu li a:active{
+	transform: scale(1.1);
 }
 
 .main{
 	width: 100%;
-	height: calc(100% - 60px);
+	height: 100%;
 	background-color: #222629;
 
 }
@@ -62,11 +85,21 @@ nav{
 	height: 30px ;
 	text-align: center;
 	margin-top: 15px;
-	border: 2px solid #61890f;
+	margin-right: 10px;
 	border-radius: 5px;
 	background: #61890f;
 	padding: 0px 10px;
 	color: #222629;
+	transition: all 0.2s;
+}
+
+.title__container button:hover{
+	background: #86c232;
+	transform: scale(1);
+}
+
+.title__container button:active{
+	transform: scale(1.1);
 }
 
 .me{
@@ -74,7 +107,7 @@ nav{
 	height: 100%;
 	background: #fff;
 	float: left;
-	border: 1px solid black;
+	
 }
 
 .resume h2{
@@ -132,7 +165,7 @@ nav{
 	width: 100%;
 	height: 80%;
 	float: left;
-	border: 1px solid black;
+	
 }
 
 .aboutmy h2{
@@ -192,7 +225,7 @@ nav{
 	width: 100%;
 	height: calc(100% + 60px);
 	float: left;
-	border: 1px solid black;
+	
 }
 
 
@@ -287,7 +320,7 @@ nav{
 	width: 100%;
 	height: 100%;
 	float: left;
-	border: 1px solid black;
+	
 
 
 }
@@ -339,7 +372,6 @@ nav{
 	width: 100%;
 	height: 70%;
 	float: left;
-	border: 1px solid black;
 	text-align: center;
 }
 
@@ -410,7 +442,7 @@ nav{
 	width: 100%;
 	height: 80%;
 	float: left;
-	border: 1px solid black;
+	
 }
 
 .otzv h2{
@@ -447,10 +479,9 @@ nav{
 }
 
 .forma__on{
+	
 	width: 100%;
-	height: calc(100%);
 	float: left;
-	border: 1px solid black;
 	background: #222629;
 	
 }
@@ -463,6 +494,7 @@ nav{
 	padding-top: 30px;
 	color: #61890f;
 	font-weight: bold;
+
 	
 	
 }
@@ -476,11 +508,8 @@ nav{
 	
 }
 
-.forma__spisok{
-	
 
 
-}
 
 .forma__spisok li{
 	padding-top: 5px;
@@ -496,7 +525,7 @@ nav{
 .forma__spisok ul{
 	
 	float: left;
-	margin-left: 400px;
+	margin-left: 350px;
 	margin-top: 60px;
 	
 	
@@ -519,7 +548,7 @@ nav{
 }
 
 .q{
-	margin-left: 390px;
+	margin-left: 350px;
 	
 }
 
@@ -601,7 +630,7 @@ nav{
 	
 	float: left;
 	margin-top: 40px;
-	margin-left: 435px;
+	margin-left: 370px;
 	
 
 }
@@ -611,7 +640,9 @@ nav{
 	padding-right: 50px;
 }
 
-footer{
+.footer{
+	
+	
 	
 	text-align: center;
 	font-size: 14px;

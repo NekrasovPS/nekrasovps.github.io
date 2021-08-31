@@ -9,15 +9,27 @@ nav{
 	position: fixed;
 }
 
-.logo{
+.logo a{
 	color: #61890f;
 	font-size: 22px;
 	padding-left: 150px;
 	line-height: 50px;
 	float: left;
+	transition: all 0.1s;
+	transform: scale(1);
+	display: inline-block;
 	-webkit-animation: comming 1s;
 	-o-animation: comming 1s;
 	animation: comming 1s;
+}
+
+.logo a:hover{
+	color: #86c232;
+	text-shadow: 1px 1px  10px #86c323;
+}
+
+.logo a:active{
+	transform: scale(1.1);
 }
 
 @keyframes comming{
@@ -144,17 +156,35 @@ nav{
 }
 
 .me_resume{
-	
+	-webkit-animation: me_resume 5s;
+	-o-animation: me_resume 5s;
+	animation: me_resume 5s;
+}
+
+@keyframes me_resume{
+	from{
+		opacity: 0;
+		visibility: 0;
+		stroke: 0;
+	}
+	to{
+		opacity: 1;
+		visibility: 1;
+		stroke: 1;
+	}
 }
 
 
 .resume h2{
 	font-size: 30px;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 60px;
 	color: #61890f;
 	font-weight: bold;
+	
 }
+
+
 
 .resume img{
 	display: block;
@@ -211,7 +241,7 @@ nav{
 .aboutmy h2{
 	font-size: 30px;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 100px;
 	color: #61890f;
 	font-weight: bold;
 	
@@ -219,6 +249,7 @@ nav{
 
 .skill{
 	text-align: center;
+	margin-left: 230px;
 }
 
 .skill li{
@@ -234,7 +265,6 @@ nav{
 
 .skill ul{
 	height: 160px;
-	margin-left: 200px;
 	margin-top: 100px;
 	
 }
@@ -263,7 +293,7 @@ nav{
 
 .cases{
 	width: 100%;
-	height: calc(100% + 60px);
+	height: calc(100% + 100px);
 	float: left;
 	
 }
@@ -273,7 +303,7 @@ nav{
 .cases h2{
 	text-align: center;
 	font-size: 30px;
-	margin-top: 30px;
+	margin-top: 60px;
 	margin-bottom: 20px;
 	font-weight: bold;
 	color: #61890f;
@@ -298,7 +328,7 @@ nav{
 .casesjsinfo {
 	width: 200px;
 	display: inline-block;
-	margin-left: 285px;
+	margin-left: 315px;
 	float: left;
 }
 
@@ -341,7 +371,7 @@ nav{
 .casebtn{
 	float: left;
 	width: 100%;
-	padding-left: 285px;
+	padding-left: 315px;
 
 }
 
@@ -375,7 +405,7 @@ nav{
 
 .calc__h h2{
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 60px;
 	margin-bottom: 20px;
 	font-weight: bold;
 	color: #61890f;
@@ -388,13 +418,14 @@ nav{
 .calcme h2{
 	padding: 20px 0px 30px 0px;
 	width: 120px;
-	margin-left: 323px;
+	margin-left: 380px;
 	font-size: 18px;
 	color: #61890f;
 }
 
 .calcme select{
-	margin-left: 323px;
+	display: block;
+	margin: 0px auto;
 	width: 500px;
 	height: 30px;
 	background: rgba(192, 192, 192, 0.5);
@@ -402,7 +433,7 @@ nav{
 }
 
 .calctime{
-	margin: 20px 0px 0px 323px;
+	margin: 20px 0px 0px 380px;
 	line-height: 30px;
 	color: #61890f;
 	float: left;
@@ -426,7 +457,7 @@ nav{
 .statics h2{
 	font-size: 30px;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 60px;
 	color: #61890f;
 	font-weight: bold;
 	
@@ -478,17 +509,21 @@ nav{
 
 .lii{
 	margin-top: -4px;
+
 }
 
 .azaz{
+	
 	width: 100%;
 	padding-top: 100px;
-	padding-left: 180px;
+	padding-left: 220px;
 }
+
+
 
 .otzv{
 	width: 100%;
-	height: 80%;
+	height: 98%;
 	float: left;
 	
 }
@@ -496,7 +531,7 @@ nav{
 .otzv h2{
 	font-size: 30px;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 100px;
 	color: #61890f;
 	font-weight: bold;
 }
@@ -575,7 +610,7 @@ nav{
 .forma__spisok ul{
 	
 	float: left;
-	margin-left: 350px;
+	margin-left: 420px;
 	margin-top: 60px;
 	
 	
@@ -598,7 +633,7 @@ nav{
 }
 
 .q{
-	margin-left: 350px;
+	margin-left: 407px;
 	
 }
 
@@ -684,27 +719,18 @@ nav{
 
 }
 
+
+
 .form__img{
-	
+	display: block;
 	float: left;
 	margin-top: 40px;
-	margin-left: 370px;
-	
-
+	margin-left: 430px;
 }
 
 .form__img__ul li{
 	float: left;
 	padding-right: 50px;
+
 }
 
-.footer{
-	
-	
-	
-	text-align: center;
-	font-size: 14px;
-	
-	color: #61890f;
-	
-}

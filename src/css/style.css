@@ -15,25 +15,29 @@ nav{
 	padding-left: 150px;
 	line-height: 50px;
 	float: left;
-	-webkit-animation: comming 3s;
-	-o-animation: comming 3s;
-	animation: comming 3s;
+	-webkit-animation: comming 1s;
+	-o-animation: comming 1s;
+	animation: comming 1s;
 }
 
 @keyframes comming{
 	from{
 		opacity: 0;
+		margin-top: -100px;
 	}
 	to{
 		opacity: 1;
+		margin-top: 0px;
 	}
 }
 
 .menu{
 	float: left;
-	padding-left: 270px;
+	padding-left: 400px;
 	width: 70%;
 }
+
+
 
 .menu li a{
 	float: left;
@@ -45,6 +49,20 @@ nav{
 	transition: all 0.1s;
 	transform: scale(1);
 	display: inline-block;
+	-webkit-animation: menu_li 2s;
+	-o-animation: menu_li 2s;
+	animation: menu_li 2s;
+}
+
+@keyframes menu_li{
+	from{
+		opacity: 0;
+		margin-top: -100px;
+	}
+	to{
+		opacity: 1;
+		margin-top: 0px;
+	}
 }
 
 .menu li a:hover{
@@ -60,13 +78,29 @@ nav{
 	width: 100%;
 	height: 100%;
 	background-color: #222629;
-
+	
 }
+
 
 .title__container{
 	float: left;
 	margin: 170px 0px 0px 200px;
 	text-align: center;
+	-webkit-animation: title__container 3s;
+	-o-animation: title__container 3s;
+	animation: title__container 3s;
+}
+
+
+@keyframes title__container{
+	from{
+		opacity: 0;
+		margin-left: -500px;
+	}
+	to{
+		opacity: 1;
+		margin: 170px 0px 0px 200px;
+	}
 }
 
 .title__container h1{
@@ -107,8 +141,12 @@ nav{
 	height: 100%;
 	background: #fff;
 	float: left;
+}
+
+.me_resume{
 	
 }
+
 
 .resume h2{
 	font-size: 30px;
@@ -119,18 +157,11 @@ nav{
 }
 
 .resume img{
+	display: block;
 	width: 200px;
 	height: 200px;
-	
+	margin: 30px auto;
 	border-radius:  150px;
-	
-}
-
-.imgq{
-	margin: 30px auto 30px auto;
-	width: 200px;
-	height: 200px;
-
 }
 
 .resume__p{
@@ -154,11 +185,20 @@ nav{
 .down button{
 	height: 30px ;
 	text-align: center;
-	border: 2px solid #61890f;
 	border-radius: 5px;
 	background: #61890f;
 	padding: 0px 10px;
 	color: #222629;
+	transition: all 0.2s;
+}
+
+.down button:hover{
+	transform: scale(1);
+	background: #86c232;
+}
+
+.down button:active{
+	transform: scale(1.1);
 }
 
 .meskill{
@@ -308,13 +348,21 @@ nav{
 .casebtn button{
 	height: 30px;
 	text-align: center;
-	border: 2px solid #61890f;
 	border-radius: 5px;
 	background: #61890f;
 	padding: 0px 10px;
 	color: #222629;
+	transition: all 0.2s;
 }
 
+.casebtn button:hover{
+	transform: scale(1);
+	background: #86c232;
+}
+
+.casebtn button:active{
+	transform: scale(1.1);
+}
 
 .calc{
 	width: 100%;
@@ -434,8 +482,8 @@ nav{
 
 .azaz{
 	width: 100%;
-	margin-top: 100px;
-	margin-left: 180px;
+	padding-top: 100px;
+	padding-left: 180px;
 }
 
 .otzv{
@@ -454,10 +502,12 @@ nav{
 }
 
 .otzv img{
+	display: block;
 	width: 100px;
 	height: 100px;
 	border-radius: 100px;
-	margin: 70px auto 0px 525px;
+	margin: 40px auto;
+	
 }
 
 
@@ -615,16 +665,24 @@ nav{
 	height: 30px ;
 	text-align: center;
 	margin-top: 15px;
-	border: 2px solid #61890f;
 	border-radius: 5px;
 	background: #61890f;
 	padding: 0px 10px;
 	color: #222629;
-	
+	transition: all 0.2s;
+
 
 }
 
+.form__input__sunmit:hover{
+	transform: scale(1.1);
+	background: #86c232;
+}
 
+.form__input__sunmit:active{
+	transform: scale(1);
+
+}
 
 .form__img{
 	

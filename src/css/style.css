@@ -7,6 +7,7 @@ nav{
 	height: 50px;
 	background: #222629;
 	position: fixed;
+	z-index: 100;
 }
 
 .logo a{
@@ -156,21 +157,21 @@ nav{
 }
 
 .me_resume{
-	-webkit-animation: me_resume 5s;
-	-o-animation: me_resume 5s;
-	animation: me_resume 5s;
+	-webkit-animation: me_resume 3s;
+	-o-animation: me_resume 3s;
+	animation: me_resume 3s;
+	
 }
 
 @keyframes me_resume{
 	from{
 		opacity: 0;
-		visibility: 0;
-		stroke: 0;
+		margin-top: -500px;
 	}
 	to{
 		opacity: 1;
-		visibility: 1;
-		stroke: 1;
+		margin-top: 0px;
+
 	}
 }
 
@@ -452,6 +453,10 @@ nav{
 	height: 70%;
 	float: left;
 	text-align: center;
+	background: url("../img/фон.png");
+	background-attachment: fixed;
+	background-repeat: round;
+
 }
 
 .statics h2{

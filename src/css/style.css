@@ -157,23 +157,10 @@ nav{
 }
 
 .me_resume{
-	-webkit-animation: me_resume 3s;
-	-o-animation: me_resume 3s;
-	animation: me_resume 3s;
 	
 }
 
-@keyframes me_resume{
-	from{
-		opacity: 0;
-		margin-top: -500px;
-	}
-	to{
-		opacity: 1;
-		margin-top: 0px;
 
-	}
-}
 
 
 .resume h2{
@@ -456,6 +443,7 @@ nav{
 	background: url("../img/фон.png");
 	background-attachment: fixed;
 	background-repeat: round;
+	
 
 }
 
@@ -679,17 +667,27 @@ nav{
 	font-size: 18px;
 	margin-top: 20px;
 	margin-right: 10px;
-	color: #6b6e70;
+	color: rgba(192, 192, 192, 1);
 	background: rgba(192, 192, 192, 0.2);
 }
+
+.form__input__text:hover{
+	box-shadow: 2px 2px 10px #fff;
+}
+
+
 
 .form__input__email{
 	width: 200px;
 	height: 30px;
 	font-size: 18px;
 	margin-top: 20px;
-	color: #6b6e70;
+	color: rgba(192, 192, 192, 1);
 	background: rgba(192, 192, 192, 0.2);
+}
+
+.form__input__email:hover{
+	box-shadow: 2px 2px 10px #fff;
 }
 
 .form__input__area{
@@ -697,8 +695,12 @@ nav{
 	height: 40px;
 	margin-top: 15px;
 	font-size: 18px;
-	color: #6b6e70;
+	color: rgba(192, 192, 192, 1);
 	background: rgba(192, 192, 192, 0.2);
+}
+
+.form__input__area:hover{
+	box-shadow: 2px 2px 10px #fff;
 }
 
 .form__input__sunmit{

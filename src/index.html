@@ -7,47 +7,81 @@
 	<meta name="author" content="Pavel Nekrasov">
 	<meta name="robots" content="all">
 	<title>мой первый сайт </title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 		<header>
 			<nav>
-				<div class="logo"><a href="#logo">Павел Некрасов</a></div>
-				<div class="menu">
-					<ul>
-						<li><a href="#me">обо мне</a></li>
-						<li><a href="#meskill">услуги</a></li>
-						<li><a href="#cases">кейсы</a></li>
-						<li><a href="#calc">прайс</a></li>
-						<li><a href="#otzv">отзывы</a></li>
-						<li><a href="#forma__on">контакты</a></li>
-					</ul>
-				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-xxl-2 col-xl-3 col-lg-3 col-7">
+							<div class="logo"><a href="#logo">Павел Некрасов</a></div>
+						</div>
+							<div class="px=0 col-xxl-6 offset-xxl-4 col-xl-7 offset-xl-2 col-lg-8 offset-lg-1 d-none d-lg-block">
+								<div class="menu">
+									<ul>
+										<li><a href="#me">обо мне</a></li>
+										<li><a href="#meskill">услуги</a></li>
+										<li><a href="#cases">кейсы</a></li>
+										<li><a href="#calc">прайс</a></li>
+										<li><a href="#otzv">отзывы</a></li>
+										<li><a href="#forma__on">контакты</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+									<div class="dropdown">
+									  <a class="btn  dropdown-toggle btn_color" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Меню</a>
+									  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+										  <li><a class="dropdown-item" href="#me">обо мне</a></li>
+											<li><a class="dropdown-item" href="#meskill">услуги</a></li>
+											<li><a class="dropdown-item" href="#cases">кейсы</a></li>
+											<li><a class="dropdown-item" href="#calc">прайс</a></li>
+											<li><a class="dropdown-item" href="#otzv">отзывы</a></li>
+											<li><a class="dropdown-item" href="#forma__on">контакты</a></li>
+									  </ul>
+									</div>
+							</div>
+					</div>
+				</div>	
 			</nav>
 		</header>
 		<div class="main" id="logo">
-			<div class="title__container">
-				<h1>Привет, <br> я Павел Некрасов</h1>
-				<h4>Фул стек веб-разработчик и веб-дизайнер</h4>
-				<button>Обо мне</button>
-				<button>Мои работы</button>
-			</div>
-		</div>
-		<div class="me" id="me">
-			<div class="me_resume">
-				<div class="resume">
-					<h2>Обо мне</h2>
-					 <div>
-					 	<img src="img/me.png">
-					 </div>
-					 <div class="resume__p">
-						<p class="resumeq">Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Eum praesentium, vel molestiae maxime eligendi libero odit, labore dolor itaque molestias cum commodi natus nisi explicabo animi voluptatibus omnis officia porro.</p>
-						<p class="resumeww">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Deserunt numquam officiis voluptatum doloribus aliquam omnis, perferendis magni illo doloremque ducimus, sequi, quis dicta obcaecati! Temporibus similique culpa molestias natus itaque.</p>
+			<div class="container h-100">
+				<div class="row align-items-center h-100">
+					<div class="col-lg-6">
+						<div class="title__container">
+							<h1>Привет, <br> я Павел Некрасов</h1>
+							<h4>Фул стек веб-разработчик и веб-дизайнер</h4>
+							<button>Обо мне</button>
+							<button>Мои работы</button>
+						</div>
 					</div>
 				</div>
-				<div class="down">
-					<button>Скачать резюме</button>
+			</div>
+		</div>	
+		<div class="me" id="me">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+							<div class="me_resume">
+								<div class="resume">
+									<h2>Обо мне</h2>
+									 <div>
+									 	<img src="img/me.png">
+									 </div>
+									 <div class="resume__p">
+										<p class="resumeq">Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Eum praesentium, vel molestiae maxime eligendi libero odit, labore dolor itaque molestias cum commodi natus nisi explicabo animi voluptatibus omnis officia porro.</p>
+										<p class="resumeww">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Deserunt numquam officiis voluptatum doloribus aliquam omnis, perferendis magni illo doloremque ducimus, sequi, quis dicta obcaecati! Temporibus similique culpa molestias natus itaque.</p>
+									</div>
+								</div>
+								<div class="down">
+									<button>Скачать резюме</button>
+								</div>
+							</div>
+					</div>	
 				</div>
 			</div>
 		</div>	
@@ -225,5 +259,6 @@
 				</div>
 			</div>
 		</div>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -238,7 +238,7 @@ nav{
 
 .skill{
 	text-align: center;
-	margin-left: 230px;
+/*	margin-left: 230px;*/
 }
 
 .skill li{
@@ -317,7 +317,7 @@ nav{
 .casesjsinfo {
 	width: 200px;
 	display: inline-block;
-	margin-left: 315px;
+/*	margin-left: 315px;*/
 	float: left;
 }
 
@@ -339,8 +339,8 @@ nav{
 
 .nameproject{
 	float: left;
-	width: 325px;
-	margin-left: 50px;
+/*	width: 325px;
+	margin-left: 50px;*/
 }
 
 .nameproject h3{
@@ -360,7 +360,7 @@ nav{
 .casebtn{
 	float: left;
 	width: 100%;
-	padding-left: 315px;
+/*	padding-left: 315px;*/
 
 }
 
@@ -407,7 +407,7 @@ nav{
 .calcme h2{
 	padding: 20px 0px 30px 0px;
 	width: 120px;
-	margin-left: 380px;
+/*	margin-left: 380px;*/
 	font-size: 18px;
 	color: #61890f;
 }
@@ -415,14 +415,14 @@ nav{
 .calcme select{
 	display: block;
 	margin: 0px auto;
-	width: 500px;
+	width: 200px;
 	height: 30px;
 	background: rgba(192, 192, 192, 0.5);
 	color: #6b6e70;
 }
 
 .calctime{
-	margin: 20px 0px 0px 380px;
+	margin: 20px 0px 0px 0px;
 	line-height: 30px;
 	color: #61890f;
 	float: left;
@@ -433,7 +433,7 @@ nav{
 	color: #61890f;
 	float: left;
 	margin-top: 20px;
-	margin-left: 400px;
+/*	margin-left: 400px;*/
 }
 
 .statics{
@@ -510,7 +510,7 @@ nav{
 	
 	width: 100%;
 	padding-top: 100px;
-	padding-left: 220px;
+/*	padding-left: 220px;*/
 }
 
 
@@ -544,7 +544,7 @@ nav{
 	margin: 0px auto 0px auto;
 	font-size: 16px;
 	color: #6b6e70;
-	width: 700px;
+/*	width: 700px;*/
 	padding-top: 30px;
 
 }
@@ -604,7 +604,7 @@ nav{
 .forma__spisok ul{
 	
 	float: left;
-	margin-left: 420px;
+/*	margin-left: 420px;*/
 	margin-top: 60px;
 	
 	
@@ -626,7 +626,7 @@ nav{
 
 }
 
-.q{
+/*.q{
 	margin-left: 407px;
 	
 }
@@ -639,7 +639,7 @@ nav{
 .e{
 	margin-left: 88px;
 	
-}
+}*/
 
 .form{
 	text-align: center;
@@ -692,7 +692,7 @@ nav{
 }
 
 .form__input__area{
-	width: 414px;
+	width: 200px;
 	height: 40px;
 	margin-top: 15px;
 	font-size: 18px;
@@ -733,7 +733,7 @@ nav{
 	display: block;
 	float: left;
 	margin-top: 40px;
-	margin-left: 430px;
+/*	margin-left: 430px;*/
 }
 
 .form__img__ul li{

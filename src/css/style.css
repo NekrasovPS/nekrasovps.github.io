@@ -285,7 +285,7 @@ nav{
 
 .cases{
 	width: 100%;
-	height: calc(100% + 100px);
+	height: calc(100%+100px);
 	float: left;
 	
 }
@@ -295,11 +295,9 @@ nav{
 .cases h2{
 	text-align: center;
 	font-size: 30px;
-	margin-top: 60px;
 	margin-bottom: 20px;
 	font-weight: bold;
-	color: #61890f;
-	
+	color: #61890f;	
 }
 
 .class{
@@ -309,34 +307,16 @@ nav{
 	
 }
 
-.casesjs img{
-	width: 50%;
-	height: 50%;
-	display: block;
-	margin: 0px auto 0px auto;
-	
-}
-
-.casesjsinfo {
-	width: 200px;
-	display: inline-block;
-/*	margin-left: 315px;*/
-	float: left;
-}
-
-
 .casesjsinfo h3{
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #61890f;
-	padding-top: 3px;
+	
 	
 }
 
 .casesjsinfo p{
-	padding-top: 3px;
-	padding-bottom: 3px;
 	color: #6b6e70;
 }
 
@@ -351,12 +331,11 @@ nav{
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #61890f;
-	padding-top: 3px;
+	
 }
 
 .nameproject p{
-	padding-top: 3px;
-	padding-bottom: 3px;
+	
 	color: #6b6e70;
 }
 
@@ -367,23 +346,12 @@ nav{
 
 }
 
-.casebtn button{
-	height: 30px;
-	text-align: center;
-	border-radius: 5px;
-	background: #61890f;
-	padding: 0px 10px;
-	color: #222629;
-	transition: all 0.2s;
+.carousel-caption__client{
+	padding-bottom: 50px;
 }
 
-.casebtn button:hover{
-	transform: scale(1);
-	background: #86c232;
-}
-
-.casebtn button:active{
-	transform: scale(1.1);
+.carousel-caption__client h3{
+	color: #61890f;
 }
 
 .calc{
@@ -780,5 +748,8 @@ nav{
 	text-align: center;
 	font-size: 14px;
 	color: #6b6e70;
-	
+	margin-top: 30px;
+
+
+
 }

@@ -27,7 +27,7 @@
 										<li><a href="#cases">кейсы</a></li>
 										<li><a href="#calc">прайс</a></li>
 										<li><a href="#otzv">отзывы</a></li>
-										<li><a href="#forma__on">контакты</a></li>
+										<li><a href="#forma_container">контакты</a></li>
 									</ul>
 								</div>
 							</div>
@@ -40,7 +40,7 @@
 											<li><a class="dropdown-item" href="#cases">кейсы</a></li>
 											<li><a class="dropdown-item" href="#calc">прайс</a></li>
 											<li><a class="dropdown-item" href="#otzv">отзывы</a></li>
-											<li><a class="dropdown-item" href="#forma__on">контакты</a></li>
+											<li><a class="dropdown-item" href="#forma_container">контакты</a></li>
 									  </ul>
 									</div>
 							</div>
@@ -84,9 +84,7 @@
 					</div>
 				</div>			
 			</div>	
-		</div>
-			
-			
+		</div>	
 		<div class="meskill" id="meskill">
 			<div class="container">
 				<div class="row">
@@ -229,126 +227,278 @@
 			</div>
 		</div>
 		<div class="calc" id="calc">
-			<div class="calc__h">
-				<h2>Мои расчёты</h2>
-			</div>
-			<div class="calcme">
-				<h2>Тип сайта</h2>
-				<select >
-					<option value="">лендинг</option>
-					<option value="">корпоративный сайт</option>
-					<option value="">интернет магазин</option>
-				</select>
-				<h2>Дизайн</h2>
-				<select>
-					<option value="">есть свой </option>
-					<option value="">уникальный</option>
-					<option value="">хороший</option>
-				</select>
-				<h2>Адаптивность</h2>
-				<select>
-					<option value="">пк</option>
-					<option value="">мобильные устройства</option>
-					<option value="">все устройства</option>
-				</select>
-			</div>
-			<div class="calctime">
-				<h3>Сроки</h3>
-				<h3>Стоимоть</h3>
-			</div>
-			<div class="calcresult">
-				<h3>0</h3>
-				<h3>0</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="calc__h">
+							<h2>Мои расчёты</h2>
+						</div>
+						<div class="calcme">
+							<h2>Тип сайта</h2>
+							<select class="form-select form-select-sm" aria-label=".form-select-sm example">
+			 				 <option selected>Open this select menu</option>
+			 				 <option value="1">Лендинг</option>
+			 				 <option value="2">Корпоративный сайт</option>
+			  				<option value="3">Интернет магазин</option>
+							</select>
+							<h2>Дизайн</h2>
+							<select class="form-select form-select-sm" aria-label=".form-select-sm example">
+			  				<option selected>Open this select menu</option>
+			  				<option value="1">Есть свой</option>
+			  				<option value="2">Уникальный</option>
+			  				<option value="3">Хороший</option>
+							</select>
+							<h2>Адаптивность</h2>
+							<select class="form-select form-select-sm" aria-label=".form-select-sm example">
+			 				 	<option selected>Open this select menu</option>
+			 					<option value="1">ПК</option>
+								<option value="2">Мобильные усторойства</option>
+			  				<option value="3">Все устройства</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xxl-4 col-xl-5 col-lg-6 col-md-8 col-12 col-offset-1">
+						<div class="calctime">
+							<h3>Сроки</h3>
+							<h3>Стоимоть</h3>
+						</div>
+						<div class="calcresult">
+							<h3>0</h3>
+							<h3>0</h3>
+						</div>
+					</div>	
+				</div>		
 			</div>
 		</div>
 		<div class="statics">
-			<div>
-				<h2>Немного статистики</h2>
-			</div>
-			<div class="staticsqq">
-				<ul class="azaz">
-					<li class="lii">
-						<img src="img/смайл.svg">
-						<h4>120</h4>
-						<p>Счастливых клиентов</p>
-					</li>
-					<li>
-						<img src="img/скобки.svg">
-						<h4>4,600</h4>
-						<p>Часов работы</p>
-					</li>
-					<li>
-						<img src="img/галочка.svg">
-						<h4>340</h4>
-						<p>Проектов завершено</p>
-					</li>
-					<li class="lii">
-						<img src="img/кубок.svg">
-						<h4>23</h4>
-						<p>Награды</p>
-					</li>
-				</ul>
+			<div class="container">
+				<div class="row">
+					<div class="col-xxl-12 col-xl-12 col-lg-12 col-12">
+						<div>
+							<h2>Немного статистики</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row h-100">
+						<div class="col d-lg-block d-none skill d-flex justify-content-center">
+							<div class="skill d-flex justify-content-center">
+								<div class="col-xxl-3 col-xl-3">
+									<ul>
+										<li>
+											<img src="img/смайл.svg">
+											<h4>120</h4>
+											<p>Счастливых клиентов</p>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xxl-3 col-xl-3">
+									<ul>
+										<li>
+											<img src="img/скобки.svg">
+											<h4>4,600</h4>
+											<p>Часов работы</p>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xxl-3 col-xl-3">
+									<ul>
+										<li class="skillqqq">
+											<img src="img/галочка.svg">
+											<h4>340</h4>
+											<p>Проектов завершено</p>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xxl-3 col-xl-3">
+									<ul>
+										<li>
+											<img src="img/кубок.svg">
+											<h4>23</h4>
+											<p>Награды</p>
+										</li>
+									</ul>
+								</div>	
+							</div>
+						</div>
+						<div class="col d-lg-none d-block">
+							<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+							  <div class="carousel-inner container__none">
+							    <div class="carousel-item active w-80">
+							      <img src="img/смайл.svg"class="d-block w-100" alt="...">
+							    	<h4>120</h4>
+										<p>Счастливых клиентов</p>
+							    </div>
+							    <div class="carousel-item  w-80">
+							      <img src="img/скобки.svg" class="d-block w-100" alt="...">
+										<h4>4,600</h4>
+										<p>Часов работы</p>
+							    </div>
+							    <div class="carousel-item  w-80">
+							      <img src="img/галочка.svg" class="d-block w-100" alt="...">
+							      <h4>340</h4>
+										<p>Проектов завершено</p>
+							    </div>
+							    <div class="carousel-item  w-80">
+							      <img src="img/кубок.svg" class="d-block w-100" alt="...">
+							     	<h4>23</h4>
+										<p>Награды</p>
+							    </div>
+							  </div>
+							  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Предыдущий</span>
+							  </button>
+							  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Следующий</span>
+							  </button>
+							</div>
+						</div>
+				</div>	
 			</div>
 		</div>
 		<div class="otzv" id="otzv">
-			<div>
-				<h2>Отзывы</h2>
-				<img src="img/men.svg">
-				<p class="qqq">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae facilis, ex impedit tempora officiis eos nostrum fugiat unde in, error incidunt quisquam, quas provident ullam dolor vero blanditiis maxime nulla.</p>
-				<p class="qq"><b>Михаил,</b> генеральный деректор ПАО "Газпром"</p>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div>
+							<h2>Отзывы</h2>
+							<img src="img/men.svg">
+							<p class="qqq">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae facilis, ex impedit tempora officiis eos nostrum fugiat unde in, error incidunt quisquam, quas provident ullam dolor vero blanditiis maxime nulla.</p>
+							<p class="qq"><b>Михаил,</b> генеральный деректор ПАО "Газпром"</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="forma__on" id="forma__on">
-			<div>
-				<div class="forma__contakt">
-					<h2>Мои контакты</h2>
-					<p class="pp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, a.</p>
-				</div>
-				<div class="forma__spisok">
-					<ul>
-						<li>
-							<img src="img/гео.svg">
-						</li>
-						<li>
-							<img src="img/конверт.svg">
-						</li>
-						<li>
-							<img src="img/труба.svg">
-						</li>
-					</ul>
-				</div>
-				<div class="forma__spisokk">
-					<p class="q">Москва</p>
-					<p class="w">gsgsgsgsg@mail.com</p>
-					<p class="e">8900089037</p>
+		<div class="forma_container">
+			<div class="container">
+				<div class="row">
+					<div class="col-xxl-12 col-xl-12 col-lg-12 col-12">
+						<h2 id="forma_container">Мои контакты</h2>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, ut?</p>
+					</div>
 				</div>	
-			</div>
-			<div class="form">
-				<div class="form__h">
-					<h3>Оставте мне сообщение</h3>
+				<div class="row h-100 form_geo">
+					<div class="col form_geo d-lg-block d-none  d-flex justify-content-center">
+						<div class="form_geo d-flex justify-content-center">
+							<div class="col-xxl-4 col-xl-4 col-lg-4">
+								<ul>
+									<li>
+										<img src="img/гео.svg" alt="">
+										<h3>Москва</h3>
+									</li>
+								</ul>
+							</div>
+							<div class="col">
+								<ul>
+									<li>
+										<img src="img/конверт.svg" alt="">
+										<h3>nekrasov@gmail.com</h3>
+									</li>
+								</ul>
+							</div>
+							<div class="col">
+								<ul>
+									<li>
+										<img src="img/труба.svg" alt="">
+										<h3>+7(952)791-45-34</h3>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					  <div class="col d-lg-none d-block">
+							<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+							  <div class="carousel-inner form_img">
+							    <div class="carousel-item active w-80">
+							      <img src="img/гео.svg"class="d-block w-100" alt="...">
+							    	<h3>Москва</h3>
+							    </div>
+							    <div class="carousel-item  w-80">
+							      <img src="img/конверт.svg" class="d-block w-100" alt="...">
+									<h3>nekrasov@gmail.com</h3>
+							    </div>
+							    <div class="carousel-item  w-80">
+							      <img src="img/труба.svg" class="d-block w-100" alt="...">
+							      <h3>+7(952)791-45-34</h3>
+							    </div>
+							  </div>
+							  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Предыдущий</span>
+							  </button>
+							  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Следующий</span>
+							  </button>
+							</div>
+						</div>
+					</div>
+				<div class="row">
+					<div class="col form_forma">
+						<h3>Оставте мне сообщение</h3>
+					</div>
 				</div>
-				<div class="form__input">
-					<form action="#">
-						<input class="form__input__text" type="text" placeholder="Имя">
-						<input class="form__input__email" type="email" placeholder="Email"><br>
-						<textarea class="form__input__area" placeholder="Сообщение"></textarea><br>
-						<input class="form__input__sunmit" type="submit" alt="Отправить">
-					</form>
+				<div class="row">
+					<div class="col-xxl-12 d-flex justify-content-center">
+						<form class="form_input" action="#">
+							<input class="name" type="text" placeholder="Имя">
+							<input class="email" type="Email" placeholder="Email"><br>
+							<textarea class="text" placeholder="Сообщение"></textarea>
+							<div class="col d-flex  justify-content-center">
+							  <input class="submit" type="submit" value="Отправить">
+						  </div>
+						</form>
+					</div>
 				</div>
-			</div>
-			<div class="form__i">
-				<div class="form__img">
-					<ul class="form__img__ul">
-						<li><img src="img/фб.svg"></li>
-						<li><img src="img/твитер.svg"></li>
-						<li><img src="img/мяч.svg"></li>
-						<li><img src="img/киса.svg"></li>
-						<li><img src="img/инст.svg"></li>
-						<li><img src="img/ин.svg"></li>
-					</ul>
+				<div class="row ikonki">
+					<div class="col-12 d-flex justify-content-center">
+						<div>
+							<ul>
+								<li><img src="img/фб.svg" alt=""></li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								 <li><img src="img/твитер.svg"></li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								 	<li><img src="img/мяч.svg"></li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								 <li><img src="img/киса.svg"></li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								 <li><img src="img/инст.svg"></li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								<li><img src="img/ин.svg"></li>
+							</ul>
+						</div>
+				  </div>
 				</div>
 			</div>
 		</div>
-<script src="js/bootstrap.bundle.min.js"></script>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col d-flex justify-content-center">
+						<h2>Copyright © 2021 Павел Некрасов. Design by</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

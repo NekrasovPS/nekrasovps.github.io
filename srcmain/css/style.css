@@ -1,0 +1,356 @@
+body{
+	font-family: arial, sans-serif;
+	background: url("../img/fon1.svg") no-repeat, 
+				url("../img/fon3.svg") no-repeat, 
+				url("../img/fon2.svg") no-repeat,
+				url("../img/fon5.svg") no-repeat;
+	background-size:51%,  
+					4%, 
+					22%,
+					20%;
+	background-position: 0px 100px, 
+						right 2200px, 
+						right 1700px,
+						left 3300px;
+
+
+	
+}	
+
+.box_1{
+	width: 100%;
+	height: 100%;
+	background: url("../img/bg1.png") no-repeat;
+}
+
+.container{
+	max-width: 1800px;
+}
+
+.img_logo{
+	float: left;
+	padding: 80px 40px 0px 5px;
+}
+
+.menu{
+	float: left;
+	font-size: 33px;
+	width: 800px;
+	padding: 100px 0px 0px 35px;
+
+}
+
+.spisok_menu li{
+	float: left;
+	margin-right: 50px;
+	transition: all 0.1s;
+	transform: scale(1);
+}
+
+.spisok_menu li:hover{
+	transform: scale(1.1);
+}
+
+.number{
+	font-size: 33px;
+	width: 400px;
+	padding: 45px 0px 0px 88px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.spisok_number{
+
+}
+
+.button{
+	padding-top: 53px;
+	padding-left: 50px;
+	float: left;
+}
+
+button{
+	width: 220px;
+	height: 50px;
+	border-radius: 30px;
+	background-color: rgb(233, 78, 27);
+	color: white;
+	font-size: 20px;
+	transition: all 0.1s;
+	transform: scale(1);
+}
+
+button:hover{
+	transform: scale(1.1);
+}
+
+
+.icon li{
+	float: left;
+	margin-right: 10px;
+	margin-top: 30px;
+	transition: all 0.1s;
+	transform: scale(1);
+}
+
+.icon li:hover{
+	transform: scale(1.1);
+}
+
+
+.block_h{
+	font-size: 90px;
+	font-weight: bold;
+	margin-top: 140px;
+	margin-left: 40px;
+}
+
+h2{
+	font-weight: bold;
+}
+
+.box_2{
+	width: 100%;
+	height: 100%;
+
+}
+
+.pre h2{
+	font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.preim{
+	float: left;
+}
+
+.preim .moto{
+	height: 118px;
+	padding-left: 75px;
+	margin-top: 80px;
+}
+
+
+
+.preim li{
+	float: left;
+}
+
+.preim p{
+	padding-left: 70px;
+	padding-top: 15px;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+
+.preim .bolee{
+	color: black;
+}
+
+.preim .icon{
+	height: 90px;
+	padding-left: 60px;
+}
+
+.icon_icon{
+	height: 70px;
+	padding-left: 60px;
+}
+
+.preim h3{
+	float: right;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.moto5{
+	padding-left: 170px;
+}
+
+.moto6{
+	padding-left: 110px;
+}
+
+
+.box_3 h2{
+	font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.box_3 p{
+	font-size: 24px;
+	color: #e94e1b;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.prod{
+	margin-top: 30px;
+}
+
+.prod img{
+	border-radius: 30px;
+}
+
+
+.prod ul{
+	transition: all 0.1s;
+	transform: scale(1);
+}
+
+.prod ul:hover{
+	transform: scale(1.1);
+	color: red;
+
+}
+
+.prod h3{
+	font-size: 24px;
+	font-weight: bold;
+}
+.box_4 {
+	width: 100%;
+	height: 120%;
+	background:  
+				 url("../img/fon4.svg") no-repeat,
+				 url("../img/bg3.svg") no-repeat,
+				 url("../img/bg2.svg") no-repeat;
+				 
+	background-position:
+						left 100px,
+						right bottom,  
+	                    bottom;
+	background-size: 
+					 6%,
+					 9%, 
+					 auto auto;
+					 
+}
+
+.box_4 h2{
+	font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.box_4 h3{
+	font-size: 36px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 40px;
+}
+
+.box_4 p{
+	font-size: 30px;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+.box_5{
+	width: 100%;
+	height: 186px;
+	background: url("../img/fonbg.svg") no-repeat,
+				url("../img/fonbg2.svg") no-repeat,
+			    url("../img/bg6_1.svg") no-repeat;
+				
+
+	background-position: 70px 30px, 
+						 1400px 50px,
+						 bottom;			
+
+	background-size: auto,
+					 14%,
+					 auto;
+}
+
+.box_5_p {
+	font-size: 16px;
+	color: white;
+	padding-top: 50px;
+	float: left;
+}
+
+.box_5_menu{
+	float: left;
+	font-size: 16px;
+	padding-top: 50px;
+	margin-left: 180px;
+}
+
+.box_5_spisok li{
+	float: left;
+	margin-right: 40px;
+	transition: all 0.1s;
+	transform: scale(1);
+}
+
+.box_5_spisok li:hover{
+	transform: scale(1.1);
+}
+
+.box_5_spisok li a{
+	color: white;
+}
+ 
+
+
+.buttonn{
+	float: left;
+	padding-top: 30px;
+	padding-left: 80px;
+}
+
+.buttonn button{
+	width: 200px;
+	height: 40px;
+	border-radius: 30px;
+	background-color: white;
+	color: #00487F;
+	font-size: 16px;
+}
+
+.box_5 .numberr{
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+	float: left;
+	padding-top: 30px;
+}
+
+.box_5_number{
+	padding-left: 100px;
+}
+
+.box_5_number a{
+	color: white;
+}
+
+.box_5_iconn{
+	float: left;
+	padding-top: 30px;
+	width: 200px;
+	margin-left: 55px;
+}
+
+.iconn li{
+	float: left;
+	margin-right: 8px;
+	transition: all 0.1s;
+	transform: scale(1);
+}
+
+.iconn li:hover{
+	transform: scale(1.1);
+}
+
+.qp{
+	font-size: 16px;
+	color: white;
+}

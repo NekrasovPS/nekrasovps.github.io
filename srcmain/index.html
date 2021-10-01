@@ -15,36 +15,73 @@
 	<div class="box_1" id="1">
 		<div class="container">
 			<div class="row">
-				<div class="col-xxl-2 img_logo">
+				<div class="col-xxl-2 col-5 img_logo">
 					<img src="img/logo.png" alt="Логотип">
 				</div>
-				<div class="col-xxl-6 menu">
-					<ul class="spisok_menu">
-						<li><a href="#1">Главная</a></li>
-						<li><a href="#3">Продукция</a></li>
-						<li><a href="#4">Услуги</a></li>
-						<li><a href="#6">Контакты</a></li>
-					</ul>
-				</div>
-				<div class="col-xxl-3 number">
-					<ul class="spisok_number">
-						<li>+7 904 246-66-67</li>
-						<li>+7 912 740-42-34</li>
-						<li>+7 (3412) 47-03-10</li>
-					</ul>
-				</div>
-				<div class="col-xxl-2 button">
-					<button>Заказать звонок</button>
-					<ul class="icon">
-						<li><a href="https://www.viber.com/"><img src="img/viber.png"></a></li>
-						<li><a href="https://www.whatsapp.com/"><img src="img/sap.png"></a></li>
-						<li><a href="https://vk.com/"><img src="img/vk.png"></a></li>
-						<li><a href="https://www.instagram.com/"><img src="img/1@1.5x.png"></a></li>
-					</ul>
-				</div>
+					<div class="col-xxl-10 col-7 d-sm-block d-none">
+							<div class="menu">
+								<ul class="spisok_menu">
+									<li><a href="#1">Главная</a></li>
+									<li><a href="#3">Продукция</a></li>
+									<li><a href="#4">Услуги</a></li>
+									<li><a href="#6">Контакты</a></li>
+								</ul>
+							</div>							
+							<div class="number">
+								<ul class="spisok_number">
+									<li>+7 904 246-66-67</li>
+									<li>+7 912 740-42-34</li>
+									<li>+7 (3412) 47-03-10</li>
+								</ul>
+							</div>
+							<div class="button">
+								<button>Заказать звонок</button>
+								<ul class="icon">
+									<li><a href="https://www.viber.com/"><img src="img/viber.png"></a></li>
+									<li><a href="https://www.whatsapp.com/"><img src="img/sap.png"></a></li>
+									<li><a href="https://vk.com/"><img src="img/vk.png"></a></li>
+									<li><a href="https://www.instagram.com/"><img src="img/1@1.5x.png"></a></li>
+								</ul>
+							</div>					
+				  </div>
+				  <div class="col-7 d-sm-none d-flex justify-content-end">
+				  				<button class=" btn_but" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Меню</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="menu">
+								<ul class="spisok_menu">
+									<li><a href="#1">Главная</a></li>
+									<li><a href="#3">Продукция</a></li>
+									<li><a href="#4">Услуги</a></li>
+									<li><a href="#6">Контакты</a></li>
+								</ul>
+							</div>							
+							<div class="number">
+								<ul class="spisok_number">
+									<li>+7 904 246-66-67</li>
+									<li>+7 912 740-42-34</li>
+									<li>+7 (3412) 47-03-10</li>
+								</ul>
+							</div>
+							<div class="button">
+								<button>Заказать звонок</button>
+								<ul class="icon">
+									<li><a href="https://www.viber.com/"><img src="img/viber.png"></a></li>
+									<li><a href="https://www.whatsapp.com/"><img src="img/sap.png"></a></li>
+									<li><a href="https://vk.com/"><img src="img/vk.png"></a></li>
+									<li><a href="https://www.instagram.com/"><img src="img/1@1.5x.png"></a></li>
+								</ul>
+							</div>
+  </div>
+</div>
+				  </div>
 			</div>
 			<div class="row">
-				<div class="col-xxl-6">
+				<div class="col-xxl-6 col-576px-12">
 					<div class="block_h">
 						<h2>Бесплатная доставка сыпучих материалов</h2>
 					</div>
@@ -55,13 +92,15 @@
 	<div class="box_2" id="2">
 		<div class="container">
 			<div class="row">
-				<div class="col-xxl-12 pre">
-					<h2>Преимущества</h2>
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-12">
+					<div class="pre">
+						<h2>Преимущества</h2>
+					</div>
 				</div>
 			</div>
-			<div class="row h-100">
+			
 				<div class="preim col-xxl-12 d-flex justify-content-center">
-						<div class="col-xxl-3">
+						<div class="col-xxl-3 d-none d-sm-block">
 							<ul>
 								<li>
 									<img class="moto" src="img/moto1.svg">
@@ -71,7 +110,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-xxl-3">
+						<div class="col-xxl-3 d-none d-sm-block">
 							<ul>
 								<li>
 									<img class="moto" src="img/moto2.svg">
@@ -81,7 +120,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-xxl-3">
+						<div class="col-xxl-3 d-none d-sm-block">
 							<ul>
 								<li>
 									<img class="moto" src="img/moto3.svg">
@@ -91,7 +130,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-xxl-3">
+						<div class="col-xxl-3 d-none d-sm-block">
 							<ul>
 								<li>
 									<img class="moto" src="img/moto4.svg">
@@ -102,10 +141,9 @@
 							</ul>
 						</div>	
 				</div>	
-			</div>
-			<div class="row h-100">
+			
 				<div class="preim col-xxl-12  d-flex justify-content-center">
-					<div class="moto5 col-xxl-4">
+					<div class="moto5 col-xxl-4 d-none d-sm-block">
 							<ul>
 								<li>
 									<img class="moto" src="img/moto5.svg">
@@ -115,7 +153,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class=" moto6 col-xxl-4">
+						<div class=" moto6 col-xxl-4 d-none d-sm-block">
 							<ul>
 								<li>
 									<img class="moto" src="img/moto6.svg">
@@ -125,7 +163,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class=" noto7 col-xxl-4">
+						<div class=" noto7 col-xxl-4 d-none d-sm-block">
 							<ul>
 								<li>
 									<img class="moto" src="img/moto7.svg">
@@ -136,7 +174,93 @@
 							</ul>
 						</div>
 				</div>
-			</div>
+				<div class="col d-block d-sm-none carouseld_block">
+					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner preim">
+    						<div class="carousel-item active">
+							<ul>
+								<li>
+									<img class="moto d-block w-100" src="img/moto1.svg">
+									<p class="bolee">Более</p>
+									<img class="icon_icon" src="img/icon1.svg">
+									<h3>лет<br>на рынке</h3>
+								</li>
+							</ul>
+						</div>
+						<div class="carousel-item">
+							<ul>
+								<li>
+									<img class="moto d-block w-100" src="img/moto2.svg">
+									<p>Более</p>
+									<img class="icon" src="img/icon2.svg">
+									<h3>Доставим<br>в день<br>обращения</h3>
+								</li>
+							</ul>
+						</div>
+						<div class="carousel-item">
+							<ul>
+								<li>
+									<img class="moto d-block w-100" src="img/moto3.svg">
+									<p>Более</p>
+									<img class="icon" src="img/icon3.svg">
+									<h3>Работаем<br>без выходных</h3>
+								</li>
+							</ul>
+						</div>
+						<div class="carousel-item">
+							<ul>
+								<li>
+									<img class="moto d-block w-100" src="img/moto4.svg">
+									<p>Более</p>
+									<img class="icon" src="img/icon4.svg">
+									<h3>Программа<br>лояльности</h3>
+								</li>
+							</ul>
+						</div>
+						<div class="carousel-item">
+							<ul>
+								<li>
+									<img class="moto d-block w-100" src="img/moto5.svg">
+									<p class="bolee">Более</p>
+									<img class="icon_icon" src="img/icon5.svg">
+									<h3>Сертификаты<br>качества на всю<br>продукцию</h3>
+								</li>
+							</ul>
+						</div>
+						<div class="carousel-item">
+							<ul>
+								<li>
+									<img class="moto d-block w-100" src="img/moto6.svg">
+									<p>Более</p>
+									<img class="icon" src="img/icon6.svg">
+									<h3>Работаем<br>с НДС<br>И без НДС</h3>
+								</li>
+							</ul>
+						</div>
+						<div class="carousel-item">
+							<ul>
+								<li>
+									<img class="moto d-block w-100" src="img/moto7.svg">
+									<p>Более</p>
+									<img class="icon" src="img/icon7.svg">
+									<h3>Наличный<br>и безналичный<br>расчёт</h3>
+								</li>
+							</ul>
+						</div>	
+						
+				
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
+				</div>
+			
 		</div>
 	</div>
 	<div class="box_3" id="3">
@@ -350,6 +474,7 @@
 				</div>
 			</div>
 		</div>
-	</div>	
+	</div>
+	<script src="js/bootstrap.bundle.min.js"></script>	
 </body>
 </html>

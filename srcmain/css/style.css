@@ -68,6 +68,22 @@ body{
 	transform: scale(1);
 }
 
+
+@media(max-width: 576px){
+	.menu{
+		font-size: 18px;
+		padding: 55px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+}
+
+@media(max-width: 576px){
+	.spisok_menu ul{
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+}
+
 .spisok_menu li:hover{
 	transform: scale(1.1);
 }
@@ -135,7 +151,7 @@ button:hover{
 
 @media(max-width: 576px){
 	.icon li{
-		float: none;
+		/*float: none;*/
 	 	
 	}
 }
@@ -447,3 +463,6 @@ h2{
 	margin-left: 60px;
 }
 
+.offcanvas-body, .offcanvas-header{
+	background: gainsboro;
+}

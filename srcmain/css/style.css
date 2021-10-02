@@ -28,7 +28,7 @@ body{
 		width: 100%;
 		height: 100%;
 		background-attachment: fixed ;
-		background-size: 200%;
+		/*background-size: 200%;*/
 		background-position: center top;
 	}
 }
@@ -212,7 +212,7 @@ h2{
 
 .preim .moto{
 	height: 118px;
-	padding-left: 75px;
+	padding-left: 45px;
 	margin-top: 80px;
 }
 
@@ -220,6 +220,10 @@ h2{
 
 .preim li{
 	float: left;
+}
+
+.preim .bolee{
+	color: black;
 }
 
 .preim p{
@@ -230,9 +234,7 @@ h2{
 	color: white;
 }
 
-.preim .bolee{
-	color: black;
-}
+
 
 .preim .icon{
 	height: 90px;
@@ -249,7 +251,6 @@ h2{
 	font-size: 24px;
 	font-weight: bold;
 	padding-left: 20px;
-	padding-top: 20px;
 }
 
 .moto5{
@@ -292,6 +293,20 @@ h2{
 	transform: scale(1.1);
 	color: red;
 
+}
+
+@media(max-width: 576px){
+	.prod{
+		padding: 0px 0px 0px 0px;
+		margin-top: 20px;
+	}
+}
+
+@media(max-width: 576px){
+	.prod ul{
+		padding: 0px 0px 0px 0px;
+		
+	}
 }
 
 .prod h3{

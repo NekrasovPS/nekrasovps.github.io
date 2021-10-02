@@ -28,7 +28,6 @@ body{
 		width: 100%;
 		height: 100%;
 		background-attachment: fixed ;
-		/*background-size: 200%;*/
 		background-position: center top;
 	}
 }
@@ -42,13 +41,22 @@ body{
 	padding: 80px 0px 0px 30px;
 }
 
-@media(max-width: 576px){
+@media(max-width: 376px){
 	.img_logo{
-		padding: 40px 0px 0px 15px;
-		height: 100px;
+		padding: 35px 0px 0px 30px;
 
 	}
 }
+
+
+@media(max-width: 376px){
+	.img_logo img{
+		height: 50px;
+
+	}
+}
+
+
 
 .menu{
 	float: left;
@@ -56,6 +64,8 @@ body{
 	padding: 100px 0px 0px 0px;
 
 }
+
+
 
 .spisok_menu{
 	float: left;
@@ -69,23 +79,19 @@ body{
 }
 
 
-@media(max-width: 576px){
-	.menu{
-		font-size: 18px;
-		padding: 55px 0px 0px 0px;
-		margin: 0px 0px 0px 0px;
-	}
-}
-
-@media(max-width: 576px){
-	.spisok_menu ul{
-		padding: 0px 0px 0px 0px;
-		margin: 0px 0px 0px 0px;
-	}
-}
-
 .spisok_menu li:hover{
 	transform: scale(1.1);
+}
+
+@media(max-width: 376px){
+	.menu{
+		padding: 50px 0px 0px 0px;
+		font-size: 22px;
+	}
+	.spisok_menu li{
+		float: none;
+		line-height: 35px;
+	}
 }
 
 .number{
@@ -98,14 +104,13 @@ body{
 	margin-left: 70px;
 }
 
-@media(max-width: 576px){
+@media(max-width: 376px){
 	.number{
-		margin-left: 20px;
-
+		margin-left: 0px;
+		font-size: 22px;
+		line-height: 40px;
 	}
 }
-
-
 
 .button{
 	padding: 53px 0px 0px 0px;
@@ -113,14 +118,13 @@ body{
 	margin-left: 100px;
 }
 
-@media(max-width: 576px){
+@media(max-width: 376px){
 	.button{
-		float: none;
-		margin-left: 45px;
+		margin-left: 25px;
 	}
 }
 
-button{
+.button .qwer{
 	width: 220px;
 	height: 50px;
 	border-radius: 30px;
@@ -131,13 +135,18 @@ button{
 	transform: scale(1);
 }
 
+
 button:hover{
 	transform: scale(1.1);
 }
 
-@media(max-width: 576px){
-	button{
-		width: 200px;
+@media(max-width: 376px){
+	.b button{
+		width: 50px;
+		height: none;
+		border: none;
+		background: none;
+
 	}
 }
 
@@ -149,23 +158,12 @@ button:hover{
 	transform: scale(1);
 }
 
-@media(max-width: 576px){
-	.icon li{
-		
-	 	
-	}
-}
 
 .icon li:hover{
 	transform: scale(1.1);
 }
 
-@media(max-width: 576px){
-	.icon{
-		
 
-	}
-}
 
 .block_h{
 	font-size: 90px;
@@ -178,14 +176,16 @@ h2{
 	font-weight: bold;
 }
 
-@media(max-width: 576px){
+@media(max-width: 376px){
 	.block_h{
 		margin: 0px 0px 0px 0px;
-		font-size: 70px;
+		font-size: 50px;
 		text-align: center;
 		margin-top: 100px;
 	}
 }
+
+
 
 .box_2{
 	width: 100%;
@@ -200,11 +200,6 @@ h2{
 	padding-top: 150px;
 }
 
-@media(max-width: 576px){
-	.pre h2{
-		font-size: 50px;
-	}
-}
 
 .preim{
 	float: left;
@@ -295,19 +290,6 @@ h2{
 
 }
 
-@media(max-width: 576px){
-	.prod{
-		padding: 0px 0px 0px 0px;
-		margin-top: 20px;
-	}
-}
-
-@media(max-width: 576px){
-	.prod ul{
-		padding: 0px 0px 0px 0px;
-		
-	}
-}
 
 .prod h3{
 	font-size: 24px;
@@ -329,7 +311,17 @@ h2{
 					 6%,
 					 9%, 
 					 auto auto;
-					 
+}
+
+@media(max-width: 376px){
+	.box_4{
+		width: 100%;
+		height: 100%;
+		background: url("../img/bg3.svg") no-repeat;
+		background-attachment: fixed ;
+		background-position: center bottom;
+		
+	}
 }
 
 .box_4 h2{
@@ -358,7 +350,8 @@ h2{
 	background: url("../img/fonbg.svg") no-repeat,
 				url("../img/fonbg2.svg") no-repeat,
 			    url("../img/bg6_1.svg") no-repeat;
-				
+	
+
 
 	background-position: 70px 30px, 
 						 1400px 50px,
@@ -368,6 +361,9 @@ h2{
 					 14%,
 					 auto;
 }
+
+
+
 
 .box_5_p {
 	font-size: 16px;
@@ -469,6 +465,8 @@ h2{
 	transform: scale(1);
 }
 
+.
+
 .btn_but:hover{
 	transform: scale(1.1);
 }
@@ -493,3 +491,20 @@ h2{
 	margin-top: -4px;
 	margin-right: 30px;
 }
+
+@media(max-width: 576px){
+	.box_5_p{
+		font-size: 12px;
+		padding-top: 23px;
+		text-align: center;
+	}
+}
+
+
+
+.just{
+	height: 30px;
+	margin-top: 45px;
+	margin-left: 130px;
+}
+

@@ -23,10 +23,11 @@ body{
 	background: url("../img/bg1.png") no-repeat;
 }
 
-@media(max-width: 576px){
+@media(max-width: 376px){
 	.box_1{
 		width: 100%;
 		height: 100%;
+		background: url("../img/bg1.png") no-repeat;
 		background-attachment: fixed ;
 		background-position: center top;
 	}
@@ -170,7 +171,20 @@ button:hover{
 	font-weight: bold;
 	margin-top: 140px;
 	margin-left: 40px;
+/*	-webkit-animation: comming 1s;
+	-o-animation: comming 1s;
+	animation: comming 1s;*/
 }
+
+
+/*@keyframes comming{
+	from{
+		margin-top: -100px;
+	}
+	to{
+		margin-top: 0px;
+	}
+}*/
 
 h2{
 	font-weight: bold;
@@ -179,7 +193,7 @@ h2{
 @media(max-width: 376px){
 	.block_h{
 		margin: 0px 0px 0px 0px;
-		font-size: 50px;
+		font-size: 40px;
 		text-align: center;
 		margin-top: 100px;
 	}
@@ -295,6 +309,44 @@ h2{
 	font-size: 24px;
 	font-weight: bold;
 }
+
+@media(max-width: 376px){
+	.box_3 h2{
+		font-size: 40px;
+		margin-top: 50px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.box_3 p{
+		font-size: 16px;
+		color: #e94e1b;
+		text-align: center;
+		margin-top: 30px;
+		padding-top: 0px;
+	}
+
+	.prod{
+		margin-top: 50px;
+	}
+
+	.prod ul{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.prod h3{
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.prod img{
+		
+		border-radius: 30px;
+	}
+}
+
 .box_4 {
 	width: 100%;
 	height: 120%;

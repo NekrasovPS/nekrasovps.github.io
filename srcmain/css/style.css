@@ -1,17 +1,32 @@
+
 body{
 	font-family: arial, sans-serif;
 	background: url("../img/fon1.svg") no-repeat, 
 				url("../img/fon3.svg") no-repeat, 
 				url("../img/fon2.svg") no-repeat,
-				url("../img/fon5.svg") no-repeat;
-	background-size:51%,  
+				url("../img/fon5.svg") no-repeat,
+				url("../img/1920_gornyi_uborka_kartinka.svg") no-repeat,
+				url("../img/Vector Smart Object.svg") no-repeat,
+				url("../img/Наверх.svg") no-repeat;
+				
+	background-size:50%,  
 					4%, 
 					22%,
-					20%;
-	background-position: 0px 100px, 
-						right 2200px, 
-						right 1700px,
-						left 3300px;
+					20%,
+					124%,
+					4%,
+					3%;
+					
+	background-position: -25px 55px, 
+						right 2170px, 
+						right 1670px,
+						left 3702px,
+						center 4240px,
+						right 3082px,
+						right 3232px;
+						
+						
+						
 }	
 
 
@@ -20,8 +35,7 @@ body{
 .box_1{
 	width: 100%;
 	height: 100%;
-	background: url("../img/bg1.png") no-repeat;
-	background-attachment: fixed;
+	background: url("../img/1920_gornyi_zaglavnaya_kartinka.svg") no-repeat;
 }
 
 
@@ -37,12 +51,13 @@ body{
 }
 
 .container{
-	max-width: 1800px;
+	max-width: 1920px;
 }
 
 .img_logo{
 	float: left;
-	padding: 80px 0px 0px 30px;
+	margin: 70px 0px 0px 80px;
+	padding: 0px;
 }
 
 
@@ -68,9 +83,11 @@ body{
 
 
 .menu{
+	font-family: Roboto;
+	font-weight: 400;
 	float: left;
 	font-size: 30px;
-	padding: 100px 0px 0px 0px;
+	margin: 95px 0px 0px 205px;
 
 }
 
@@ -78,7 +95,11 @@ body{
 
 .spisok_menu{
 	float: left;
+	padding: 0px;
+	margin: 0px;
 }
+
+
 
 .spisok_menu li{
 	float: left;
@@ -107,13 +128,17 @@ body{
 
 
 .number{
+	font-family: Montserrat;
+	font-weight: 600;
 	font-size: 30px;
-	width: 286px;
-	padding: 45px 0px 0px 0px;
-	font-weight: bold;
-	line-height: 50px;
+	line-height: 44px;
 	float: left;
-	margin-left: 70px;
+	
+}
+
+.spisok_number{
+	padding: 0px;
+	margin: 44px 0px 0px 10px;
 }
 
 
@@ -127,9 +152,8 @@ body{
 }
 
 .button{
-	padding: 53px 0px 0px 0px;
 	float: left;
-	margin-left: 100px;
+	margin: 42px 0px 0px 20px;
 }
 
 @media(max-width: 376px){
@@ -151,6 +175,8 @@ body{
 }
 
 .button .qwer{
+	font-family: Montserrat;
+	font-weight: 400;
 	width: 220px;
 	height: 50px;
 	border-radius: 30px;
@@ -194,24 +220,17 @@ button:hover{
 
 
 
-.block_h{
-	font-size: 90px;
-	font-weight: bold;
-	margin-top: 140px;
-	margin-left: 40px;
+.block_h p{
+	font-family: Montserrat;
+	font-size: 88px;
+	font-weight: 600;
+	margin-top: 180px;
+	margin-left: 120px;
 }
-
-
-
-
-h2{
-	font-weight: bold;
-}
-
 
 
 @media(max-width: 415px){
-	.block_h{
+	.block_h p{
 		margin: 0px 0px 0px 0px;
 		font-size: 45px;
 		text-align: center;
@@ -226,28 +245,39 @@ h2{
 .box_2{
 	width: 100%;
 	height: 100%;
+	
 
 }
 
-.pre h2{
-	font-size: 72px;
-	font-weight: bold;
+.pre{
+	margin: 125px 0px 0px 0px;
+}
+
+.pre p{
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 65px;
 	text-align: center;
-	padding-top: 150px;
+	padding: 0px;
 }
 
 
 .preim{
 	float: left;
+	margin-top: 70px;
 }
+
+
 
 .preim .moto{
 	height: 118px;
-	padding-left: 45px;
-	margin-top: 80px;
+	
 }
 
-
+.preim ul{
+	margin: 0px;
+	padding: 0px;
+}
 
 
 .preim li{
@@ -263,10 +293,11 @@ h2{
 
 .preim .bolee{
 	color: black;
+	font-size: 16px;
 }
 
 .preim p{
-	padding-left: 70px;
+	/*padding-left: 70px;*/
 	padding-top: 15px;
 	font-size: 24px;
 	font-weight: bold;
@@ -277,45 +308,71 @@ h2{
 
 .preim .icon{
 	height: 90px;
-	padding-left: 60px;
+	/*padding-left: 60px;*/
 }
 
 .icon_icon{
 	height: 70px;
-	padding-left: 60px;
+	margin-right: 10px;
+	
 }
 
 .preim h3{
 	float: right;
-	font-size: 24px;
-	font-weight: bold;
-	padding-left: 20px;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 0px 0xp 0px 20px;
 }
 
-.moto5{
-	padding-left: 170px;
+.preim__1{
+
 }
 
-.moto6{
-	padding-left: 110px;
+.preim__2{
+	margin-right: 90px;
 }
 
+.preim__3{
+	margin-left: 90px;
+}
 
-.box_3 h2{
-	font-size: 72px;
-	font-weight: bold;
+.preim__4{
+	margin-left: ;
+}
+
+.box_3{
+	font-family: Montserrat;
+	/*background: url("../img/fon5.svg") no-repeat;
+	background-position: left 1600px;
+	background-size: 10%;*/
+	
+
+}
+
+.box_3 .container{
+	max-width: 1800px;
+}
+
+.box_3 .pp{
+	font-size: 65px;
+	font-weight: 600;
 	text-align: center;
+	margin: 0px 0px 0px 0px;
 }
 
-.box_3 p{
-	font-size: 24px;
-	color: #e94e1b;
+.box_3 .ppp{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18px;
+	color: #E94E1B;
 	text-align: center;
-	padding-top: 30px;
+	margin: 10px 0px 0px 0px;
 }
 
 .prod{
 	margin-top: 30px;
+	font-family: Montserrat;
 }
 
 .prod img{
@@ -335,14 +392,26 @@ h2{
 }
 
 
-.prod h3{
-	font-size: 24px;
-	font-weight: bold;
+.prod p{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 26px;
+	margin: 25px 0px 0px 0px;
+	
+	
+}
+
+.prod p span{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18;
+	
 }
 
 
+
 @media(max-width: 415px){
-	.box_3 h2{
+	.box_3 p{
 		font-size: 40px;
 		margin-top: 50px;
 		font-weight: bold;
@@ -393,20 +462,24 @@ h2{
 .box_4 {
 	width: 100%;
 	height: 120%;
-	background:  
-				 url("../img/fon4.svg") no-repeat,
-				 url("../img/bg3.svg") no-repeat,
-				 url("../img/bg2.svg") no-repeat;
+	background:	url("../img/fon4.svg") no-repeat,
+				url("../img/bg3.svg") no-repeat;
+				  
 				 
-	background-position:
-						left 100px,
-						right bottom,  
-	                    bottom;
-	background-size: 
-					 6%,
-					 9%, 
-					 auto auto;
+	background-position:left 15px,
+						right bottom;
+						
+						
+	                    
+	background-size: 6%,
+					 9%;
+					 
+
+	
+
 }
+
+
 
 
 @media(max-width: 415px){
@@ -421,26 +494,28 @@ h2{
 }
 
 .box_4 h2{
-	font-size: 72px;
-	font-weight: bold;
+	font-size: 65px;
+	font-family: Montserrat;
+	font-weight: 600;
 	text-align: center;
-	padding-top: 150px;
+	margin-top: 75px;
 }
 
-.box_4 h3{
-	font-size: 36px;
-	font-weight: bold;
-	padding-left: 20px;
-	padding-top: 40px;
-}
-
-.box_4 p{
+.box_4__p{
+	font-family: Montserrat;
+	font-weight: 700;
 	font-size: 30px;
-	padding-left: 20px;
-	padding-top: 30px;
 }
 
+.box_4__pp{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 30px;
+}
 
+.box_4__text{
+	margin: 75px 0px 0px 130px;
+}
 
 @media(max-width: 415px){
 	.box_4 h2{
@@ -474,7 +549,7 @@ h2{
 	height: 186px;
 	background: url("../img/fonbg.svg") no-repeat,
 				url("../img/fonbg2.svg") no-repeat,
-			    url("../img/bg6_1.svg") no-repeat;
+			    url("../img/bg6_1.svg")  no-repeat;
 	
 
 
@@ -491,22 +566,31 @@ h2{
 
 
 .box_5_p {
+	font-family: Roboto;
+	font-weight: 300;
 	font-size: 16px;
 	color: white;
-	padding-top: 50px;
+	margin: 33px 0px 0px 75px;
 	float: left;
 }
 
 .box_5_menu{
+	font-family: Roboto;
+	font-weight: 300;
 	float: left;
 	font-size: 16px;
-	padding-top: 50px;
-	margin-left: 180px;
+	padding: 33px 0px 0px 150px;
+	/*padding: 0px;*/
+
+}
+
+.box_5_spisok ul{
+	padding: 0px;
 }
 
 .box_5_spisok li{
 	float: left;
-	margin-right: 40px;
+	margin-right: 20px;
 	transition: all 0.1s;
 	transform: scale(1);
 }
@@ -523,29 +607,33 @@ h2{
 
 .buttonn{
 	float: left;
-	padding-top: 30px;
-	padding-left: 80px;
+	padding: 29px 0px 0px 210px;
 }
 
 .buttonn button{
-	width: 200px;
-	height: 40px;
+	font-family: Roboto;
+	font-weight: 400;
+	width: 149px;
+	height: 30px;
 	border-radius: 30px;
 	background-color: white;
 	color: #00487F;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .box_5 .numberr{
+	font-family: Montserrat;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
 	color: white;
 	float: left;
-	padding-top: 30px;
+	padding: 0px;
+	
 }
 
 .box_5_number{
-	padding-left: 100px;
+	padding: 33px 0px 0px 75px;
 }
 
 .box_5_number a{
@@ -554,14 +642,12 @@ h2{
 
 .box_5_iconn{
 	float: left;
-	padding-top: 30px;
-	width: 200px;
-	margin-left: 55px;
+	padding: 31px 0px 0px 90px;
 }
 
 .iconn li{
 	float: left;
-	margin-right: 8px;
+	margin-right: 9px;
 	transition: all 0.1s;
 	transform: scale(1);
 }
@@ -571,8 +657,14 @@ h2{
 }
 
 .qp{
-	font-size: 16px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 12px;
 	color: white;
+}
+
+.qp p{
+	margin-right: 30px;
 }
 
 

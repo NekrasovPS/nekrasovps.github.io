@@ -7,38 +7,28 @@ body{
 				url("../img/fon5.svg") no-repeat,
 				url("../img/1920_gornyi_uborka_kartinka.svg") no-repeat,
 				url("../img/Vector Smart Object.svg") no-repeat,
-				url("../img/Наверх.svg") no-repeat;
-				
+				url("../img/Наверх.svg") no-repeat;			
 	background-size:50%,  
 					4%, 
 					22%,
 					20%,
 					124%,
 					4%,
-					3%;
-					
+					3%;				
 	background-position: -25px 55px, 
 						right 2170px, 
 						right 1670px,
 						left 3702px,
 						center 4240px,
 						right 3082px,
-						right 3232px;
-						
-						
-						
+						right 3232px;						
 }	
-
-
-
 
 .box_1{
 	width: 100%;
 	height: 100%;
 	background: url("../img/1920_gornyi_zaglavnaya_kartinka.svg") no-repeat;
 }
-
-
 
 @media(max-width: 415px){
 	.box_1{
@@ -60,27 +50,17 @@ body{
 	padding: 0px;
 }
 
-
-
 @media(max-width: 415px){
 	.img_logo{
 		padding: 45px 0px 0px 30px;
 	}
 }
 
-
-
 @media(max-width: 415px){
 	.img_logo img{
 		height: 50px;
-
 	}
 }
-
-
-
-
-
 
 .menu{
 	font-family: Roboto;
@@ -91,15 +71,11 @@ body{
 
 }
 
-
-
 .spisok_menu{
 	float: left;
 	padding: 0px;
 	margin: 0px;
 }
-
-
 
 .spisok_menu li{
 	float: left;
@@ -108,12 +84,9 @@ body{
 	transform: scale(1);
 }
 
-
 .spisok_menu li:hover{
 	transform: scale(1.1);
 }
-
-
 
 @media(max-width: 415px){
 	.menu{
@@ -126,22 +99,18 @@ body{
 	}
 }
 
-
 .number{
 	font-family: Montserrat;
 	font-weight: 600;
 	font-size: 30px;
 	line-height: 44px;
 	float: left;
-	
 }
 
 .spisok_number{
 	padding: 0px;
 	margin: 44px 0px 0px 10px;
 }
-
-
 
 @media(max-width: 415px){
 	.number{
@@ -187,12 +156,9 @@ body{
 	transform: scale(1);
 }
 
-
 button:hover{
 	transform: scale(1.1);
 }
-
-
 
 @media(max-width: 415px){
 	.b button{
@@ -204,7 +170,6 @@ button:hover{
 	}
 }
 
-
 .icon li{
 	float: left;
 	margin-right: 10px;
@@ -213,12 +178,9 @@ button:hover{
 	transform: scale(1);
 }
 
-
 .icon li:hover{
 	transform: scale(1.1);
 }
-
-
 
 .block_h p{
 	font-family: Montserrat;
@@ -228,7 +190,6 @@ button:hover{
 	margin-left: 120px;
 }
 
-
 @media(max-width: 415px){
 	.block_h p{
 		margin: 0px 0px 0px 0px;
@@ -237,10 +198,6 @@ button:hover{
 		margin-top: 100px;
 	}
 }
-
-
-
-
 
 .box_2{
 	width: 100%;
@@ -261,13 +218,10 @@ button:hover{
 	padding: 0px;
 }
 
-
 .preim{
 	float: left;
 	margin-top: 70px;
 }
-
-
 
 .preim .moto{
 	height: 118px;
@@ -279,7 +233,6 @@ button:hover{
 	padding: 0px;
 }
 
-
 .preim li{
 	float: left;
 	transition: all 0.1s;
@@ -290,31 +243,25 @@ button:hover{
 	transform: scale(1.1);
 }
 
-
 .preim .bolee{
 	color: black;
 	font-size: 16px;
 }
 
 .preim p{
-	/*padding-left: 70px;*/
 	padding-top: 15px;
 	font-size: 24px;
 	font-weight: bold;
 	color: white;
 }
 
-
-
 .preim .icon{
 	height: 90px;
-	/*padding-left: 60px;*/
 }
 
 .icon_icon{
 	height: 70px;
-	margin-right: 10px;
-	
+	margin-right: 10px;	
 }
 
 .preim h3{
@@ -323,10 +270,6 @@ button:hover{
 	font-weight: 600;
 	font-size: 20px;
 	margin: 0px 0xp 0px 20px;
-}
-
-.preim__1{
-
 }
 
 .preim__2{
@@ -343,11 +286,6 @@ button:hover{
 
 .box_3{
 	font-family: Montserrat;
-	/*background: url("../img/fon5.svg") no-repeat;
-	background-position: left 1600px;
-	background-size: 10%;*/
-	
-
 }
 
 .box_3 .container{
@@ -391,24 +329,18 @@ button:hover{
 
 }
 
-
 .prod p{
 	font-family: Montserrat;
 	font-weight: 700;
 	font-size: 26px;
-	margin: 25px 0px 0px 0px;
-	
-	
+	margin: 25px 0px 0px 0px;	
 }
 
 .prod p span{
 	font-family: Roboto;
 	font-weight: 300;
-	font-size: 18;
-	
+	font-size: 18;	
 }
-
-
 
 @media(max-width: 415px){
 	.box_3 p{
@@ -463,24 +395,12 @@ button:hover{
 	width: 100%;
 	height: 120%;
 	background:	url("../img/fon4.svg") no-repeat,
-				url("../img/bg3.svg") no-repeat;
-				  
-				 
+				url("../img/bg3.svg") no-repeat;			 
 	background-position:left 15px,
-						right bottom;
-						
-						
-	                    
+						right bottom;                  
 	background-size: 6%,
 					 9%;
-					 
-
-	
-
 }
-
-
-
 
 @media(max-width: 415px){
 	.box_4{
@@ -488,8 +408,7 @@ button:hover{
 		height: 100%;
 		background: url("../img/bg3.svg") no-repeat;
 		background-attachment: fixed ;
-		background-position: center bottom;
-		
+		background-position: center bottom;	
 	}
 }
 
@@ -550,20 +469,13 @@ button:hover{
 	background: url("../img/fonbg.svg") no-repeat,
 				url("../img/fonbg2.svg") no-repeat,
 			    url("../img/bg6_1.svg")  no-repeat;
-	
-
-
 	background-position: 70px 30px, 
 						 1400px 50px,
 						 bottom;			
-
 	background-size: auto,
 					 14%,
 					 auto;
 }
-
-
-
 
 .box_5_p {
 	font-family: Roboto;
@@ -580,8 +492,6 @@ button:hover{
 	float: left;
 	font-size: 16px;
 	padding: 33px 0px 0px 150px;
-	/*padding: 0px;*/
-
 }
 
 .box_5_spisok ul{
@@ -603,8 +513,6 @@ button:hover{
 	color: white;
 }
  
-
-
 .buttonn{
 	float: left;
 	padding: 29px 0px 0px 210px;
@@ -628,8 +536,7 @@ button:hover{
 	line-height: 20px;
 	color: white;
 	float: left;
-	padding: 0px;
-	
+	padding: 0px;	
 }
 
 .box_5_number{
@@ -666,7 +573,6 @@ button:hover{
 .qp p{
 	margin-right: 30px;
 }
-
 
 .btn_but{
 	width: 100px;
@@ -716,8 +622,6 @@ button:hover{
 		text-align: center;
 	}
 }
-
-
 
 .just{
 	height: 30px;

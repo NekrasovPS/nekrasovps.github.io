@@ -1,0 +1,495 @@
+body{
+	background: url("../img/bg/background1.png");
+	background-position: -469px 0px;
+	background-repeat: repeat-y;
+}
+
+.block1{
+	width: 1440px;
+	height: 977px;
+}
+
+.container1{
+	width: 1180px;
+	height: 977px;
+	margin: 0px 130px 0px 130px;
+}
+
+.menu{
+	width: 1180px;
+	height: 157px;
+	border-bottom: 1px solid #fff;
+}
+
+.block1 .container1 .menu .logo{
+	margin: 70px 0px 0px 2px;
+	float: left;
+}
+
+.block1 .container1 .menu .text1{
+	width: 162px;
+	height: 42px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: white;
+	margin: 85px 0px 0px 30px;
+	float: left;
+}
+
+.block1 .container1 .menu select{
+	width: 140px;
+	height: 15px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	margin: 95px 0px 0px 30px;
+	background: none;
+	color: white;
+	float: left;
+}
+
+.block1 .container1 .menu .text2{
+	width: 174px;
+	height: 12px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: white;
+	margin: 95px 0px 0px 47px;
+	float: left;
+}
+
+.block1 .container1 .menu .number1{
+	width: 120px;
+	height: 35px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: white;
+	float: left;
+	margin: 87px 0px 0px 52px;
+	line-height: 20px;
+}
+
+.block1 .container1 .menu .btn1{
+	width: 154px;
+	height: 60px;
+	background: #101010;
+	border-radius: 10px;
+	color: white;
+	float: left;
+	margin: 73px 0px 0px 37px;
+}
+
+
+
+.block1 .container1 .menu .btn1 img{
+	margin: 18px 0px 23px 15px;
+	float: left;
+}
+
+.block1 .container1 .menu .btn1 p{
+	width: 93px;
+	height: 12px;
+	margin: 25px 0px 20px 46px;
+}
+
+.block1 .container1 .menu .btn2{
+	width: 60px;
+	height: 60px;
+	background: #961D2A;
+	border-radius: 10px;
+	margin: 73px 0px 0px 60px;
+}
+
+
+.private__area{
+	width: 581px;
+	height: 260px;
+	border-bottom: 1px solid #fff;
+	margin: 0px 0px 0px 140px;
+}
+
+.block1 .container1 .private__area .text1{
+	height: 30px;
+	width: 316px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 35px;
+	color: #FFFFFF;
+	margin: 25px 0px 0px 0px;
+}
+
+.block1 .container1 .private__form .text2{
+	height: 20px;
+	width: 26px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #CCCCCC;
+	margin: 31px 0px 0px 0px;
+	float: left;
+	 
+}
+
+.block1 .container1 .private__form .text3{
+	height: 20px;
+	width: 100px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #CCCCCC;
+	float: left;
+	margin: 30px 0px 0px 271px;
+	
+}
+
+.block1 .container1 .private__form .text4{
+	height: 20px;
+	width: 40px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #CCCCCC;
+	margin: 95px 0px 0px 0px;
+}
+
+.block1 .container1 .private__form .text5{
+	height: 20px;
+	width: 342px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #CCCCCC;
+	margin: 60px 0px 0px 0px;
+}
+
+.block1 .container1 .private__form .name{
+	width: 280px;
+	height: 40px;
+	background: #F2F1ED;
+	border-radius: 130px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #101010;
+}
+
+.block1 .container1 .private__form .number{
+	width: 280px;
+	height: 40px;
+	background: #F2F1ED;
+	border-radius: 130px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #101010;
+}
+
+.block1 .container1 .private__form .emaill{
+	width: 280px;
+	height: 40px;
+	background: #F2F1ED;
+	border-radius: 130px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #101010;
+}
+
+.block1 .container1 .private__form .checkbox{
+	margin-right: 10px;
+}
+
+.block1 .container1 .delivery{
+	width: 578px;
+	height: 265px;
+	margin: 0px 0px 0px 140px;
+	border-bottom: 1px solid #fff;
+}
+
+.block1 .container1 .delivery .text1{
+	height: 35px;
+	width: 182px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 35px;
+	color: #FFFFFF;
+	margin: 35px 0px 0px 0px;
+
+}
+
+.block1 .container1 .payment{
+	width: 578px;
+	height: 265px;
+	margin: 0px 0px 0px 140px;
+	
+}
+
+.block1 .container1 .payment .text1{
+	height: 35px;
+	width: 182px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 35px;
+	color: #FFFFFF;
+	margin: 35px 0px 0px 0px;	
+}
+
+.block2{
+	width: 1440px;
+	height: 487px;
+	background: #000;
+}
+
+.container2{
+	width: 1180px;
+	height: 487px;
+	margin: 0px 130px 0px 130px;
+}
+
+.footer{
+
+}
+
+.block2 .container2 .footer .box1{
+	width: 1180px;
+	height: 97px;
+}
+
+.block2 .container2 .footer .box1 .img1{
+	width: 110px;
+	height: 67px;
+	margin: 30px 0px 0px 2px;
+	float: left;
+}
+
+.block2 .container2 .footer .box1 .text1{
+	width: 143px;
+	height: 36px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 130%;
+	color: #FFFFFF;
+	float: left;
+	margin: 42px 0px 0px 30px;
+}
+
+.block2 .container2 .footer .box2{
+	width: 1180px;
+	height: 232px;
+	border-bottom: 1px solid white;
+}
+
+.block2 .container2 .footer .box2 .text2{
+	height: 20px;
+	width: 206px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 17px 0px 0px 5px;
+}
+
+.block2 .container2 .footer .box2 .btn1{
+	height: 48px;
+	width: 220px;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	background: none;
+	margin: 20px 0px 0px 0px;
+}
+
+.block2 .container2 .footer .box2 .btn1 .imgbtn1{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 9px 0px 9px 20px;
+}
+
+.block2 .container2 .footer .box2 .btn1 .textbtn1{
+	width: 140px;
+	height: 11px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 75%;
+	color: white;
+	margin: 20px 0px 17px 61px;
+}
+
+.block2 .container2 .footer .box2 .btn2{
+	height: 48px;
+	width: 255px;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	background: none;
+	margin: 20px 0px 0px 0px;
+	float: left;
+}
+
+.block2 .container2 .footer .box2 .btn2 .imgbtn2{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 9px 0px 9px 20px;
+}
+
+.block2 .container2 .footer .box2 .btn2 .textbtn2{
+	width: 180px;
+	height: 11px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 75%;
+	color: white;
+	margin: 20px 0px 17px 61px;
+}
+
+.block2 .container2 .footer .box2 .list{
+	width: 81px;
+	height: 140px;
+	float: left;
+}
+
+.block2 .container2 .footer .box2 .list li{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFFFFF;
+	
+}
+
+.box3{
+	width: 1180px;
+	height: 100px;
+
+}
+
+.block2 .container2 .footer .box3 .text1{
+	height: 20px;
+	width: 234px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 35px 0px 0px 0px;
+	float: left;
+}
+
+.block2 .container2 .footer .box3 .text2{
+	height: 20px;
+	width: 234px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 35px 0px 0px 122px;
+	float: left;
+}
+
+.block2 .container2 .footer .box3 .btn1{
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background: black;
+	margin: 25px 0px 0px 230px;
+}
+
+.block2 .container2 .footer .box3 .btn2{
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background: black;
+	margin: 25px 0px 0px 20px;
+}
+
+.block2 .container2 .footer .box3 .btn3{
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background: black;
+	margin: 25px 0px 0px 20px;
+}
+
+.block2 .container2 .footer .box3 .btn4{
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background: black;
+	margin: 25px 0px 0px 20px;
+}
+
+.block2 .container2 .footer .box3 .img1{
+	background: black;
+	height: 13px;
+	width: 22px;
+}
+.block2 .container2 .footer .box3 .img2{
+	background: black;
+}
+.block2 .container2 .footer .box3 .img3{
+	background: black;
+}
+.block2 .container2 .footer .box3 .img4{
+	background: black;
+}
+
+.box4{
+	width: 1180px;
+	height: 20px;
+}
+
+.block2 .container2 .footer .box4 .text1{
+	width: 1180px;
+	height: 20px;
+	left: 130px;
+	top: 7697px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+}

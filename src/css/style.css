@@ -1,8 +1,7 @@
-@import url("../fonts/stylesheet.css");
-
 body{
-	background: url("../img/bg/backgroundall.png") no-repeat;
+	background: url("../img/bg/background1.png");
 	background-position: -469px 0px;
+	background-repeat: repeat-y;
 }
 
 .block1{
@@ -87,6 +86,8 @@ body{
 	margin: 73px 0px 0px 37px;
 }
 
+
+
 .block1 .container1 .menu .btn1 img{
 	margin: 18px 0px 23px 15px;
 	float: left;
@@ -141,7 +142,7 @@ body{
 	position: absolute;
 	left: 869px;
 	top: 175px;
-	animation: animate_reduce 2s infinite;
+	animation: animate_reduce 1s infinite;
 }
 
 @keyframes animate_reduce {
@@ -160,21 +161,21 @@ body{
 	position: absolute;
 	left: 970px;
 	top: 590px;
-	animation: animate_reduce 2s infinite;
+	animation: animate_reduce 1s infinite;
 }
 
 .block1 .container1 .home .img5{
 	position: absolute;
 	left: 1290px;
 	top: 490px;
-	animation: animate_reduce 2s infinite;
+	animation: animate_reduce 1s infinite;
 }
 
 .block1 .container1 .home .img6{
 	position: absolute;
 	left: 82px;
 	top: 219px;
-	animation: animate_reduce 2s infinite;
+	animation: animate_reduce 1s infinite;
 }
 
 .block1 .container1 .home h1{
@@ -216,7 +217,9 @@ body{
 	float: left;
 }
 
-
+.block1 .container1 .home .btn3:hover{
+	background: #ED5A22;
+}
 
 .download{
 	width: 1180px;
@@ -233,12 +236,16 @@ body{
 	float: left;
 }
 
+
+
 .download .btn1 .img1{
 	width: 30px;
 	height: 30px;
 	float: left;
 	margin: 9px 0px 9px 20px;
 }
+
+
 
 .download .btn1 .text1{
 	width: 140px;
@@ -251,6 +258,7 @@ body{
 	color: white;
 	margin: 20px 0px 17px 61px;
 }
+
 
 .download .btn2{
 	height: 48px;
@@ -417,7 +425,7 @@ body{
 	width: 30px;
 	left: 879px;
 	top: 1316px;
-	
+	animation: animate_reduce 1s infinite;
 
 }
 
@@ -427,7 +435,7 @@ body{
 	width: 20px;
 	left: 880px;
 	top: 1597px;
-	
+	animation: animate_reduce 1s infinite;
 }
 
 .block2 .container2 .occasion .ellips .vec3{
@@ -436,6 +444,7 @@ body{
 	width: 28px;
 	left: 1040px;
 	top: 1607px;
+	animation: animate_reduce 1s infinite;
 }
 
 .block2 .container2 .occasion .ellips .text1{
@@ -619,7 +628,7 @@ body{
 	width: 29px;
 	left: 1305px;
 	top: 2150px;
-	
+	animation: animate_reduce 1s infinite;
 
 }
 
@@ -629,6 +638,7 @@ body{
 	width: 22px;
 	left: 1073px;
 	top: 2225px;
+	animation: animate_reduce 1s infinite;
 }
 
 .block3 .container3 .box_cooking .roll{
@@ -671,7 +681,7 @@ body{
 	width: 30px;
 	left: 130px;
 	top: 2670px;
-
+	animation: animate_reduce 1s infinite;
 }
 
 .block3 .container3 .box_cooking .list2{
@@ -680,7 +690,7 @@ body{
 	width: 30px;
 	left: 530px;
 	top: 2670px;
-
+	animation: animate_reduce 1s infinite;
 }
 
 .block3 .container3 .box_cooking .list3{
@@ -689,6 +699,7 @@ body{
 	width: 30px;
 	left: 930px;
 	top: 2670px;
+	animation: animate_reduce 1s infinite;
 }
 
 .block3 .container3 .box_cooking .text3{
@@ -813,6 +824,7 @@ body{
 	width: 27px;
 	left: 265px;
 	top: 3419px;
+	animation: animate_reduce 1s infinite;
 }
 
 .block4 .container4 .box_black2 .vec4{
@@ -821,6 +833,7 @@ body{
 	width: 27px;
 	left: 839px;
 	top: 3058px;
+	animation: animate_reduce 1s infinite;
 }
 
 .block4 .container4 .box_black2 .vec5{
@@ -829,6 +842,7 @@ body{
 	width: 27px;
 	left: 740px;
 	top: 3500px;
+	animation: animate_reduce 1s infinite;
 }
 
 .block4 .container4 .box_black2 .vec6{
@@ -837,6 +851,7 @@ body{
 	width: 21px;
 	left: 1181px;
 	top: 3477px;
+	animation: animate_reduce 1s infinite;
 }
 
 .block4 .container4 .box_black2 .text1{
@@ -947,12 +962,20 @@ body{
 	margin-right: 10px;
 }
 
+.block5 .container5 .menu .row1 .btn1:hover{
+	background: #CCCCCC;
+}
+
 .block5 .container5 .menu .row1 .btn2{
 	width: 93px;
 	height: 35px;
 	background: #FFFFFF;
 	border-radius: 5px;
 	margin-right: 10px;
+}
+
+.block5 .container5 .menu .row1 .btn2:hover{
+	background: #CCCCCC;
 }
 
 .block5 .container5 .menu .row1 .btn3{
@@ -963,6 +986,10 @@ body{
 	margin-right: 10px;
 }
 
+.block5 .container5 .menu .row1 .btn3:hover{
+	background: #CCCCCC;
+}
+
 .block5 .container5 .menu .row1 .btn4{
 	width: 93px;
 	height: 35px;
@@ -971,13 +998,20 @@ body{
 	margin-right: 10px;
 }
 
+.block5 .container5 .menu .row1 .btn4:hover{
+	background: #CCCCCC;
+}
+
 .block5 .container5 .menu .row1 .btn5{
 	width: 93px;
 	height: 35px;
 	background: #FFFFFF;
 	border-radius: 5px;
 	margin-right: 10px;
+}
 
+.block5 .container5 .menu .row1 .btn5:hover{
+	background: #CCCCCC;
 }
 
 .block5 .container5 .menu .row1 .btn6{
@@ -988,12 +1022,20 @@ body{
 	margin-right: 10px;
 }
 
+.block5 .container5 .menu .row1 .btn6:hover{
+	background: #CCCCCC;
+}
+
 .block5 .container5 .menu .row1 .btn7{
 	width: 93px;
 	height: 35px;
 	background: #FFFFFF;
 	border-radius: 5px;
 	margin-right: 10px;
+}
+
+.block5 .container5 .menu .row1 .btn7:hover{
+	background: #CCCCCC;
 }
 
 .block5 .container5 .menu .row1 .btn1 .text1{
@@ -1279,6 +1321,7 @@ body{
 	left: 421px;
 	top: 5788px;
 	transform: rotate(-16.17deg);
+	animation: animate_reduce 1s infinite;
 }
 
 .block6 .container6 .buffet .img9{
@@ -1288,6 +1331,7 @@ body{
 	left: 1025px;
 	top: 5975px;
 	transform: rotate(-16.17deg);
+	animation: animate_reduce 1s infinite;
 }
 
 .block6 .container6 .buffet .img10{
@@ -1297,6 +1341,7 @@ body{
 	left: 130px;
 	top: 6260px;
 	transform: rotate(-16.17deg);
+	animation: animate_reduce 1s infinite;
 }
 
 .block6 .container6 .buffet .img11{
@@ -1306,6 +1351,7 @@ body{
 	left: 1300px;
 	top: 6100px;
 	transform: rotate(-16.17deg);
+	animation: animate_reduce 1s infinite;
 }
 
 
@@ -1792,3 +1838,4 @@ body{
 	line-height: 20px;
 	color: #FFFFFF;
 }
+

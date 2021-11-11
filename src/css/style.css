@@ -1908,6 +1908,9 @@ body{
   top: 0;
   transform: rotate(90deg);
 }
+#menu-toggle:checked ~ body{
+	scroll-behavior: none;
+} 
 #menu-toggle:checked ~ .menubox{
   visibility: visible;
   right: 0;
@@ -1979,4 +1982,98 @@ body{
 	font-size: 16px;
 	line-height: 125%;
 	color: #FFFFFF;
+}
+
+.menubox .text_menu1{
+	height: 33px;
+	width: 108px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 125%;
+	color: #FFFFFF;
+	position: absolute;
+	top: 319px;	
+	left: 68px;
+}
+
+.menubox .spisok_menu{
+	position: absolute;
+	top: 358px;
+	left: 103px;
+
+}
+
+.menubox .spisok_menu li{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFFFFF;	
+}
+
+.menubox .text_menu2{
+	height: 33px;
+	width: 108px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 125%;
+	color: #FFFFFF;
+	position: absolute;
+	top: 553px;	
+	left: 67px;
+}
+
+.menubox .number_800{
+position: absolute;
+	width: 182px;
+	height: 21px;
+	left: 70px;
+	top: 610px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 75%;
+	color: #FFFFFF;
+}
+
+.menubox .number_8000{
+	position: absolute;
+	width: 205px;
+	height: 21px;
+	left: 70px;
+	top: 654px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 75%;
+	color: #FFFFFF;	
+}
+
+.menubox .btn_100{
+	position: absolute;
+	width: 280px;
+	height: 75px;
+	left: 68px;
+	top: 700px;
+	background: #F69B03;
+	border-radius: 10px;
+}
+
+.menubox .btn_100 .text_100{
+	width: 196px;
+	height: 14px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 75%;
+	color: #101010;
+	margin: 0px 0px 0px 40px;
 }

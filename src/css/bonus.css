@@ -6,12 +6,12 @@ body{
 
 .block1{
 	width: 1440px;
-	height: 977px;
+	height: 600px;
 }
 
 .container1{
 	width: 1180px;
-	height: 977px;
+	height: 600px;
 	margin: 0px 130px 0px 130px;
 }
 
@@ -19,6 +19,7 @@ body{
 	width: 1180px;
 	height: 157px;
 	border-bottom: 1px solid #fff;
+	
 }
 
 .block1 .container1 .menu .logo{
@@ -38,7 +39,7 @@ body{
 	float: left;
 }
 
-.block1 .container1 .menu select{
+.block1 .container1 .menu .select{
 	width: 140px;
 	height: 15px;
 	font-family: Gilroy;
@@ -98,399 +99,6 @@ body{
 	height: 12px;
 	margin: 25px 0px 20px 46px;
 }
-
-
-
-.private__area{
-	width: 581px;
-	height: 260px;
-	border-bottom: 1px solid #fff;
-	margin: 0px 0px 0px 140px;
-}
-
-.block1 .container1 .private__area .text1{
-	height: 30px;
-	width: 316px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 35px;
-	color: #FFFFFF;
-	margin: 25px 0px 0px 0px;
-}
-
-.block1 .container1 .private__form .text2{
-	height: 20px;
-	width: 26px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 20px;
-	color: #CCCCCC;
-	margin: 31px 0px 0px 0px;
-	float: left;
-	 
-}
-
-.block1 .container1 .private__form .text3{
-	height: 20px;
-	width: 100px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 20px;
-	color: #CCCCCC;
-	float: left;
-	margin: 30px 0px 0px 271px;
-	
-}
-
-.block1 .container1 .private__form .text4{
-	height: 20px;
-	width: 40px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 20px;
-	color: #CCCCCC;
-	margin: 95px 0px 0px 0px;
-}
-
-.block1 .container1 .private__form .text5{
-	height: 20px;
-	width: 342px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: #CCCCCC;
-	margin: 60px 0px 0px 0px;
-}
-
-.block1 .container1 .private__form .name{
-	width: 280px;
-	height: 40px;
-	background: #F2F1ED;
-	border-radius: 130px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: #101010;
-}
-
-.block1 .container1 .private__form .number{
-	width: 280px;
-	height: 40px;
-	background: #F2F1ED;
-	border-radius: 130px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: #101010;
-}
-
-.block1 .container1 .private__form .emaill{
-	width: 280px;
-	height: 40px;
-	background: #F2F1ED;
-	border-radius: 130px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: #101010;
-}
-
-.block1 .container1 .private__form .checkbox{
-	margin-right: 10px;
-}
-
-.block1 .container1 .delivery{
-	width: 578px;
-	height: 265px;
-	margin: 0px 0px 0px 140px;
-	border-bottom: 1px solid #fff;
-}
-
-.block1 .container1 .delivery .text1{
-	height: 35px;
-	width: 182px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 22px;
-	line-height: 35px;
-	color: #FFFFFF;
-	margin: 35px 0px 0px 0px;
-
-}
-
-.block1 .container1 .payment{
-	width: 578px;
-	height: 265px;
-	margin: 0px 0px 0px 140px;
-	
-}
-
-.block1 .container1 .payment .text1{
-	height: 35px;
-	width: 182px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 22px;
-	line-height: 35px;
-	color: #FFFFFF;
-	margin: 35px 0px 0px 0px;	
-}
-
-.block2{
-	width: 1440px;
-	height: 487px;
-	background: #000;
-}
-
-.container2{
-	width: 1180px;
-	height: 487px;
-	margin: 0px 130px 0px 130px;
-}
-
-.footer{
-
-}
-
-.block2 .container2 .footer .box1{
-	width: 1180px;
-	height: 97px;
-}
-
-.block2 .container2 .footer .box1 .img1{
-	width: 110px;
-	height: 67px;
-	margin: 30px 0px 0px 2px;
-	float: left;
-}
-
-.block2 .container2 .footer .box1 .text1{
-	width: 143px;
-	height: 36px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 130%;
-	color: #FFFFFF;
-	float: left;
-	margin: 42px 0px 0px 30px;
-}
-
-.block2 .container2 .footer .box2{
-	width: 1180px;
-	height: 232px;
-	border-bottom: 1px solid white;
-}
-
-.block2 .container2 .footer .box2 .text2{
-	height: 20px;
-	width: 206px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-	color: #FFFFFF;
-	margin: 17px 0px 0px 5px;
-}
-
-.block2 .container2 .footer .box2 .btn1{
-	height: 48px;
-	width: 220px;
-	border: 1px solid #FFFFFF;
-	border-radius: 10px;
-	background: none;
-	margin: 20px 0px 0px 0px;
-}
-
-.block2 .container2 .footer .box2 .btn1 .imgbtn1{
-	width: 30px;
-	height: 30px;
-	float: left;
-	margin: 9px 0px 9px 20px;
-}
-
-.block2 .container2 .footer .box2 .btn1 .textbtn1{
-	width: 140px;
-	height: 11px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 75%;
-	color: white;
-	margin: 20px 0px 17px 61px;
-}
-
-.block2 .container2 .footer .box2 .btn2{
-	height: 48px;
-	width: 255px;
-	border: 1px solid #FFFFFF;
-	border-radius: 10px;
-	background: none;
-	margin: 20px 0px 0px 0px;
-	float: left;
-}
-
-.block2 .container2 .footer .box2 .btn2 .imgbtn2{
-	width: 30px;
-	height: 30px;
-	float: left;
-	margin: 9px 0px 9px 20px;
-}
-
-.block2 .container2 .footer .box2 .btn2 .textbtn2{
-	width: 180px;
-	height: 11px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 75%;
-	color: white;
-	margin: 20px 0px 17px 61px;
-}
-
-.block2 .container2 .footer .box2 .list{
-	width: 81px;
-	height: 140px;
-	float: left;
-	position: absolute;
-	top: 1100px;
-	left: 470px;
-}
-
-.block2 .container2 .footer .box2 .list li{
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 30px;
-	color: #FFFFFF;
-	
-}
-
-.box3{
-	width: 1180px;
-	height: 100px;
-
-}
-
-.block2 .container2 .footer .box3 .text1{
-	height: 20px;
-	width: 234px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: #FFFFFF;
-	margin: 35px 0px 0px 0px;
-	float: left;
-}
-
-.block2 .container2 .footer .box3 .text2{
-	height: 20px;
-	width: 234px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: #FFFFFF;
-	margin: 35px 0px 0px 122px;
-	float: left;
-}
-
-.block2 .container2 .footer .box3 .btn1{
-	width: 40px;
-	height: 40px;
-	border: 1px solid white;
-	border-radius: 20px;
-	background: black;
-	margin: 25px 0px 0px 230px;
-}
-
-.block2 .container2 .footer .box3 .btn2{
-	width: 40px;
-	height: 40px;
-	border: 1px solid white;
-	border-radius: 20px;
-	background: black;
-	margin: 25px 0px 0px 20px;
-}
-
-.block2 .container2 .footer .box3 .btn3{
-	width: 40px;
-	height: 40px;
-	border: 1px solid white;
-	border-radius: 20px;
-	background: black;
-	margin: 25px 0px 0px 20px;
-}
-
-.block2 .container2 .footer .box3 .btn4{
-	width: 40px;
-	height: 40px;
-	border: 1px solid white;
-	border-radius: 20px;
-	background: black;
-	margin: 25px 0px 0px 20px;
-}
-
-.block2 .container2 .footer .box3 .img1{
-	background: black;
-	height: 13px;
-	width: 22px;
-}
-.block2 .container2 .footer .box3 .img2{
-	background: black;
-}
-.block2 .container2 .footer .box3 .img3{
-	background: black;
-}
-.block2 .container2 .footer .box3 .img4{
-	background: black;
-}
-
-.box4{
-	width: 1180px;
-	height: 20px;
-}
-
-.block2 .container2 .footer .box4 .text1{
-	width: 1180px;
-	height: 20px;
-	left: 130px;
-	top: 7697px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: #FFFFFF;
-}
-
-
 
 .menu-btn{
   align-items: center;
@@ -726,4 +334,304 @@ position: absolute;
 	line-height: 75%;
 	color: #101010;
 	margin: 0px 0px 0px 40px;
+}
+
+.block2{
+	width: 1440px;
+	height: 487px;
+	background: #000;
+}
+
+.container2{
+	width: 1180px;
+	height: 487px;
+	margin: 0px 130px 0px 130px;
+}
+
+.footer{
+
+}
+
+.block2 .container2 .footer .box1{
+	width: 1180px;
+	height: 97px;
+}
+
+.block2 .container2 .footer .box1 .img1{
+	width: 110px;
+	height: 67px;
+	margin: 30px 0px 0px 2px;
+	float: left;
+}
+
+.block2 .container2 .footer .box1 .text1{
+	width: 143px;
+	height: 36px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 130%;
+	color: #FFFFFF;
+	float: left;
+	margin: 42px 0px 0px 30px;
+}
+
+.block2 .container2 .footer .box2{
+	width: 1180px;
+	height: 232px;
+	border-bottom: 1px solid white;
+}
+
+.block2 .container2 .footer .box2 .text2{
+	height: 20px;
+	width: 206px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 17px 0px 0px 5px;
+}
+
+.block2 .container2 .footer .box2 .btn1{
+	height: 48px;
+	width: 220px;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	background: none;
+	margin: 20px 0px 0px 0px;
+}
+
+.block2 .container2 .footer .box2 .btn1 .imgbtn1{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 9px 0px 9px 20px;
+}
+
+.block2 .container2 .footer .box2 .btn1 .textbtn1{
+	width: 140px;
+	height: 11px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 75%;
+	color: white;
+	margin: 20px 0px 17px 61px;
+}
+
+.block2 .container2 .footer .box2 .btn2{
+	height: 48px;
+	width: 255px;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	background: none;
+	margin: 20px 0px 0px 0px;
+	float: left;
+}
+
+.block2 .container2 .footer .box2 .btn2 .imgbtn2{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 9px 0px 9px 20px;
+}
+
+.block2 .container2 .footer .box2 .btn2 .textbtn2{
+	width: 180px;
+	height: 11px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 75%;
+	color: white;
+	margin: 20px 0px 17px 61px;
+}
+
+.block2 .container2 .footer .box2 .list{
+	width: 81px;
+	height: 140px;
+	float: left;
+	position: absolute;
+	top: 725px;
+	left: 470px;
+}
+
+.block2 .container2 .footer .box2 .list li{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFFFFF;
+	
+}
+
+.box3{
+	width: 1180px;
+	height: 100px;
+
+}
+
+.block2 .container2 .footer .box3 .text1{
+	height: 20px;
+	width: 234px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 35px 0px 0px 0px;
+	float: left;
+}
+
+.block2 .container2 .footer .box3 .text2{
+	height: 20px;
+	width: 234px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 35px 0px 0px 122px;
+	float: left;
+}
+
+.block2 .container2 .footer .box3 .btn1{
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background: black;
+	margin: 25px 0px 0px 230px;
+}
+
+.block2 .container2 .footer .box3 .btn2{
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background: black;
+	margin: 25px 0px 0px 20px;
+}
+
+.block2 .container2 .footer .box3 .btn3{
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background: black;
+	margin: 25px 0px 0px 20px;
+}
+
+.block2 .container2 .footer .box3 .btn4{
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background: black;
+	margin: 25px 0px 0px 20px;
+}
+
+.block2 .container2 .footer .box3 .img1{
+	background: black;
+	height: 13px;
+	width: 22px;
+}
+.block2 .container2 .footer .box3 .img2{
+	background: black;
+}
+.block2 .container2 .footer .box3 .img3{
+	background: black;
+}
+.block2 .container2 .footer .box3 .img4{
+	background: black;
+}
+
+.box4{
+	width: 1180px;
+	height: 20px;
+}
+
+.block2 .container2 .footer .box4 .text1{
+	width: 1180px;
+	height: 20px;
+	left: 130px;
+	top: 7697px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.bonus{
+	width: 1180px;
+	height: 383px;	
+}
+
+.bonus .text1{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 35px;
+	color: #FFFFFF;	
+	margin: 25px 0px 0px 192px;
+}
+
+.bonus .text2{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 35px;
+	color: #FFFFFF;	
+	margin: 25px 0px 0px 192px;
+	width: 679px;
+	height: 40px;
+}
+
+.bonus .text3{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 50px 0px 0px 192px;
+}
+
+.bonus .input_text{
+	width: 340px;
+	height: 40px;
+	background: #F2F1ED;
+	border-radius: 20px;	
+}
+
+.bonus .input_submit{
+	width: 130px;
+	height: 40px;
+	border: 2px solid #F69B03;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background: none;
+	margin-left: 5px;
+}
+
+.bonus .text4{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 30px 0px 0px 192px;
 }

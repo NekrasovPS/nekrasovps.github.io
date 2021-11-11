@@ -1834,12 +1834,8 @@ body{
 	color: #FFFFFF;
 }
 
-.menu_btn_btn{
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	background: #961D2A;
-	border-radius: 10px;
+.burger-menu{
+	display: flex;
 }
 
 .menu-btn{

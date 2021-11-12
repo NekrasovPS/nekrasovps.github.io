@@ -83,7 +83,6 @@ body{
 	height: 60px;
 	background: #101010;
 	border-radius: 10px;
-	color: white;
 	float: left;
 	margin: 73px 0px 0px 37px;
 
@@ -675,14 +674,12 @@ body{
 	left: 68px;
 }
 
-.menubox .spisok_menu{
+
+
+.menubox .spisok_menu li a{
 	position: absolute;
 	top: 358px;
 	left: 103px;
-
-}
-
-.menubox .spisok_menu li{
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;

@@ -65,7 +65,6 @@
 }
 
 
-
 @font-face {
     font-family: 'Gilroy';
     src: url('Gilroy-Extrabold.eot');
@@ -92,7 +91,7 @@ body{
 }
 
 .block1{
-	width: 1440px;
+	width: 100%;
 	height: 857px;
 }
 
@@ -100,8 +99,8 @@ body{
 
 .container1{
 	width: 1180px;
-	height: 857px;
-	margin: 0px 130px 0px 130px;
+	margin: 0px auto;
+	
 }
 
 .menu{
@@ -393,15 +392,14 @@ body{
 	float: left;
 }
 
-
 .block2{
-	width: 1440px;
+	width: 100%;
 }
 
 .container2{
 	width: 1180px;
 	height: 922px;
-	margin: 0px 130px 0px 130px;
+	margin: 0px auto;
 }
 
 .occasion{
@@ -653,14 +651,13 @@ body{
 }
 
 .block3{
-	width: 1440px;
+	width: 100%;
 	height: 1090px;
 }
 
 .container3{
 	width: 1180px;
-	height: 1090px;
-	margin: 0px 130px 0px 130px;
+	margin: 0px auto;
 }
 
 .block3 .container3 .box_black{
@@ -879,14 +876,14 @@ body{
 }
 
 .block4{
-	width: 1440px;
+	width: 100%;
 	height: 1046px;
 }
 
 .container4{
 	width: 1180px;
-	height: 1046px;
-	margin: 0px 130px 0px 130px;
+	margin: 0px auto;
+	
 }
 
 .block4 .container4 .box_black2{
@@ -1035,15 +1032,14 @@ body{
 }
 
 .block5{
-	width: 1440px;
+	width: 100%;
 	height: 1166px;
 
 }
 
 .container5{
 	width: 1180px;
-	height: 1166px;
-	margin: 15px 130px 0px 130px;
+	margin: 0px auto;
 }
 
 
@@ -1396,14 +1392,14 @@ body{
 
 
 .block6{
-	width: 1440px;
+	width: 100%;
 	height: 1080px;
 }
 
 .container6{
 	width: 1180px;
-	height: 1080px;
-	margin: 0px 130px 0px 130px;
+	margin: 0px auto;
+	
 }
 
 .block6 .container6 .buffer .buffer_text{
@@ -1642,15 +1638,15 @@ body{
 }
 
 .block7{
-	width: 1440px;
+	width: 100%;
 	height: 800px;
 
 }
 
 .container7{
 	width: 1180px;
-	height: 800px;
-	margin: 0px 130px 0px 130px;
+	margin: 0px auto;
+	
 }
 
 .company{
@@ -1730,15 +1726,15 @@ body{
 }
 
 .block8{
-	width: 1440px;
+	width: 100%;
 	height: 530px;
 	background: #101010;
 }
 
 .container8{
 	width: 1180px;
-	height: 530px;
-	margin: 0px 130px 0px 130px;
+	margin: 0px auto;
+	
 }
 
 .footer{
@@ -2139,7 +2135,7 @@ body{
 
 }
 
-.menubox .spisok_menu li{
+.menubox .spisok_menu li a{
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
@@ -2190,7 +2186,7 @@ position: absolute;
 	color: #FFFFFF;	
 }
 
-.menubox .btn_100{
+.menubox .a_100{
 	position: absolute;
 	width: 280px;
 	height: 75px;
@@ -2198,9 +2194,10 @@ position: absolute;
 	top: 700px;
 	background: #F69B03;
 	border-radius: 10px;
+
 }
 
-.menubox .btn_100 .text_100{
+.menubox .a_100 .text_100{
 	width: 196px;
 	height: 14px;
 	font-family: Gilroy;
@@ -2209,5 +2206,7 @@ position: absolute;
 	font-size: 18px;
 	line-height: 75%;
 	color: #101010;
-	margin: 0px 0px 0px 40px;
+	position: absolute;
+	left: 42px;
+	top: 30px;
 }

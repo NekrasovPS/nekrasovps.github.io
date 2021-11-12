@@ -1,3 +1,5 @@
+@import url("../fonts/stylesheet.css");
+
 body{
 	background: url("../img/bg/background1.png");
 	background-position: -469px 0px;
@@ -231,8 +233,14 @@ body{
 	background: none;
 	margin: 35px 0px 0px 0px;
 	float: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 75%;
+	color: white;
+	text-align: center;
 }
-
 
 
 .download .btn1 .img1{
@@ -242,20 +250,14 @@ body{
 	margin: 9px 0px 9px 20px;
 }
 
-
-
 .download .btn1 .text1{
-	width: 140px;
-	height: 11px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 75%;
-	color: white;
-	margin: 20px 0px 17px 61px;
+	margin-top: 19px;
 }
 
+.download .btn1:hover{
+	background: #fff;
+	color: #000;
+}
 
 .download .btn2{
 	height: 48px;
@@ -265,6 +267,12 @@ body{
 	background: none;
 	margin: 35px 0px 0px 10px;
 	float: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 75%;
+	color: #FFFFFF;	
 }
 
 .download .btn2 .img2{
@@ -275,15 +283,12 @@ body{
 }
 
 .download .btn2 .text2{
-	width: 179px;
-	height: 11px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 75%;
-	color: #FFFFFF;
 	margin: 20px 0px 0px 56px;
+}
+
+.download .btn2:hover{
+	background: #fff;
+	color: #000;
 }
 
 .download .text3{
@@ -447,7 +452,7 @@ body{
 
 .block2 .container2 .occasion .ellips .text1{
 	position: absolute;
-	width: 187px;
+	width: 188px;
 	height: 30px;
 	left: 311px;
 	top: 1112px;
@@ -504,7 +509,7 @@ body{
 
 .block2 .container2 .occasion .ellips .text5{
 	position: absolute;
-	width: 151px;
+	width: 152px;
 	height: 30px;
 	left: 483px;
 	top: 1326px;
@@ -702,7 +707,7 @@ body{
 
 .block3 .container3 .box_cooking .text3{
 	position: absolute;
-	width: 270px;
+	width: 275px;
 	height: 30px;
 	left: 130px;
 	top: 2710px;
@@ -744,7 +749,7 @@ body{
 
 .block3 .container3 .box_cooking .text6{
 	position: absolute;
-	width: 272px;
+	width: 286px;
 	height: 96px;
 	left: 530px;
 	top: 2740px;
@@ -952,16 +957,30 @@ body{
 	margin: 15px 130px 0px 130px;
 }
 
+
+
 .block5 .container5 .menu .row1 .btn1{
 	width: 93px;
 	height: 35px;
 	background: #FFFFFF;
 	border-radius: 5px;
 	margin-right: 10px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+	transition: all 200ms ease; 
 }
 
 .block5 .container5 .menu .row1 .btn1:hover{
 	background: #CCCCCC;
+}
+
+.block5 .container5 .menu .row1 .btn1:active{
+	background: #000;
+	color: #fff;
 }
 
 .block5 .container5 .menu .row1 .btn2{
@@ -970,10 +989,22 @@ body{
 	background: #FFFFFF;
 	border-radius: 5px;
 	margin-right: 10px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+	transition: all 200ms ease;
 }
 
 .block5 .container5 .menu .row1 .btn2:hover{
 	background: #CCCCCC;
+}
+
+.block5 .container5 .menu .row1 .btn2:active{
+	background: #000;
+	color: #fff;
 }
 
 .block5 .container5 .menu .row1 .btn3{
@@ -982,10 +1013,22 @@ body{
 	background: #FFFFFF;
 	border-radius: 5px;	
 	margin-right: 10px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+	transition: all 200ms ease;	
 }
 
 .block5 .container5 .menu .row1 .btn3:hover{
 	background: #CCCCCC;
+}
+
+.block5 .container5 .menu .row1 .btn3:active{
+	background: #000;
+	color: #fff;
 }
 
 .block5 .container5 .menu .row1 .btn4{
@@ -994,10 +1037,22 @@ body{
 	background: #FFFFFF;
 	border-radius: 5px;
 	margin-right: 10px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+	transition: all 200ms ease;	
 }
 
 .block5 .container5 .menu .row1 .btn4:hover{
 	background: #CCCCCC;
+}
+
+.block5 .container5 .menu .row1 .btn4:active{
+	background: #000;
+	color: #fff;
 }
 
 .block5 .container5 .menu .row1 .btn5{
@@ -1006,10 +1061,22 @@ body{
 	background: #FFFFFF;
 	border-radius: 5px;
 	margin-right: 10px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+	transition: all 200ms ease;	
 }
 
 .block5 .container5 .menu .row1 .btn5:hover{
 	background: #CCCCCC;
+}
+
+.block5 .container5 .menu .row1 .btn5:active{
+	background: #000;
+	color: #fff;
 }
 
 .block5 .container5 .menu .row1 .btn6{
@@ -1018,10 +1085,22 @@ body{
 	background: #FFFFFF;
 	border-radius: 5px;
 	margin-right: 10px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+	transition: all 200ms ease;	
 }
 
 .block5 .container5 .menu .row1 .btn6:hover{
 	background: #CCCCCC;
+}
+
+.block5 .container5 .menu .row1 .btn6:active{
+	background: #000;
+	color: #fff;
 }
 
 .block5 .container5 .menu .row1 .btn7{
@@ -1030,79 +1109,24 @@ body{
 	background: #FFFFFF;
 	border-radius: 5px;
 	margin-right: 10px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+	transition: all 200ms ease;	
 }
+
+
 
 .block5 .container5 .menu .row1 .btn7:hover{
 	background: #CCCCCC;
 }
 
-.block5 .container5 .menu .row1 .btn1 .text1{
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-}
-
-.block5 .container5 .menu .row1 .btn2 .text2{
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-
-}
-
-.block5 .container5 .menu .row1 .btn3 .text3{
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-
-}
-
-.block5 .container5 .menu .row1 .btn4 .text4{
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-
-}
-
-.block5 .container5 .menu .row1 .btn5 .text5{
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-
-}
-
-.block5 .container5 .menu .row1 .btn6 .text6{
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-
-}
-
-.block5 .container5 .menu .row1 .btn7 .text7{
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-
+.block5 .container5 .menu .row1 .btn7:active{
+	background: #000;
+	color: #fff;
 }
 
 .block5 .container5 .menu .row23{
@@ -1897,7 +1921,6 @@ body{
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition-duration: .25s;
   z-index: 6;
-  overflow: hidden;
 }
 
 #menu-toggle{
@@ -1918,8 +1941,8 @@ body{
 #menu-toggle:checked ~ .menubox{
   visibility: visible;
   right: 0;
-
 }
+
 
 .menubox .img1{
 	position: absolute;

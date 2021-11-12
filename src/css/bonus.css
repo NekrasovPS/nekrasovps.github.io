@@ -96,10 +96,15 @@ body{
 	float: left;
 }
 
-.block1 .container1 .menu .btn1 p{
+.block1 .container1 .menu .btn1 .text3{
 	width: 93px;
 	height: 12px;
-	margin: 25px 0px 20px 46px;
+	color: white;
+	margin: 22px 0px 20px 40px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
 }
 
 .burger-menu{
@@ -351,13 +356,13 @@ position: absolute;
 
 .block2{
 	width: 1440px;
-	height: 487px;
+	height: 530px;
 	background: #000;
 }
 
 .container2{
 	width: 1180px;
-	height: 487px;
+	height: 530px;
 	margin: 0px 130px 0px 130px;
 }
 
@@ -470,7 +475,7 @@ position: absolute;
 	height: 140px;
 	float: left;
 	position: absolute;
-	top: 725px;
+	top: 710px;
 	left: 470px;
 }
 
@@ -516,13 +521,22 @@ position: absolute;
 	float: left;
 }
 
+.box3 .btn_top{
+	width: 220px;
+	margin: 25px 0px 0px 780px;
+}
+
+.box3 .btn_top button{
+	margin-left: 12px;
+}
+
 .block2 .container2 .footer .box3 .btn1{
 	width: 40px;
 	height: 40px;
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 230px;
+	
 }
 
 .block2 .container2 .footer .box3 .btn2{
@@ -531,7 +545,7 @@ position: absolute;
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 20px;
+	
 }
 
 .block2 .container2 .footer .box3 .btn3{
@@ -540,7 +554,7 @@ position: absolute;
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 20px;
+	
 }
 
 .block2 .container2 .footer .box3 .btn4{
@@ -549,7 +563,7 @@ position: absolute;
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 20px;
+	
 }
 
 .block2 .container2 .footer .box3 .img1{
@@ -603,7 +617,7 @@ position: absolute;
 .bonus .text2{
 	font-family: Gilroy;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 18px;
 	line-height: 35px;
 	color: #FFFFFF;	

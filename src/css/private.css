@@ -8,12 +8,12 @@ body{
 
 .block1{
 	width: 1440px;
-	height: 977px;
+	height: 1050px;
 }
 
 .container1{
 	width: 1180px;
-	height: 977px;
+	height: 1050px;
 	margin: 0px 130px 0px 130px;
 }
 
@@ -86,6 +86,7 @@ body{
 	color: white;
 	float: left;
 	margin: 73px 0px 0px 37px;
+
 }
 
 
@@ -95,10 +96,15 @@ body{
 	float: left;
 }
 
-.block1 .container1 .menu .btn1 p{
+.block1 .container1 .menu .btn1 .text3{
 	width: 93px;
 	height: 12px;
-	margin: 25px 0px 20px 46px;
+	margin: 22px 0px 0px 40px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: white;
 }
 
 
@@ -138,7 +144,7 @@ body{
 
 .block1 .container1 .private__form .text3{
 	height: 20px;
-	width: 100px;
+	width: 112px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
@@ -152,7 +158,7 @@ body{
 
 .block1 .container1 .private__form .text4{
 	height: 20px;
-	width: 40px;
+	width: 42px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
@@ -164,7 +170,7 @@ body{
 
 .block1 .container1 .private__form .text5{
 	height: 20px;
-	width: 342px;
+	width: 355px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
@@ -258,13 +264,13 @@ body{
 
 .block2{
 	width: 1440px;
-	height: 487px;
+	height: 535px;
 	background: #000;
 }
 
 .container2{
 	width: 1180px;
-	height: 487px;
+	height: 535px;
 	margin: 0px 130px 0px 130px;
 }
 
@@ -377,7 +383,7 @@ body{
 	height: 140px;
 	float: left;
 	position: absolute;
-	top: 1100px;
+	top: 1090px;
 	left: 470px;
 }
 
@@ -423,14 +429,25 @@ body{
 	float: left;
 }
 
+.box3 .btn_top{
+	width: 220px;
+	margin: 25px 0px 0px 780px;
+}
+
+.box3 .btn_top button{
+	margin-left: 12px;
+}
+
+
 .block2 .container2 .footer .box3 .btn1{
 	width: 40px;
 	height: 40px;
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 230px;
+	
 }
+
 
 .block2 .container2 .footer .box3 .btn2{
 	width: 40px;
@@ -438,7 +455,7 @@ body{
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 20px;
+	
 }
 
 .block2 .container2 .footer .box3 .btn3{
@@ -447,7 +464,6 @@ body{
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 20px;
 }
 
 .block2 .container2 .footer .box3 .btn4{
@@ -456,7 +472,7 @@ body{
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 20px;
+	
 }
 
 .block2 .container2 .footer .box3 .img1{

@@ -1,5 +1,90 @@
 @import url("../fonts/stylesheet.css");
 
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Regular.woff2') format('woff2'),
+        url('Gilroy-Regular.woff') format('woff'),
+        url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Black.eot');
+    src: local('Gilroy Black'), local('Gilroy-Black'),
+        url('Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Black.woff2') format('woff2'),
+        url('Gilroy-Black.woff') format('woff'),
+        url('Gilroy-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Light.eot');
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+        url('Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Light.woff2') format('woff2'),
+        url('Gilroy-Light.woff') format('woff'),
+        url('Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Medium.woff2') format('woff2'),
+        url('Gilroy-Medium.woff') format('woff'),
+        url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Extrabold.eot');
+    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+        url('Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Extrabold.woff2') format('woff2'),
+        url('Gilroy-Extrabold.woff') format('woff'),
+        url('Gilroy-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
 body{
 	background: url("../img/bg/background1.png");
 	background-position: -469px 0px;
@@ -85,9 +170,8 @@ body{
 	height: 60px;
 	background: #101010;
 	border-radius: 10px;
-	color: white;
 	float: left;
-	margin: 73px 0px 0px 37px;
+	margin: 73px 0px 0px 37px;	
 }
 
 
@@ -97,10 +181,15 @@ body{
 	float: left;
 }
 
-.block1 .container1 .menu .btn1 p{
+.block1 .container1 .menu .btn1 .text3{
 	width: 93px;
 	height: 12px;
-	margin: 25px 0px 20px 46px;
+	margin: 22px 0px 0px 40px;
+	font-size: 14px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;	
+	color: #fff;
 }
 
 
@@ -1282,6 +1371,12 @@ body{
 	border-radius: 5px;
 	background: #F69B03;
 	margin: 133px 0px 0px 56px;
+	color: black;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 100%;	
 }
 
 .block5 .container5 .menu .row23 .btn2{
@@ -1290,6 +1385,12 @@ body{
 	border-radius: 5px;
 	background: #F69B03;
 	margin: 63px 0px 0px 56px;
+	color: black;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 100%;	
 }
 
 
@@ -1325,7 +1426,7 @@ body{
 }
 
 .block6 .container6 .buffet .buffet_text .text2{
-	width: 610px;
+	width: 683px;
 	height: 136px;
 	font-family: Gilroy;
 	font-style: normal;
@@ -1630,13 +1731,13 @@ body{
 
 .block8{
 	width: 1440px;
-	height: 487px;
+	height: 530px;
 	background: #101010;
 }
 
 .container8{
 	width: 1180px;
-	height: 487px;
+	height: 530px;
 	margin: 0px 130px 0px 130px;
 }
 
@@ -1798,7 +1899,7 @@ body{
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 230px;
+	
 }
 
 .block8 .container8 .footer .box3 .btn2{
@@ -1807,7 +1908,7 @@ body{
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 20px;
+	
 }
 
 .block8 .container8 .footer .box3 .btn3{
@@ -1816,7 +1917,7 @@ body{
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 20px;
+	
 }
 
 .block8 .container8 .footer .box3 .btn4{
@@ -1825,13 +1926,12 @@ body{
 	border: 1px solid white;
 	border-radius: 20px;
 	background: black;
-	margin: 25px 0px 0px 20px;
+	
 }
 
 .block8 .container8 .footer .box3 .img1{
 	background: black;
-	height: 13px;
-	width: 22px;
+
 }
 .block8 .container8 .footer .box3 .img2{
 	background: black;
@@ -1841,6 +1941,15 @@ body{
 }
 .block8 .container8 .footer .box3 .img4{
 	background: black;
+}
+
+.box3 .btn_top{
+	width: 220px;
+	margin: 25px 0px 0px 780px;
+}
+
+.box3 .btn_top button{
+	margin-left: 12px;
 }
 
 .box4{

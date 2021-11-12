@@ -490,7 +490,16 @@ body{
 	color: #FFFFFF;
 }
 
-
+.burger-menu{
+	width: 60px;
+	height: 60px;
+	background: #961D2A;
+	border-radius: 10px;
+	position: absolute;
+	top: 73px;
+	left: 1240px;
+	z-index: 9;
+}
 
 .menu-btn{
   align-items: center;
@@ -498,8 +507,8 @@ body{
   width: 26px;
   height: 26px;
   cursor: pointer;
-  top: 100px;
-  right: 150px;
+  top: 30px;
+  left: 17px;
   z-index: 10;
 }
  

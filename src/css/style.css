@@ -9,6 +9,8 @@ body{
 	height: 857px;
 }
 
+
+
 .container1{
 	width: 1180px;
 	height: 857px;
@@ -296,6 +298,7 @@ body{
 	margin: 38px 0px 0px 20px;
 	float: left;
 }
+
 
 .block2{
 	width: 1440px;
@@ -1835,7 +1838,14 @@ body{
 }
 
 .burger-menu{
-	display: flex;
+	width: 60px;
+	height: 60px;
+	background: #961D2A;
+	border-radius: 10px;
+	position: absolute;
+	top: 73px;
+	left: 1240px;
+	z-index: 9;
 }
 
 .menu-btn{
@@ -1844,8 +1854,8 @@ body{
   width: 26px;
   height: 26px;
   cursor: pointer;
-  top: 100px;
-  right: 150px;
+  top: 30px;
+  left: 17px;
   z-index: 10;
 }
  
@@ -1887,6 +1897,7 @@ body{
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition-duration: .25s;
   z-index: 6;
+  overflow: hidden;
 }
 
 #menu-toggle{
@@ -1904,12 +1915,10 @@ body{
   top: 0;
   transform: rotate(90deg);
 }
-#menu-toggle:checked ~ body{
-	scroll-behavior: none;
-} 
 #menu-toggle:checked ~ .menubox{
   visibility: visible;
   right: 0;
+
 }
 
 .menubox .img1{
@@ -1920,9 +1929,6 @@ body{
 	left: 67px;
 
 }
-
-
-
 
 .menubox .text_menu{
 	height: 33px;

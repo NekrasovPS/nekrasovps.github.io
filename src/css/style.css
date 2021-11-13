@@ -90,6 +90,7 @@ body{
 	background-repeat: repeat-y;
 }
 
+
 .block1{
 	width: 100%;
 	height: 857px;
@@ -98,7 +99,7 @@ body{
 
 
 .container1{
-	width: 1180px;
+	max-width: 1180px;
 	margin: 0px auto;
 	
 }
@@ -208,7 +209,7 @@ body{
 	position: absolute;
 	width: 455px;
 	height: 455px;
-	left: 755px;
+	left: 730px;
 	top: 25px;
 	border-radius: 300px;
 	filter: drop-shadow(1px 4px 56px rgba(0, 0, 0, 0.7));
@@ -440,8 +441,8 @@ body{
 
 .block2 .container2 .occasion .img3{
 	position: absolute;
-	width: 441px;
-	height: 407px;
+	width: 400px;
+	height: 400px;
 	left: 770px;
 	top: 522px;
 	animation: spin3 20s linear 0s infinite;
@@ -743,7 +744,7 @@ body{
 
 .block3 .container3 .box_cooking .roll{
 	position: absolute;
-	width: 756px;
+	width: 700px;
 	height: 501px;
 	left: 554px;
 	top: -10px;
@@ -1537,7 +1538,7 @@ body{
 }
 
 .block7 .container7 .company .text{
-	width: 1232px;
+	width: 1190px;
 	height: 300px;
 	font-family: Gilroy;
 	font-style: normal;
@@ -1927,6 +1928,7 @@ body{
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition-duration: .25s;
   z-index: 6;
+  overflow-y: scroll;
 }
 
 #menu-toggle{

@@ -4,7 +4,104 @@
 		background-position: -420px 0px;
 		background-repeat: repeat-y;	
 	}
-
-
 			
+}
+
+@media(max-width: 1440px){
+	.block1 .container1 .home .img1{
+		left: 710px;
+		width: 430px;
+		height: 430px;
+	}
+
+	.block1 .container1 .home .img2{
+		left: 700px;
+	}
+
+	.block1 .container1 .home .img3{
+		left: 680px;
+	}
+
+	.block1 .container1 .home .img5{
+		left: 1090px;
+	}
+
+	.block2 .container2 .occasion .img3{
+		width: 350px;
+		height: 350px;
+	}
+
+	.block3 .container3 .box_cooking .roll{
+		width: 650px;
+	}
+
+	.block6 .container6 .buffet .text2 {
+		width: 637px;
+}
+
+@media(max-width: 1280px){
+	.block1 .container1 .home .img1{
+		left: 710px;
+		width: 410px;
+		height: 410px;
+	}	
+}
+
+@media(max-width: 1200px){
+	.block6 .container6 .buffet .img11{
+		visibility: hidden;
+	}
+
+	.block6 .container6 .buffet .img6{
+		left: 900px;
+	}
+
+	.block6 .container6 .buffet .text2{
+		left: 530px;
+	}
+
+	.block7 .container7 .company .text{
+		width: 1187px;
+		font-size: 99px;
+	}
+
+	.block3 .container3 .box_cooking .roll{
+		width: 620px;
+		height: 450px;
+		top: 20px;
+	}
+
+	.block1 .container1 .home .img2{
+		height: 85%;
+	}
+
+	.block1 .container1 .home .img1{
+		width: 380px;
+		height: 380px;
+		top: 50px;
+
+	}
+
+	.block1 .container1 .home .img6{
+		visibility: hidden;
+	}
+
+	.block2 .container2 .occasion .img3{
+		width: 320px;
+		height: 320px;
+		top: 530px;
+	}
+
+	.block1 .container1 .home .img5{
+		left: 1035px;
+		top: 330px;
+	}
+
+	.block3 .container3 .box_black .vector4{
+		left: 1160px;
+	}
+
+	.block3 .container3 .box_black .vector1{
+		left: 698px;
+	}
 }

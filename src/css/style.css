@@ -106,6 +106,7 @@ body{
 .menu{
 	width: 1180px;
 	height: 157px;
+	position: relative;
 	
 }
 
@@ -199,6 +200,7 @@ body{
 	height: 610px;
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
+	position: relative;
 
 }
 
@@ -206,8 +208,8 @@ body{
 	position: absolute;
 	width: 455px;
 	height: 455px;
-	left: 880px;
-	top: 220px;
+	left: 755px;
+	top: 25px;
 	border-radius: 300px;
 	filter: drop-shadow(1px 4px 56px rgba(0, 0, 0, 0.7));
 	transform: matrix(0.86, -0.5, 0.5, 0.87, 0, 0);
@@ -221,14 +223,14 @@ body{
 
 .block1 .container1 .home .img2{
 	position: absolute;
-	top: 198px;
-	left: 887px;
+	top: 40px;
+	left: 730px;
 }
 
 .block1 .container1 .home .img3{
 	position: absolute;
-	left: 869px;
-	top: 175px;
+	left: 710px;
+	top: 20px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -246,22 +248,22 @@ body{
 
 .block1 .container1 .home .img4{
 	position: absolute;
-	left: 970px;
-	top: 590px;
+	left: 840px;
+	top: 390px;
 	animation: animate_reduce 1s infinite;
 }
 
 .block1 .container1 .home .img5{
 	position: absolute;
-	left: 1290px;
-	top: 490px;
+	left: 1150px;
+	top: 335px;
 	animation: animate_reduce 1s infinite;
 }
 
 .block1 .container1 .home .img6{
 	position: absolute;
-	left: 82px;
-	top: 219px;
+	left: -50px;
+	top: 50px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -394,16 +396,18 @@ body{
 
 .block2{
 	width: 100%;
+	height: 922px;
 }
 
 .container2{
 	width: 1180px;
-	height: 922px;
 	margin: 0px auto;
 }
 
 .occasion{
-
+	width: 1180px;
+	height: 922px;
+	position: relative;
 }
 
 .ellips{
@@ -414,8 +418,8 @@ body{
 	position: absolute;
 	width: 482px;
 	height: 498px;
-	top: 1200px;
-	left: 565px;
+	top: 325px;
+	left: 435px;
 	animation: spin2 20s linear 0s infinite;
 }
 
@@ -428,8 +432,8 @@ body{
 	position: absolute;
 	height: 517.846778686329px;
 	width: 725.8260061507623px;
-	left: 404.518310546875px;
-	top: 1098.14404296875px;
+	left: 274px;
+	top: 250px;
 	border-radius: 0px;
 	transform: matrix(1, 0.1, 0.1, 1, 0, 0);
 }
@@ -438,8 +442,8 @@ body{
 	position: absolute;
 	width: 441px;
 	height: 407px;
-	left: 900px;
-	top: 1340px;
+	left: 770px;
+	top: 522px;
 	animation: spin3 20s linear 0s infinite;
 }
 
@@ -452,8 +456,8 @@ body{
 	position: absolute;
 	width: 442px;
 	height: 300px;
-	left: 788px;
-	top: 1024px;
+	left: 658px;
+	top: 174px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 900;
@@ -467,8 +471,8 @@ body{
 	position: absolute;
 	width: 295px;
 	height: 33px;
-	left: 955px;
-	top: 1351px;
+	left: 825px;
+	top: 501px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
@@ -481,40 +485,40 @@ body{
 	position: absolute;
 	width: 260px;
 	height: 260px;
-	left: 271px;
-	top: 1044px;
+	left: 141px;
+	top: 194px;
 }
 
 .block2 .container2 .occasion .ellips .ell2{
 	position: absolute;
 	width: 250px;
 	height: 250px;
-	left: 173px;
-	top: 1295px;
+	left: 43px;
+	top: 445px;
 }
 
 .block2 .container2 .occasion .ellips .ell3{
  	position: absolute;
  	width: 240px;
 	height: 240px;
-	left: 448px;
-	top: 1260px;
+	left: 318px;
+	top: 410px;
 }
 
 .block2 .container2 .occasion .ellips .ell4{
 	position: absolute;
 	width: 230px;
 	height: 230px;
-	left: 357px;
-	top: 1489px;
+	left: 227px;
+	top: 639px;
 }
 
 .block2 .container2 .occasion .ellips .vec1{
 	position: absolute;
 	height: 29px;
 	width: 30px;
-	left: 879px;
-	top: 1316px;
+	left: 749px;
+	top: 466px;
 	animation: animate_reduce 1s infinite;
 
 }
@@ -523,8 +527,8 @@ body{
 	position: absolute;
 	height: 20px;
 	width: 20px;
-	left: 880px;
-	top: 1597px;
+	left: 750px;
+	top: 700px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -532,8 +536,8 @@ body{
 	position: absolute;
 	height: 29px;
 	width: 28px;
-	left: 1040px;
-	top: 1607px;
+	left: 910px;
+	top: 792px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -541,8 +545,8 @@ body{
 	position: absolute;
 	width: 188px;
 	height: 30px;
-	left: 311px;
-	top: 1112px;
+	left: 181px;
+	top: 262px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 999;
@@ -556,8 +560,8 @@ body{
 	position: absolute;
 	width: 202px;
 	height: 96px;
-	left: 312px;
-	top: 1149px;
+	left: 181px;
+	top: 299px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -570,8 +574,8 @@ body{
 	position: absolute;
 	width: 95px;
 	height: 30px;
-	left: 210px;
-	top: 1365px;
+	left: 80px;
+	top: 515px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 999;
@@ -584,8 +588,8 @@ body{
 	position: absolute;
 	width: 203px;
 	height: 72px;
-	left: 210px;
-	top: 1402px;
+	left: 80px;
+	top: 552px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -598,8 +602,8 @@ body{
 	position: absolute;
 	width: 152px;
 	height: 30px;
-	left: 483px;
-	top: 1326px;
+	left: 353px;
+	top: 476px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 999;
@@ -612,8 +616,8 @@ body{
 	position: absolute;
 	width: 203px;
 	height: 72px;
-	left: 483px;
-	top: 1363px;
+	left: 353px;
+	top: 513px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -626,8 +630,8 @@ body{
 	position: absolute;
 	width: 122px;
 	height: 30px;
-	left: 393px;
-	top: 1551px;
+	left: 263px;
+	top: 701px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 999;
@@ -640,8 +644,8 @@ body{
 	position: absolute;
 	width: 215px;
 	height: 72px;
-	left: 393px;
-	top: 1588px;
+	left: 263px;
+	top: 738px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -652,7 +656,7 @@ body{
 
 .block3{
 	width: 100%;
-	height: 1090px;
+	height: 1130px;
 }
 
 .container3{
@@ -666,6 +670,7 @@ body{
 	background: #101010;
 	border-radius: 300px;
 	margin-top: 130px;
+	position: relative;
 }
 
 .block3 .container3 .box_black .text1{
@@ -698,8 +703,8 @@ body{
 	position: absolute;
 	height: 138px;
 	width: 479px;
-	left: 835px;
-	top: 2130px;
+	left: 705px;
+	top: 222px;
 	
 }
 
@@ -707,16 +712,16 @@ body{
 	position: absolute;
 	height: 113px;
 	width: 120px;
-	left: 835px;
-	top: 2200px;
+	left: 705px;
+	top: 292px;
 }
 
 .block3 .container3 .box_black .vector3{
 	position: absolute;
 	height: 30px;
 	width: 29px;
-	left: 1305px;
-	top: 2150px;
+	left: 924px;
+	top: 294px;
 	animation: animate_reduce 1s infinite;
 
 }
@@ -725,17 +730,23 @@ body{
 	position: absolute;
 	height: 23px;
 	width: 22px;
-	left: 1073px;
-	top: 2225px;
+	left: 1170px;
+	top: 233px;
 	animation: animate_reduce 1s infinite;
+}
+
+.block3 .container3 .box_cooking{
+	width: 1180px;
+	height: 784px;
+	position: relative;
 }
 
 .block3 .container3 .box_cooking .roll{
 	position: absolute;
 	width: 756px;
 	height: 501px;
-	left: 684px;
-	top: 2240px;
+	left: 554px;
+	top: -10px;
 }
 
 
@@ -749,7 +760,10 @@ body{
 	font-size: 100px;
 	line-height: 100%;
 	color: #FFFFFF;
-	margin: 114px 0px 0px 0px;
+	position: absolute;
+	top: 114px;
+	left: 0px;
+	
 }
 
 .block3 .container3 .box_cooking .text2{
@@ -761,15 +775,17 @@ body{
 	font-size: 26px;
 	line-height: 125%;
 	color: #FFFFFF;
-	margin: 24px 0px 0px 0px;
+	position: absolute;
+	top: 338px;
+	left: 0px;
 }
 
 .block3 .container3 .box_cooking .list1{
 	position: absolute;
 	height: 30px;
 	width: 30px;
-	left: 130px;
-	top: 2670px;
+	left: 0px;
+	top: 471px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -777,8 +793,8 @@ body{
 	position: absolute;
 	height: 30px;
 	width: 30px;
-	left: 530px;
-	top: 2670px;
+	left: 400px;
+	top: 471px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -786,8 +802,8 @@ body{
 	position: absolute;
 	height: 30px;
 	width: 30px;
-	left: 930px;
-	top: 2670px;
+	left: 800px;
+	top: 471px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -795,8 +811,8 @@ body{
 	position: absolute;
 	width: 275px;
 	height: 30px;
-	left: 130px;
-	top: 2710px;
+	left: 0px;
+	top: 521px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 900;
@@ -809,8 +825,8 @@ body{
 	position: absolute;
 	width: 270px;
 	height: 96px;
-	left: 130px;
-	top: 2740px;
+	left: 0px;
+	top: 558px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -823,8 +839,8 @@ body{
 	position: absolute;
 	width: 270px;
 	height: 30px;
-	left: 530px;
-	top: 2710px;
+	left: 400px;
+	top: 521px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 900;
@@ -837,8 +853,8 @@ body{
 	position: absolute;
 	width: 286px;
 	height: 96px;
-	left: 530px;
-	top: 2740px;
+	left: 400px;
+	top: 558px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -851,8 +867,8 @@ body{
 	position: absolute;
 	width: 285px;
 	height: 30px;
-	left: 930px;
-	top: 2710px;
+	left: 800px;
+	top: 521px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 900;
@@ -865,8 +881,8 @@ body{
 	position: absolute;
 	width: 284px;
 	height: 96px;
-	left: 930px;
-	top: 2740px;
+	left: 800px;
+	top: 558px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -891,28 +907,29 @@ body{
 	height: 600px;
 	background: #101010;
 	border-radius: 30px;
+	position: relative;
 }
 
 .block4 .container4 .box_black2 .vec1{
 	position: absolute;
-	top: 3025px;
-	left: 132px;
+	top: 60px;
+	left: 0px;
 }
 
 .block4 .container4 .box_black2 .vec2{
 	position: absolute;
 	width: 532px;
 	height: 400px;
-	top: 3100px;
-	left: 210px;
+	top: 115px;
+	left: 69px;
 }
 
 .block4 .container4 .box_black2 .vec3{
 	position: absolute;
 	height: 27px;
 	width: 27px;
-	left: 265px;
-	top: 3419px;
+	left: 102px;
+	top: 411px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -920,8 +937,8 @@ body{
 	position: absolute;
 	height: 27px;
 	width: 27px;
-	left: 839px;
-	top: 3058px;
+	left: 605px;
+	top: 530px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -929,8 +946,8 @@ body{
 	position: absolute;
 	height: 27px;
 	width: 27px;
-	left: 740px;
-	top: 3500px;
+	left: 1028px;
+	top: 492px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -938,8 +955,8 @@ body{
 	position: absolute;
 	height: 21px;
 	width: 21px;
-	left: 1181px;
-	top: 3477px;
+	left: 670px;
+	top: 55px;
 	animation: animate_reduce 1s infinite;
 }
 
@@ -973,8 +990,8 @@ body{
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	left: 170px;
-	top: 3276px;
+	left: 36px;
+	top: 293px;
 	border-radius: 20px;
 	background: none;
 }
@@ -993,8 +1010,8 @@ body{
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	left: 1250px;
-	top: 3276px;
+	left: 1120px;
+	top: 293px;
 	border-radius: 20px;
 	background: none;
 }
@@ -1042,182 +1059,41 @@ body{
 	margin: 0px auto;
 }
 
+.block5 .container5 .menu{
+	width: 1180px;
+	height: 50px;
+}
 
+.block5 .container5 .menu .row1 span{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: #000;
+	margin: 10px 20px 8px 20px;
+} 
 
-.block5 .container5 .menu .row1 .btn1{
-	width: 93px;
-	height: 35px;
+.block5 .container5 .menu .row1 ul li{
+	float: left;
 	background: #FFFFFF;
 	border-radius: 5px;
-	margin-right: 10px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-	transition: all 200ms ease; 
-}
-
-.block5 .container5 .menu .row1 .btn1:hover{
-	background: #CCCCCC;
-}
-
-.block5 .container5 .menu .row1 .btn1:active{
-	background: #000;
-	color: #fff;
-}
-
-.block5 .container5 .menu .row1 .btn2{
-	width: 93px;
 	height: 35px;
-	background: #FFFFFF;
-	border-radius: 5px;
 	margin-right: 10px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-	transition: all 200ms ease;
 }
 
-.block5 .container5 .menu .row1 .btn2:hover{
+.block5 .container5 .menu .row1 ul li:hover{
 	background: #CCCCCC;
-}
 
-.block5 .container5 .menu .row1 .btn2:active{
-	background: #000;
-	color: #fff;
-}
-
-.block5 .container5 .menu .row1 .btn3{
-	width: 177px;
-	height: 35px;
-	background: #FFFFFF;
-	border-radius: 5px;	
-	margin-right: 10px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-	transition: all 200ms ease;	
-}
-
-.block5 .container5 .menu .row1 .btn3:hover{
-	background: #CCCCCC;
-}
-
-.block5 .container5 .menu .row1 .btn3:active{
-	background: #000;
-	color: #fff;
-}
-
-.block5 .container5 .menu .row1 .btn4{
-	width: 93px;
-	height: 35px;
-	background: #FFFFFF;
-	border-radius: 5px;
-	margin-right: 10px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-	transition: all 200ms ease;	
-}
-
-.block5 .container5 .menu .row1 .btn4:hover{
-	background: #CCCCCC;
-}
-
-.block5 .container5 .menu .row1 .btn4:active{
-	background: #000;
-	color: #fff;
-}
-
-.block5 .container5 .menu .row1 .btn5{
-	width: 93px;
-	height: 35px;
-	background: #FFFFFF;
-	border-radius: 5px;
-	margin-right: 10px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-	transition: all 200ms ease;	
-}
-
-.block5 .container5 .menu .row1 .btn5:hover{
-	background: #CCCCCC;
-}
-
-.block5 .container5 .menu .row1 .btn5:active{
-	background: #000;
-	color: #fff;
-}
-
-.block5 .container5 .menu .row1 .btn6{
-	width: 93px;
-	height: 35px;
-	background: #FFFFFF;
-	border-radius: 5px;
-	margin-right: 10px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-	transition: all 200ms ease;	
-}
-
-.block5 .container5 .menu .row1 .btn6:hover{
-	background: #CCCCCC;
-}
-
-.block5 .container5 .menu .row1 .btn6:active{
-	background: #000;
-	color: #fff;
-}
-
-.block5 .container5 .menu .row1 .btn7{
-	width: 93px;
-	height: 35px;
-	background: #FFFFFF;
-	border-radius: 5px;
-	margin-right: 10px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 125%;
-	color: #101010;
-	transition: all 200ms ease;	
 }
 
 
 
-.block5 .container5 .menu .row1 .btn7:hover{
-	background: #CCCCCC;
-}
-
-.block5 .container5 .menu .row1 .btn7:active{
-	background: #000;
-	color: #fff;
-}
 
 .block5 .container5 .menu .row23{
 	width: 1180px;
 	height: 1054px;
 	margin-top: 38px;
+	float: left;
 }
 
 .block5 .container5 .menu .row23 .col1{
@@ -1393,7 +1269,7 @@ body{
 
 .block6{
 	width: 100%;
-	height: 1080px;
+	height: 1331px;
 }
 
 .container6{
@@ -1402,14 +1278,15 @@ body{
 	
 }
 
-.block6 .container6 .buffer .buffer_text{
+.block6 .container6 .buffet{
 	width: 1180px;
-	height: 1080px;
+	height: 1331px;
+	position: relative;
 }
 
 
 
-.block6 .container6 .buffet .buffet_text .text1{
+.block6 .container6 .buffet  .text1{
 	width: 861px;
 	height: 300px;
 	font-family: Gilroy;
@@ -1418,10 +1295,13 @@ body{
 	font-size: 100px;
 	line-height: 100%;
 	color: #FFFFFF;
-	margin-top: 130px;
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	
 }
 
-.block6 .container6 .buffet .buffet_text .text2{
+.block6 .container6 .buffet  .text2{
 	width: 683px;
 	height: 136px;
 	font-family: Gilroy;
@@ -1430,15 +1310,17 @@ body{
 	font-size: 26px;
 	line-height: 130%;
 	color: #FFFFFF;
-	margin: -10px 0px 0px 498px;
+	position: absolute;
+	top: 406px;
+	left: 552px;
 }
 
 .block6 .container6 .buffet .img8{
 	position: absolute;
 	height: 21px;
 	width: 21px;
-	left: 421px;
-	top: 5788px;
+	left: 0px;
+	top: 1055px;
 	transform: rotate(-16.17deg);
 	animation: animate_reduce 1s infinite;
 }
@@ -1447,8 +1329,8 @@ body{
 	position: absolute;
 	height: 21px;
 	width: 21px;
-	left: 1025px;
-	top: 5975px;
+	left: 850px;
+	top: 621px;
 	transform: rotate(-16.17deg);
 	animation: animate_reduce 1s infinite;
 }
@@ -1457,8 +1339,8 @@ body{
 	position: absolute;
 	height: 21px;
 	width: 21px;
-	left: 130px;
-	top: 6260px;
+	left: 290px;
+	top: 560px;
 	transform: rotate(-16.17deg);
 	animation: animate_reduce 1s infinite;
 }
@@ -1467,8 +1349,8 @@ body{
 	position: absolute;
 	height: 21px;
 	width: 21px;
-	left: 1300px;
-	top: 6100px;
+	left: 1170px;
+	top: 889px;
 	transform: rotate(-16.17deg);
 	animation: animate_reduce 1s infinite;
 }
@@ -1477,8 +1359,8 @@ body{
 .block6 .container6 .buffet .img1{
 	position: absolute;
 	height: 429.56px;
-	left: 437.13px;
-	top: 5770.71px;
+	left: 307px;
+	top: 543px;
 	transform: rotate(-14.65deg);
 }
 
@@ -1486,32 +1368,32 @@ body{
 	position: absolute;
 	width: 365px;
 	height: 365px;
-	left: 129.26px;
-	top: 5750px;
+	left: -1px;
+	top: 532px;
 }
 
 .block6 .container6 .buffet .img3{
 	position: absolute;
 	width: 400px;
 	height: 400px;
-	left: 568.26px;
-	top: 5900px;
+	left: 438px;
+	top: 636px;
 }
 
 .block6 .container6 .buffet .img4{
 	position: absolute;
 	width: 260px;
 	height: 260px;
-	left: 285.26px;
-	top: 6000px;
+	left: 153px;
+	top: 793px;
 }
 
 .block6 .container6 .buffet .img5{
 	position: absolute;
 	width: 260px;
 	height: 260px;
-	left: 544.26px;
-	top: 6170px;
+	left: 414px;
+	top: 941px;
 	
 }
 
@@ -1519,16 +1401,16 @@ body{
 	position: absolute;
 	width: 252px;
 	height: 240px;
-	left: 1070px;
-	top: 5840px;
+	left: 940px;
+	top: 641px;
 }
 
 .block6 .container6 .buffet .img7{
 	position: absolute;
 	width: 238px;
 	height: 239px;
-	left: 975px;
-	top: 6140px;	
+	left: 845px;
+	top: 913px;	
 }
 
 
@@ -1540,8 +1422,8 @@ body{
 	position: absolute;
 	width: 270.2px;
 	height: 60px;
-	left: 185.72px;
-	top: 5830px;
+	left: 50px;
+	top: 648px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 999;
@@ -1554,8 +1436,8 @@ body{
 	position: absolute;
 	width: 204.67px;
 	height: 72px;
-	left: 185.72px;
-	top: 5900px;
+	left: 50px;
+	top: 715px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -1569,8 +1451,8 @@ body{
 	position: absolute;
 	width: 319.38px;
 	height: 60px;
-	left: 620.65px;
-	top: 5990px;
+	left: 490px;
+	top: 768px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 999;
@@ -1584,8 +1466,8 @@ body{
 	position: absolute;
 	width: 198.48px;
 	height: 72px;
-	left: 620.65px;
-	top: 6060px;
+	left: 490px;
+	top: 838px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -1599,8 +1481,8 @@ body{
 	position: absolute;
 	width: 173.03px;
 	height: 96px;
-	left: 360px;
-	top: 6080px;
+	left: 210px;
+	top: 877px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -1613,8 +1495,8 @@ body{
 	position: absolute;
 	width: 174.98px;
 	height: 95px;
-	left: 600.91px;
-	top: 6260px;
+	left: 470px;
+	top: 1028px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
@@ -1627,8 +1509,8 @@ body{
 	position: absolute;
 	width: 316px;
 	height: 33px;
-	left: 164.26px;
-	top: 6300px;
+	left: 34px;
+	top: 1099px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
@@ -1639,7 +1521,7 @@ body{
 
 .block7{
 	width: 100%;
-	height: 800px;
+	height: 900px;
 
 }
 
@@ -1651,7 +1533,7 @@ body{
 
 .company{
 	width: 1180px;
-	height: 800px;
+	height: 900px;
 }
 
 .block7 .container7 .company .text{
@@ -1663,7 +1545,7 @@ body{
 	font-size: 100px;
 	line-height: 100%;
 	color: #FFFFFF;
-	margin: 100px 0px 0px -6px;
+	
 }
 
 .block7 .container7 .company .box{
@@ -1672,6 +1554,7 @@ body{
 	background: #101010;
 	border-radius: 300px;
 	margin: 78px 0px 0px 0px;
+	position: relative;
 }
 
 .block7 .container7 .company .box .img1{
@@ -1700,8 +1583,8 @@ body{
 
 .block7 .container7 .company .box .btn1{
 	position: absolute;
-	left: 165px;
-	top: 7070px;
+	left: 36.5px;
+	top: 168px;
 	width: 40px;
 	height: 40px;
 	background: none;
@@ -1711,8 +1594,8 @@ body{
 
 .block7 .container7 .company .box .btn2{
 	position: absolute;
-	left: 1240px;
-	top: 7070px;
+	left: 1110px;
+	top: 168px;
 	width: 40px;
 	height: 40px;
 	background: none;
@@ -1727,7 +1610,7 @@ body{
 
 .block8{
 	width: 100%;
-	height: 530px;
+	height: 487px;
 	background: #101010;
 }
 
@@ -1738,117 +1621,121 @@ body{
 }
 
 .footer{
-
-}
-
-.block8 .container8 .footer .box1{
 	width: 1180px;
-	height: 97px;
+	height: 487px;
+	
 }
 
-.block8 .container8 .footer .box1 .img1{
-	width: 110px;
-	height: 67px;
-	margin: 30px 0px 0px 2px;
-	float: left;
+.footer .box1{
+	width: 1180px;
+	height: 329px;
+	position: relative;
+	border-bottom: 1px solid #fff;
 }
 
-.block8 .container8 .footer .box1 .text1{
-	width: 143px;
-	height: 36px;
+.footer .box1 .logo{
+	position: absolute;
+	top: 30px;
+	left: 2px;
+}
+
+.footer .box1 .text1{
+	position: absolute;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 130%;
 	color: #FFFFFF;
-	float: left;
-	margin: 42px 0px 0px 30px;
+	width: 143px;
+	height: 36px;
+	top: 42px;
+	left: 142px;
 }
 
-.block8 .container8 .footer .box2{
-	width: 1180px;
-	height: 232px;
-	border-bottom: 1px solid white;
-}
-
-.block8 .container8 .footer .box2 .text2{
+.footer .box1 .text2{
+	position: absolute;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 130%;
+	color: #FFFFFF;
 	height: 20px;
 	width: 206px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-	color: #FFFFFF;
-	margin: 17px 0px 0px 5px;
+	top: 114px;
+	left: 5px;
 }
 
-.block8 .container8 .footer .box2 .btn1{
-	height: 48px;
+.footer .box1 .google{
+	position: absolute;
 	width: 220px;
+	height: 48px;
 	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
 	border-radius: 10px;
-	background: none;
-	margin: 20px 0px 0px 0px;
-}
-
-.block8 .container8 .footer .box2 .btn1 .imgbtn1{
-	width: 30px;
-	height: 30px;
-	float: left;
-	margin: 9px 0px 9px 20px;
-}
-
-.block8 .container8 .footer .box2 .btn1 .textbtn1{
-	width: 140px;
-	height: 11px;
+	top: 154px;
+	left: 3px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 75%;
-	color: white;
-	margin: 20px 0px 17px 61px;
+	color: #FFFFFF;
 }
 
-.block8 .container8 .footer .box2 .btn2{
-	height: 48px;
+.footer .box1 .google span{
+	position: absolute;
+	width: 139px;
+	height: 11px;
+	left: 60px;
+	top: 15px;
+}
+
+.footer .box1 .google img{
+	position: absolute;
+	top: 8px;
+	left: 15px;
+}
+
+.footer .box1 .app{
+	position: absolute;
 	width: 255px;
+	height: 48px;
 	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
 	border-radius: 10px;
-	background: none;
-	margin: 20px 0px 0px 0px;
+	top: 222px;
+	left: 3px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 75%;
+	color: #FFFFFF;
 }
 
-.block8 .container8 .footer .box2 .btn2 .imgbtn2{
-	width: 30px;
-	height: 30px;
-	float: left;
-	margin: 9px 0px 9px 20px;
-}
-
-.block8 .container8 .footer .box2 .btn2 .textbtn2{
+.footer .box1 .app span{
+	position: absolute;
 	width: 180px;
 	height: 11px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 75%;
-	color: white;
-	margin: 20px 0px 17px 61px;
+	left: 60px;
+	top: 15px;	
 }
 
-.block8 .container8 .footer .box2 .list{
+.footer .box1 .app img{
 	position: absolute;
-	width: 81px;
-	height: 140px;
-	left: 486px;
-	top: 7445px;
+	top: 8px;
+	left: 15px;
 }
 
-.block8 .container8 .footer .box2 .list li{
+.footer .spisok2{
+	position: absolute;
+	top: 114px;
+	left: 366px;
+}
+
+.footer .spisok2 a{
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
@@ -1857,113 +1744,127 @@ body{
 	color: #FFFFFF;
 }
 
-.box3{
+.footer .box2{
 	width: 1180px;
-	height: 100px;
-
+	height: 158px;
+	position: relative;
 }
 
-.block8 .container8 .footer .box3 .text1{
-	height: 20px;
-	width: 234px;
+.footer .box2 .text1{
+	position: absolute;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;
 	color: #FFFFFF;
-	margin: 35px 0px 0px 0px;
-	float: left;
+	top: 35px;
+	left: 0px;
+	height: 20px;
+  width: 234px;
 }
 
-.block8 .container8 .footer .box3 .text2{
-	height: 20px;
-	width: 234px;
+.footer .box2 .text2{
+	position: absolute;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;
 	color: #FFFFFF;
-	margin: 35px 0px 0px 122px;
-	float: left;
+	top: 35px;
+	left: 356px;
+	height: 20px;
+  width: 234px;
 }
 
-.block8 .container8 .footer .box3 .btn1{
+.footer .box2 .vk{
+	position: absolute;
 	width: 40px;
 	height: 40px;
-	border: 1px solid white;
+	background: #000000;
+	border: 1px solid #FFFFFF;
 	border-radius: 20px;
-	background: black;
-	
+	top: 25px;
+	left: 780px;
 }
 
-.block8 .container8 .footer .box3 .btn2{
+.footer .box2 .vk img{
+	position: absolute;
+	top: 11px;
+	left: 7px;
+}
+
+.footer .box2 .inst{
+	position: absolute;
 	width: 40px;
 	height: 40px;
-	border: 1px solid white;
+	background: #000000;
+	border: 1px solid #FFFFFF;
 	border-radius: 20px;
-	background: black;
-	
+	top: 25px;
+	left: 840px;
 }
 
-.block8 .container8 .footer .box3 .btn3{
+.footer .box2 .inst img{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.footer .box2 .book{
+	position: absolute;
 	width: 40px;
 	height: 40px;
-	border: 1px solid white;
+	background: #000000;
+	border: 1px solid #FFFFFF;
 	border-radius: 20px;
-	background: black;
-	
+	top: 25px;
+	left: 900px;
 }
 
-.block8 .container8 .footer .box3 .btn4{
+.footer .box2 .book img{
+	position: absolute;
+	top: 5px;
+	left: 12px;
+}
+
+.footer .box2 .twit{
+	position: absolute;
 	width: 40px;
 	height: 40px;
-	border: 1px solid white;
+	background: #000000;
+	border: 1px solid #FFFFFF;
 	border-radius: 20px;
-	background: black;
-	
+	top: 25px;
+	left: 960px;
 }
 
-.block8 .container8 .footer .box3 .img1{
-	background: black;
-
-}
-.block8 .container8 .footer .box3 .img2{
-	background: black;
-}
-.block8 .container8 .footer .box3 .img3{
-	background: black;
-}
-.block8 .container8 .footer .box3 .img4{
-	background: black;
+.footer .box2 .twit img{
+	position: absolute;
+	top: 10px;
+	left: 9px;
 }
 
-.box3 .btn_top{
+.footer .box2 .text3{
+	position: absolute;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;	
+	top: 85px;
+	left: 0px;
+}
+
+.btn_top{
 	width: 220px;
 	margin: 25px 0px 0px 780px;
 }
 
-.box3 .btn_top button{
+.btn_top button{
 	margin-left: 12px;
-}
-
-.box4{
-	width: 1180px;
-	height: 20px;
-}
-
-.block8 .container8 .footer .box4 .text1{
-	width: 1180px;
-	height: 20px;
-	left: 130px;
-	top: 7697px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: #FFFFFF;
 }
 
 .burger-menu{
@@ -1973,7 +1874,7 @@ body{
 	border-radius: 10px;
 	position: absolute;
 	top: 73px;
-	left: 1240px;
+	left: 1110px;
 	z-index: 9;
 }
 

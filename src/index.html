@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=1440">
+	<meta name="viewport" content="width=device-width">
 	<title>Брускетта</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -31,6 +31,7 @@
 			    <div class="menubox">
 			    	<img class="img1" src="img/logo.png" alt="">
 			    	<p class="text_menu">Профиль</p>
+			    	
 			    	<p class="private_href"><a href="private.html">Личный кабинет</a></p>
 			    	<p class="bonus_href"><a href="bonus.html">Реферальная и бонусная программа</a></p>
 			    	<p class="exit_href"><a href="#">Выход</a></p>
@@ -156,13 +157,15 @@
 		<div class="container5">
 			<div class="menu">
 				<div class="row1">
-					<button class="btn1"><span class="text1">Брускеты</span></button>
-					<button class="btn2"><span class="text2">Закуски</span></button>
-					<button class="btn3"><span class="text3">Закуски на шпажках</span></button>
-					<button class="btn4"><span class="text4">Кростини</span></button>
-					<button class="btn5"><span class="text5">Пинчос</span></button>
-					<button class="btn6"><span class="text6">Салаты</span></button>
-					<button class="btn7"><span class="text7">Хиты</span></button>
+					<ul>
+						<a href=""><li><span>Брускеты</span></li></a>
+						<a href=""><li><span>Закуски</span></li></a>
+						<a href=""><li><span>Закуски на шпажках</span></li></a>
+						<a href=""><li><span>Кростини</span></li></a>
+						<a href=""><li><span>Пинчос</span></li></a>
+						<a href=""><li><span>Салаты</span></li></a>
+						<a href=""><li><span>Хиты</span></li></a>
+					</ul>
 				</div>
 				<div class="row23">
 					<div class="col1">
@@ -232,10 +235,8 @@
 	<div class="block6">
 		<div class="container6">
 			<div class="buffet">
-				<div class="buffet_text">
-					<p class="text1">спланируйте фуршет, который запомнят</p>
-					<p class="text2">Welcome-зона на свадебной церемонии или кофе-брейк на конференции нуждаются в подготовке — рассчитайте правильное количество закусок и сделайте заказ заранее</p>
-				</div>
+				<p class="text1">спланируйте фуршет, который запомнят</p>
+				<p class="text2">Welcome-зона на свадебной церемонии или кофе-брейк на конференции нуждаются в подготовке — рассчитайте правильное количество закусок и сделайте заказ заранее</p>
 				<img class="img9" src="img/icon/Vector5.png" alt="">
 				<img class="img10" src="img/icon/Vector5.png" alt="">
 				<img class="img11" src="img/icon/Vector5.png" alt="">
@@ -276,40 +277,33 @@
 		<div class="container8">
 			<div class="footer">
 				<div class="box1">
-					<img class="img1" src="img/logo.png" alt="">
+					<img src="img/logo.png" alt="" class="logo">
 					<p class="text1">Сеть интернет-ресторанов в России</p>
+					<p class="text2">Скачайте приложение</p>
+					<a class="google" href="#">
+						<img src="img/icon/googleplay.png" alt="">
+						<span>Get it on Google Play</span>
+					</a>
+					<a class="app" href="#">
+						<img src="img/icon/AppStore.png" alt="">
+						<span>Download on the App Store</span>
+					</a>
+					<ul class="spisok2">
+						<li><a href="">О компании</a></li>
+						<li><a href="">Доставка</a></li>
+						<li><a href="">Отзывы</a></li>
+						<li><a href="">Вакансии</a></li>
+						<li><a href="">Как доехать</a></li>
+					</ul>
 				</div>
 				<div class="box2">
-					<p class="text2">Скачайте приложение</p>
-				<button class="btn1">
-					<img class="imgbtn1" src="img/icon/googleplay.png" alt="">
-					<p class="textbtn1">Get it on Google Play</p>
-				</button>
-				<br>
-				<button class="btn2">
-					<img class="imgbtn2" src="img/icon/AppStore.png" alt="">
-					<p class="textbtn2">Download on the App Store</p>
-				</button>
-				<ul class="list">
-					<li>О компании</li>
-					<li>Доставка</li>
-					<li>Отзывы</li>
-					<li>Вакансии</li>
-					<li>Как доехать</li>
-				</ul>
-				</div>
-				<div class="box3">
 					<p class="text1">© 2020, Название</p>
 					<p class="text2">Условия использования</p>
-					<div class="btn_top">
-						<button class="btn1"><img class="img1" src="img/icon/vk.png" alt=""></button>
-						<button class="btn2"><img class="img2" src="img/icon/inst.png" alt=""></button>
-						<button class="btn3"><img class="img3" src="img/icon/facebook.png" alt=""></button>
-						<button class="btn4"><img class="img4" src="img/icon/twitter.png" alt=""></button>
-					</div>
-				</div>
-				<div class="box4">
-					<p class="text1">Мы используем cookies для быстрой и удобной работы сайта. Продолжая пользоваться сайтом, вы принимаете условия обработки персональных данных</p>
+					<a href="" class="vk"><img src="img/icon/vk.png" alt=""></a>
+					<a href="" class="inst"><img src="img/icon/inst.png" alt=""></a>
+					<a href="" class="book"><img src="img/icon/facebook.png" alt=""></a>
+					<a href="" class="twit"><img src="img/icon/twitter.png" alt=""></a>
+					<p class="text3">Мы используем cookies для быстрой и удобной работы сайта. Продолжая пользоваться сайтом, вы принимаете условия обработки персональных данных</p>
 				</div>
 			</div>
 		</div>

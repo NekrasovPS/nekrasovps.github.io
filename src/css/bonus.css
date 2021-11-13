@@ -2,24 +2,27 @@
 
 body{
 	background: url("../img/bg/background1.png");
-	background-position: -469px 0px;
+	background-position: -420px 0px;
 	background-repeat: repeat-y;
 }
 
 .block1{
-	width: 1440px;
-	height: 600px;
+	width: 100%;
+	height: 157px;
 }
+
+
 
 .container1{
 	width: 1180px;
-	height: 600px;
-	margin: 0px 130px 0px 130px;
+	margin: 0px auto;
+	
 }
 
 .menu{
 	width: 1180px;
 	height: 157px;
+	position: relative;
 	border-bottom: 1px solid #fff;
 	
 }
@@ -84,9 +87,8 @@ body{
 	height: 60px;
 	background: #101010;
 	border-radius: 10px;
-	color: white;
 	float: left;
-	margin: 73px 0px 0px 37px;
+	margin: 73px 0px 0px 37px;	
 }
 
 
@@ -99,12 +101,12 @@ body{
 .block1 .container1 .menu .btn1 .text3{
 	width: 93px;
 	height: 12px;
-	color: white;
-	margin: 22px 0px 20px 40px;
+	margin: 22px 0px 0px 40px;
+	font-size: 14px;
 	font-family: Gilroy;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
+	font-weight: normal;	
+	color: #fff;
 }
 
 .burger-menu{
@@ -114,7 +116,7 @@ body{
 	border-radius: 10px;
 	position: absolute;
 	top: 73px;
-	left: 1240px;
+	left: 1110px;
 	z-index: 9;
 }
 
@@ -184,13 +186,11 @@ body{
   top: 0;
   transform: rotate(90deg);
 }
-#menu-toggle:checked ~ body{
-	scroll-behavior: none;
-} 
 #menu-toggle:checked ~ .menubox{
   visibility: visible;
   right: 0;
 }
+
 
 .menubox .img1{
 	position: absolute;
@@ -200,9 +200,6 @@ body{
 	left: 67px;
 
 }
-
-
-
 
 .menubox .text_menu{
 	height: 33px;
@@ -281,7 +278,7 @@ body{
 
 }
 
-.menubox .spisok_menu li{
+.menubox .spisok_menu li a{
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
@@ -332,7 +329,7 @@ position: absolute;
 	color: #FFFFFF;	
 }
 
-.menubox .btn_100{
+.menubox .a_100{
 	position: absolute;
 	width: 280px;
 	height: 75px;
@@ -340,9 +337,10 @@ position: absolute;
 	top: 700px;
 	background: #F69B03;
 	border-radius: 10px;
+
 }
 
-.menubox .btn_100 .text_100{
+.menubox .a_100 .text_100{
 	width: 196px;
 	height: 14px;
 	font-family: Gilroy;
@@ -351,314 +349,343 @@ position: absolute;
 	font-size: 18px;
 	line-height: 75%;
 	color: #101010;
-	margin: 0px 0px 0px 40px;
+	position: absolute;
+	left: 42px;
+	top: 30px;
 }
 
 .block2{
-	width: 1440px;
-	height: 530px;
-	background: #000;
+	width: 100%;
+	height: 487px;
+	background: #101010;
 }
 
 .container2{
 	width: 1180px;
-	height: 530px;
-	margin: 0px 130px 0px 130px;
+	margin: 0px auto;
+	
 }
 
 .footer{
-
-}
-
-.block2 .container2 .footer .box1{
 	width: 1180px;
-	height: 97px;
+	height: 487px;
+	
 }
 
-.block2 .container2 .footer .box1 .img1{
-	width: 110px;
-	height: 67px;
-	margin: 30px 0px 0px 2px;
-	float: left;
+.footer .box1{
+	width: 1180px;
+	height: 329px;
+	position: relative;
+	border-bottom: 1px solid #fff;
 }
 
-.block2 .container2 .footer .box1 .text1{
-	width: 143px;
-	height: 36px;
+.footer .box1 .logo{
+	position: absolute;
+	top: 30px;
+	left: 2px;
+}
+
+.footer .box1 .text1{
+	position: absolute;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 130%;
 	color: #FFFFFF;
-	float: left;
-	margin: 42px 0px 0px 30px;
+	width: 143px;
+	height: 36px;
+	top: 42px;
+	left: 142px;
 }
 
-.block2 .container2 .footer .box2{
-	width: 1180px;
-	height: 232px;
-	border-bottom: 1px solid white;
-}
-
-.block2 .container2 .footer .box2 .text2{
+.footer .box1 .text2{
+	position: absolute;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 130%;
+	color: #FFFFFF;
 	height: 20px;
 	width: 206px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-	color: #FFFFFF;
-	margin: 17px 0px 0px 5px;
+	top: 114px;
+	left: 5px;
 }
 
-.block2 .container2 .footer .box2 .btn1{
-	height: 48px;
+.footer .box1 .google{
+	position: absolute;
 	width: 220px;
+	height: 48px;
 	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
 	border-radius: 10px;
-	background: none;
-	margin: 20px 0px 0px 0px;
-}
-
-.block2 .container2 .footer .box2 .btn1 .imgbtn1{
-	width: 30px;
-	height: 30px;
-	float: left;
-	margin: 9px 0px 9px 20px;
-}
-
-.block2 .container2 .footer .box2 .btn1 .textbtn1{
-	width: 140px;
-	height: 11px;
+	top: 154px;
+	left: 3px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 75%;
-	color: white;
-	margin: 20px 0px 17px 61px;
+	color: #FFFFFF;
 }
 
-.block2 .container2 .footer .box2 .btn2{
-	height: 48px;
+.footer .box1 .google span{
+	position: absolute;
+	width: 139px;
+	height: 11px;
+	left: 60px;
+	top: 15px;
+}
+
+.footer .box1 .google img{
+	position: absolute;
+	top: 8px;
+	left: 15px;
+}
+
+.footer .box1 .app{
+	position: absolute;
 	width: 255px;
+	height: 48px;
 	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
 	border-radius: 10px;
-	background: none;
-	margin: 20px 0px 0px 0px;
-	float: left;
+	top: 222px;
+	left: 3px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 75%;
+	color: #FFFFFF;
 }
 
-.block2 .container2 .footer .box2 .btn2 .imgbtn2{
-	width: 30px;
-	height: 30px;
-	float: left;
-	margin: 9px 0px 9px 20px;
-}
-
-.block2 .container2 .footer .box2 .btn2 .textbtn2{
+.footer .box1 .app span{
+	position: absolute;
 	width: 180px;
 	height: 11px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 75%;
-	color: white;
-	margin: 20px 0px 17px 61px;
+	left: 60px;
+	top: 15px;	
 }
 
-.block2 .container2 .footer .box2 .list{
-	width: 81px;
-	height: 140px;
-	float: left;
+.footer .box1 .app img{
 	position: absolute;
-	top: 710px;
-	left: 470px;
+	top: 8px;
+	left: 15px;
 }
 
-.block2 .container2 .footer .box2 .list li{
+.footer .spisok2{
+	position: absolute;
+	top: 114px;
+	left: 366px;
+}
+
+.footer .spisok2 a{
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 30px;
 	color: #FFFFFF;
-	
 }
 
-.box3{
+.footer .box2{
 	width: 1180px;
-	height: 100px;
-
+	height: 158px;
+	position: relative;
 }
 
-.block2 .container2 .footer .box3 .text1{
-	height: 20px;
-	width: 234px;
+.footer .box2 .text1{
+	position: absolute;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;
 	color: #FFFFFF;
-	margin: 35px 0px 0px 0px;
-	float: left;
+	top: 35px;
+	left: 0px;
+	height: 20px;
+  width: 234px;
 }
 
-.block2 .container2 .footer .box3 .text2{
-	height: 20px;
-	width: 234px;
+.footer .box2 .text2{
+	position: absolute;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;
 	color: #FFFFFF;
-	margin: 35px 0px 0px 122px;
-	float: left;
-}
-
-.box3 .btn_top{
-	width: 220px;
-	margin: 25px 0px 0px 780px;
-}
-
-.box3 .btn_top button{
-	margin-left: 12px;
-}
-
-.block2 .container2 .footer .box3 .btn1{
-	width: 40px;
-	height: 40px;
-	border: 1px solid white;
-	border-radius: 20px;
-	background: black;
-	
-}
-
-.block2 .container2 .footer .box3 .btn2{
-	width: 40px;
-	height: 40px;
-	border: 1px solid white;
-	border-radius: 20px;
-	background: black;
-	
-}
-
-.block2 .container2 .footer .box3 .btn3{
-	width: 40px;
-	height: 40px;
-	border: 1px solid white;
-	border-radius: 20px;
-	background: black;
-	
-}
-
-.block2 .container2 .footer .box3 .btn4{
-	width: 40px;
-	height: 40px;
-	border: 1px solid white;
-	border-radius: 20px;
-	background: black;
-	
-}
-
-.block2 .container2 .footer .box3 .img1{
-	background: black;
-	height: 13px;
-	width: 22px;
-}
-.block2 .container2 .footer .box3 .img2{
-	background: black;
-}
-.block2 .container2 .footer .box3 .img3{
-	background: black;
-}
-.block2 .container2 .footer .box3 .img4{
-	background: black;
-}
-
-.box4{
-	width: 1180px;
+	top: 35px;
+	left: 356px;
 	height: 20px;
+  width: 234px;
 }
 
-.block2 .container2 .footer .box4 .text1{
-	width: 1180px;
-	height: 20px;
-	left: 130px;
-	top: 7697px;
+.footer .box2 .vk{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #000000;
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	top: 25px;
+	left: 780px;
+}
+
+.footer .box2 .vk img{
+	position: absolute;
+	top: 11px;
+	left: 7px;
+}
+
+.footer .box2 .inst{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #000000;
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	top: 25px;
+	left: 840px;
+}
+
+.footer .box2 .inst img{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.footer .box2 .book{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #000000;
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	top: 25px;
+	left: 900px;
+}
+
+.footer .box2 .book img{
+	position: absolute;
+	top: 5px;
+	left: 12px;
+}
+
+.footer .box2 .twit{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #000000;
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	top: 25px;
+	left: 960px;
+}
+
+.footer .box2 .twit img{
+	position: absolute;
+	top: 10px;
+	left: 9px;
+}
+
+.footer .box2 .text3{
+	position: absolute;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;
-	color: #FFFFFF;
+	color: #FFFFFF;	
+	top: 85px;
+	left: 0px;
 }
 
-.bonus{
-	width: 1180px;
-	height: 383px;	
+.block__bonus{
+	width: 100%;
+	height: 437px;	
+	
 }
 
-.bonus .text1{
+.container__block__bonus{
+	width: 708px;
+	margin: 0px auto;
+}
+
+.block__bonus .container__block__bonus .bonus{
+	width: 708px;
+	height: 437px;
+	position: relative;
+}
+
+.block__bonus .container__block__bonus .bonus .text1{
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 35px;
 	color: #FFFFFF;	
-	margin: 25px 0px 0px 192px;
+	position: absolute;
+	top: 25px;
+	left: 0px;
 }
 
-.bonus .text2{
+.block__bonus .container__block__bonus .bonus .text2{
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
-	line-height: 35px;
 	color: #FFFFFF;	
-	margin: 25px 0px 0px 192px;
 	width: 679px;
 	height: 40px;
+	position: absolute;
+	top: 95px;
+	left: 0px;
 }
 
-.bonus .text3{
+.block__bonus .container__block__bonus .bonus .text3{
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 20px;
 	color: #FFFFFF;
-	margin: 50px 0px 0px 192px;
+	position: absolute;
+	top: 165px;
+	left: 0px;
+	
 }
 
-.bonus .input_text{
+.block__bonus .container__block__bonus .bonus .input_text{
 	width: 340px;
 	height: 40px;
 	background: #F2F1ED;
 	border-radius: 20px;	
+
 }
 
-.bonus .input_submit{
+.block__bonus .container__block__bonus .bonus .input_submit{
 	width: 130px;
 	height: 40px;
 	border: 2px solid #F69B03;
 	box-sizing: border-box;
 	border-radius: 20px;
 	background: none;
-	margin-left: 5px;
+	margin-left: 10px;
+
 }
 
-.bonus .text4{
+.block__bonus .container__block__bonus .bonus .text4{
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;
 	color: #FFFFFF;
-	margin: 30px 0px 0px 192px;
+	position: absolute;
+	top: 260px;
+	left: 0px;
 }

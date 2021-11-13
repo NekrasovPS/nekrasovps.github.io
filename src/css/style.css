@@ -1065,14 +1065,7 @@ body{
 	height: 50px;
 }
 
-.block5 .container5 .menu .row1 span{
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	color: #000;
-	margin: 10px 20px 8px 20px;
-} 
+ 
 
 .block5 .container5 .menu .row1 ul li{
 	float: left;
@@ -1087,7 +1080,14 @@ body{
 
 }
 
-
+.block5 .container5 .menu .row1 span{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: #000;
+	margin: 10px 20px 8px 20px;
+}
 
 
 .block5 .container5 .menu .row23{
@@ -1859,14 +1859,6 @@ body{
 	left: 0px;
 }
 
-.btn_top{
-	width: 220px;
-	margin: 25px 0px 0px 780px;
-}
-
-.btn_top button{
-	margin-left: 12px;
-}
 
 .burger-menu{
 	width: 60px;

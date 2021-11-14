@@ -1063,42 +1063,172 @@ body{
 .block5 .container5 .menu{
 	width: 1180px;
 	height: 50px;
+	position: relative;
 }
 
-.block5 .container5 .menu .row1{
-	width: 800px;
-	height: 35px;
-	position: relative;
-} 
 
-.block5 .container5 .menu .row1 li a{
-	float: left;
+	
+
+.menu  .as1{
+	width: 101px;
 	background: #FFFFFF;
 	border-radius: 5px;
 	height: 35px;
-	margin-right: 10px;
-	position: relative;
+	position: absolute;
 }
 
-.block5 .container5 .menu .row1 li a:hover{
-	background: #CCCCCC;
-
-}
-
-.block5 .container5 .menu .row1 span{
+.menu  .as1 span{
+	position: absolute;
+	top: 7px;
+	left: 18px;
 	font-family: Gilroy;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: #000;
+	line-height: 125%;
+	color: #101010;
+}
+
+.menu  .as2{
+	width: 93px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	height: 35px;
+	position: absolute;
+	top: 0px ;
+	left: 111px;	
 
 }
+
+.menu  .as2 span{
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+}
+
+.menu  .as3{
+	width: 177px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	height: 35px;
+	position: absolute;
+	top: 0px ;
+	left: 214px;
+}
+
+.menu  .as3 span{
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+}
+
+.menu  .as4{
+	width: 103px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	height: 35px;
+	position: absolute;
+	top: 0px ;
+	left: 401px;
+}
+
+.menu  .as4 span{
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+}
+
+.menu  .as5{
+	width: 89px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	height: 35px;
+	position: absolute;
+	top: 0px ;
+	left: 514px;
+}
+
+.menu  .as5 span{
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+}
+
+.menu  .as6{
+	width: 92px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	height: 35px;
+	position: absolute;
+	top: 0px ;
+	left: 613px;
+}
+
+.menu  .as6 span{
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+}
+
+.menu  .as7{
+	width: 72px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	height: 35px;
+	position: absolute;
+	top: 0px ;
+	left: 715px;
+}
+
+.menu  .as7 span{
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125%;
+	color: #101010;
+}
+
+
 
 
 .block5 .container5 .menu .row23{
 	width: 1180px;
 	height: 1054px;
-	margin-top: 38px;
+	margin-top: 50px;
 	float: left;
 }
 

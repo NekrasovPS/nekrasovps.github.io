@@ -644,20 +644,51 @@
 	.block5 .container5 .menu{
 		width: 280px;
 		height: 175px;
+		position: relative;
+	}
+
+	.menu  .as1{
+		top: 0px ;
+		left: 0px;
 
 	}
 
-	.block5 .container5 .menu .row1 ul li{
-		margin-top: 10px;
+	.menu  .as2{
+		top: 0px;
+		left: 111px;
 	}
 
-	.block5 .container5 .menu .row1 span{
-		margin-top: 10px;
+	.menu  .as3{
+		top: 45px;
+		left: 0px;
 	}
+
+	.menu  .as4{
+		top: 91px;
+		left: 0px;
+	}
+
+	.menu  .as5{
+		top: 91px;
+		left: 112px;
+	}
+
+	.menu  .as6{
+		top: 137px;
+		left: 0px;
+
+	}
+
+	.menu  .as7{
+		top: 137px;
+		left: 110px;
+	}
+
+
 
 	.block5 .container5 .menu .row23{
 		width: 280px;
-
+		margin-top: 250px;
 	}
 
 	.block5 .container5 .menu .row23 .col1{

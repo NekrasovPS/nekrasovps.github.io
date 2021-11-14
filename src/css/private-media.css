@@ -1,0 +1,305 @@
+@media(max-width: 1920px){
+	body{
+		background: url("../img/bg/background1.png");
+		background-position: -420px 0px;
+		background-repeat: repeat-y;	
+	}
+			
+}
+
+
+@media(max-width: 576px){
+	.block1{
+		width: 100%;
+		height: 82px;
+	}
+
+	.container1{
+	max-width: 280px;
+	margin: 0px auto;
+	}
+
+	.menu{
+		width: 280px;
+		height: 82px;
+		position: relative;
+	
+	}
+	.block1 .container1 .menu .logo{
+		margin: 15px 0px 0px 2px;
+		width: 87px;
+		height: 53px;
+		float: left;
+	}
+
+	.block1 .container1 .menu .text1{
+		display: none;
+	}
+
+	.block1 .container1 .menu .select{
+		margin: 32px 0px 0px 17px;
+		font-size: 14px;
+		width: 125px;
+	}
+
+	.block1 .container1 .menu .text2{
+		display: none	;
+	}
+
+	.block1 .container1 .menu .number1{
+		display: none;
+	}
+
+	.block1 .container1 .menu .btn1{
+		position: fixed;
+		top: 500px;
+		left: 100px;
+		display: none;
+	}
+
+	.burger-menu {
+		width: 40px;
+		height: 40px;
+		top: 20px;
+		left: 240px;
+	}
+
+	.menu-btn{
+		top: 18px;
+		left: 6px;
+	}
+
+
+	.block__private__area{
+		width: 100%;
+		height: 789px;
+	}
+
+	.container__private__area{
+		width: 280px;
+		margin: 0px auto;
+	}	
+
+	.private__area{
+		width: 280px;
+		height: 369px;
+	}
+
+	.block__private__area .container__private__area .private__area .text1{
+		height: 30px;
+		width: 171px;
+		left: 20px;
+		top: 25px;
+		font-size: 22px;
+
+
+	}
+
+	.block__private__area .container__private__area .private__form .text2{
+		height: 20px;
+		width: 26px;
+		left: 21px;
+		top: 70px;
+		font-size: 14px;
+	}
+
+	.block__private__area .container__private__area .private__form .text3{
+		height: 20px;
+		width: 112px;
+		left: 20px;
+		top: 150px;
+		font-size: 14px;
+
+	}
+
+	.block__private__area .container__private__area .private__form .text4{
+		height: 20px;
+		width: 42px;
+		left: 21px;
+		top: 230px;
+		font-size: 14px;	
+	}
+
+	.block__private__area .container__private__area .private__form .text5{
+		height: 40px;
+		width: 247px;
+		left: 21px;
+		top: 320px;
+		font-size: 16px;
+	}
+
+	.block__private__area .container__private__area .delivery{
+		width: 280px;
+		height: 225px;
+	}
+
+	.block__private__area .container__private__area .delivery .text1{
+		height: 20px;
+		width: 160px;
+		left: 22px;
+		top: 20px;
+		font-size: 18px;
+
+	}
+
+	.block__private__area .container__private__area .payment{
+		width: 280px;
+		height: 195;
+	}
+
+	.block__private__area .container__private__area .payment .text1{
+		height: 20px;
+		width: 160px;
+		left: 22px;
+		top: 20px;
+		font-size: 18px;
+	}
+
+	.block2{
+		width: 100%;
+		height: 700px;
+	}
+
+	.container2{
+		width: 280px;
+		margin: 0px auto;
+	}
+
+	.footer{
+		width: 280px;
+		height: 700px;
+	}
+
+	.footer .box1{
+		width: 280px;
+		height: 360px;
+	}
+
+	.footer .box1 .logo{
+		position: absolute;
+		width: 80px;
+		height: 49px;
+		left: 16px;
+		top: 22px;
+	}
+
+	.footer .box1 .text1{
+		position: absolute;
+		width: 143px;
+		height: 32px;
+		font-size: 12px;
+		left: 118px;
+		top: 30px;
+	}
+
+	.footer .box1 .text2{
+		height: 20px;
+		width: 206px;
+		left: 10px;
+		top: 88px;
+		font-size: 16px;
+	}
+
+	.footer .box1 .google{
+		width: 130px;
+		height: 29px;
+		left: 10px;
+		top: 123px;
+		border: 0.611891px solid #FFFFFF;
+	}
+
+	.footer .box1 .google span{
+		width: 85px;
+		height: 6px;
+		left: 35px;
+		top: 8px;
+		font-size: 8px;
+	}
+
+	.footer .box1 .google img{
+		width: 18px;
+		height: 18px;
+		left: 12px;
+		top: 5px;
+	}
+
+	.footer .box1 .app{
+		width: 145px;
+		height: 29px;
+		left: 150px;
+		top: 123px;
+		border: 0.611891px solid #FFFFFF;
+	}
+
+	.footer .box1 .app span{
+		width: 109px;
+		height: 6px;
+		left: 33px;
+		top: 8px;
+		font-size: 8px;
+		color: #FFFFFF;
+
+	}
+
+	.footer .box1 .app img{
+		height: 18px;
+		width: 15px;
+		left: 9px;
+		top: 5px;
+	}
+
+	.footer .spisok2{
+		top: 173px;
+		left: 10px;
+	}
+
+	.footer .box2{
+		width: 280px;
+		height: 318px;
+
+	}
+
+	.footer .box2 .text1{
+		height: 20px;
+		width: 172px;
+		left: 10px;
+		top: 104px;
+	}
+
+	.footer .box2 .text2{
+		height: 20px;
+		width: 234px;
+		left: 10px;
+		top: 139px;
+
+
+	}
+
+	.footer .box2 .text3{
+		width: 280px;
+		height: 60px;
+		left: 10px;
+		top: 184px;		
+	}
+
+	.footer .box2 .vk{
+		left: 10px;
+		top: 31px;	
+	}
+
+	.footer .box2 .inst{
+		top: 31px;
+		left: 70px;
+	}
+
+	.footer .box2 .book{
+		top: 31px;
+		left: 130px;
+	}
+
+	.footer .box2 .twit{
+		top: 31px;
+		left: 190px;
+	}
+
+}

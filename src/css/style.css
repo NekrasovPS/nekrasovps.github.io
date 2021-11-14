@@ -1065,17 +1065,22 @@ body{
 	height: 50px;
 }
 
- 
+.block5 .container5 .menu .row1{
+	width: 800px;
+	height: 35px;
+	position: relative;
+} 
 
-.block5 .container5 .menu .row1 ul li{
+.block5 .container5 .menu .row1 li a{
 	float: left;
 	background: #FFFFFF;
 	border-radius: 5px;
 	height: 35px;
 	margin-right: 10px;
+	position: relative;
 }
 
-.block5 .container5 .menu .row1 ul li:hover{
+.block5 .container5 .menu .row1 li a:hover{
 	background: #CCCCCC;
 
 }
@@ -1086,7 +1091,7 @@ body{
 	font-weight: normal;
 	font-size: 14px;
 	color: #000;
-	margin: 10px 20px 8px 20px;
+
 }
 
 

@@ -29,11 +29,12 @@ jQuery(function ($) {
   });
 });
 
-$(document).ready(function () {
-  $("#tel").keyup(function (e) {
-    this.value = this.value.replace(/[^0-9\.]/g, "");
-  });
-  $("#tel").mask("+7(999) 999-9999");
+$(document).ready(function() {
+$('#tel').bind("change keyup input click", function() {
+if (this.value.match(/[^0-9]/g)) {
+this.value = this.value.replace(/[^0-9]/g, '');
+}
+});
 });
 
 let time = 1800;

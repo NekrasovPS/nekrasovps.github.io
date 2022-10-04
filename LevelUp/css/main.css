@@ -92,7 +92,8 @@ h6 {
 }
 
 .main {
-  height: 100vh;
+     height: auto;
+    padding-bottom: 30px;
 }
 
 #myVideo {

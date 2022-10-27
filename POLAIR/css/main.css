@@ -231,7 +231,7 @@ body.open {
 .inner-slider {
   height: 600px;
   background-color: #f7f7f8;
-  background-image: url("/img/bg-slider.svg");
+  background-image: url("img/bg-slider.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   display: flex;
@@ -432,7 +432,7 @@ body.open {
 
 .inner-standard {
   height: 450px;
-  background-image: url("/img/img-standard.jpg");
+  background-image: url("img/img-standard.jpg");
   background-repeat: no-repeat;
   background-position-x: left;
   background-size: contain;
@@ -665,7 +665,7 @@ body.open {
   height: auto;
   padding-top: 160px;
   padding-bottom: 80px;
-  background-image: url("/img/img-catalog.jpg");
+  background-image: url("img/img-catalog.jpg");
   /* background-repeat: no-repeat; */
   background-position-x: center;
   background-position-y: center;

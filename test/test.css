@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 504px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.info__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #70747a;
+  width: 249px;
+
+  margin: 64px 0 0 0;
+}
+
+.all-managers {
+  margin: 20px 0 0 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all-managers-item {
+  display: flex;
+
+  margin: 0 5px 10px 0;
+  padding: 5px 15px;
+
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.all-managers-item img {
+  width: 20px;
+}
+
+.all-managers-item .close {
+  display: none;
+}
+
+.all-managers-item.open {
+  background: #537bde;
+  color: #fff;
+}
+
+.all-managers-item.open .plus {
+  display: none;
+}
+
+.all-managers-item.open .close {
+  display: block;
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Тестовое задание для 1С-Рарус">
+    <meta name="author" content="Pavel Nekrasov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <title>electrocity</title>
+  </head>
+  <body>
+    <svg style="display: none"></svg>
+    <header class="header">
+  <div class="header__top">
+    <div class="container">
+      <div class="header__top-inner">
+        <div class="link">
+          <div class="link-left">
+            <a href="#city" rel="modal:open">
+              <img src="img/geo.svg" alt="геолокация" />
+              <p>г. Рязань</p>
+            </a>
+            <form id="city" class="modal">
+              <p>Выбор города</p>
+            </form>
+            <a href="#">
+              <img src="img/shop.svg" alt="магазин" />
+              <p>Магазины</p>
+            </a>
+          </div>
+          <div class="link-right">
+            <a href="tel:8(800) 000 00 00">
+              <img src="img/phone.svg" alt="телефон" />
+              <p>8(800) 000 00 00</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__center">
+    <div class="container">
+      <div class="header__center-inner">
+        <div class="logo">
+          <a href="#"><span>ЭЛЕКТРОСИТИ</span></a>
+        </div>
+        <div class="search">
+          <form action="#">
+            <input
+              type="search"
+              class="search-item"
+              placeholder="Поиск среди товаров"
+            />
+          </form>
+        </div>
+        <div class="items">
+          <a href="#login" rel="modal:open">
+            <img src="img/man.svg" alt="" />
+            <p>Анастасия</p>
+          </a>
+          <form id="login" class="modal">
+            <p>Регистрация или вход</p>
+          </form>
+          <a href="#">
+            <img src="img/buy.svg" alt="" />
+            <p>Покупки</p>
+          </a>
+          <a href="#">
+            <img src="img/favorites.svg" alt="" />
+            <p>Избранное</p>
+          </a>
+          <a href="#">
+            <img src="img/basket.svg" alt="" />
+            <p>Корзина</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__bottom">
+    <div class="container">
+      <div class="header__bottom-inner">
+        <nav class="nav-items">
+          <div class="items">
+            <a href="#" class="active button all-i" data-filter="all" tabindex="-1">
+              <img src="img/stock.svg" alt="" />
+              <p>Акции</p>
+            </a>
+            <a href="#"  class="button phone-i" data-filter="phone" tabindex="-2">
+              <p>Смартфоны</p>
+            </a>
+            <a href="#"  class="button laptop-i" data-filter="laptop" tabindex="-3">
+              <p>Ноутбуки</p>
+            </a>
+            <a href="#" class="button tv-i" data-filter="tv" tabindex="-4">
+              <p>Телевизоры</p>
+            </a>
+            <a href="#">
+              <p>Видеотехника</p>
+            </a>
+            <a href="#">
+              <p>Планшеты</p>
+            </a>
+            <a href="#">
+              <p>Наушники</p>
+            </a>
+            <a href="#">
+              <p>Гейминг</p>
+            </a>
+            <a href="#">
+              <p>Умные часы</p>
+            </a>
+            <a href="#">
+              <p>Моноблок</p>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="mobile">
+  <div class="mobile__top">
+    <div class="container">
+      <div class="mobile__top-inner">
+        <div class="logo">
+          <a href="#"><span>ЭЛЕКТРОСИТИ</span></a>
+        </div>
+        <div class="items">
+          <a href="#"><img src="img/buy.svg" alt="" /></a>
+          <a href="#"><img src="img/shop.svg" alt="" /></a>
+          <a href="#city" rel="modal:open"><img src="img/geo.svg" alt="" />
+            <form id="city" class="modal">
+              <p>Выбор города</p>
+            </form>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile__center">
+    <div class="container">
+      <div class="mobile__center-inner">
+        <div class="menu">
+          <a href="#" class="open__menu"><img src="img/menu.svg" alt="" /></a>
+          <div class="menu__open">
+            <a href="#" class="close"><img src="img/close.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="search">
+          <form action="#">
+            <input
+              type="search"
+              class="search-item"
+              placeholder="Поиск среди товаров"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile__bottom">
+    <div class="container">
+      <div class="mobile__bottom-inner">
+        <nav class="nav-items">
+          <div class="items">
+            <a href="#" class="active button all-i" data-filter="all" tabindex="-1">
+              <img src="img/stock.svg" alt="" />
+              <p>Акции</p>
+            </a>
+            <a href="#" class="button phone-i" data-filter="phone" tabindex="-2">
+              <p>Смартфоны</p>
+            </a>
+            <a href="#" class="button laptop-i" data-filter="laptop" tabindex="-3">
+              <p>Ноутбуки</p>
+            </a>
+            <a href="#" class="button tv-i" data-filter="tv" tabindex="-4">
+              <p>Телевизоры</p>
+            </a>
+            <a href="#">
+              <p>Видеотехника</p>
+            </a>
+            <a href="#">
+              <p>Планшеты</p>
+            </a>
+            <a href="#">
+              <p>Наушники</p>
+            </a>
+            <a href="#">
+              <p>Гейминг</p>
+            </a>
+            <a href="#">
+              <p>Умные часы</p>
+            </a>
+            <a href="#">
+              <p>Моноблок</p>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <section>
+      <div class="stock">
+        <div class="container">
+          <div class="stock__title">
+            <h1 class="stock__title-h1">Акции</h1> 
+          </div>
+          <div class="stock__items">
+            <div class="items">
+              <a href="#" class="elem  all"><img src="img/img-1_optimized-min.jpg" alt=""></a>
+              <a href="#" class="elem  phone"><img src="img/img-2_optimized-min.jpg" alt=""></a>
+              <a href="#" class="elem  laptop"><img src="img/img-3_optimized-min.jpg" alt=""></a>
+              <a href="#" class="elem  tv"><img src="img/img-4_optimized-min.jpg" alt=""></a>
+              <a href="#" class="elem  all"><img src="img/img-5_optimized-min.jpg" alt=""></a>
+              <a href="#" class="elem  phone"><img src="img/img-6_optimized-min.jpg" alt=""></a>
+              <a href="#" class="elem  laptop"><img src="img/img-7_optimized-min.jpg" alt=""></a>
+              <a href="#" class="elem  tv"><img src="img/img-8_optimized-min.jpg" alt=""></a>
+              <a href="#" class="elem  all"><img src="img/img-9_optimized-min.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+  <div class="footer__top">
+    <div class="container">
+      <div class="footer__top-inner">
+        <nav class="nav-items">
+          <div class="items">
+            <a href="#"><span>Главная</span></a>
+            <a href="#"><span>Акции</span></a>
+            <a href="#"><span>Магазины</span></a>
+            <a href="#"><span>Профиль</span></a>
+          </div>
+        </nav>
+        <div class="contact-items">
+          <div class="items">
+            <a href="tel:+7(800) 000 00 00">
+              <img src="img/phone.svg" alt="" />
+              <span>8(800) 000 00 00</span>
+            </a>
+            <a href="mailto:electrocity.ru">
+              <img src="img/email.svg" alt="" />
+              <span>electrocity.ru</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <div class="footer__bottom-inner">
+        <div class="text-items">
+            <div class="items"><p>© 2014-2021 «ЭЛЕКТРОСИТИ». Все права защищены</p></div>
+        </div>
+        <div class="social-items">
+            <div class="items">
+                <a href="https://vk.com/" target="_blank"><img src="img/vk.svg" alt="вконтакте"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.svg" alt="youtube"></a>
+                <a href="https://web.telegram.org/" target="_blank"><img src="img/telegram.svg" alt="telegram"></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

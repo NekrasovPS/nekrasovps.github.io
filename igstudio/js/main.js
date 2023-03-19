@@ -21,7 +21,7 @@ $(".slider").slick({
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
-        autoplay: false,
+        autoplay: true,
       },
     },
     {
@@ -30,7 +30,7 @@ $(".slider").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        autoplay: false,
+        autoplay: true,
       },
     },
   ],

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" id="bootstrap4-css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css?ver=5.6.8" media="all">
+    <link rel="stylesheet" id="fancybox-css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css?ver=5.6.8" media="all">
+    <link rel="stylesheet" href="css/main.min.css" />
+    
+    <title>Тестовое задание</title>
+  </head>
+  <body>
+    <div class="mouse-parallax">
+      <div class="mouse-parallax-bg"></div>
+      <div class="mouse-parallax-fog-1"></div>
+      <div class="mouse-parallax-fog-2"></div>   
+      <div class="mouse-parallax-fog-3"></div>  
+  </div>
+    <header class="header">
+    <div class="container">
+        <div class="header__wrapper">
+            <div class="header__logo"><img src="img/logo-w.svg" alt=""></div>
+            <nav class="header__nav">
+                <a class="header__link" href="#"><span>Главная</span></a>
+                <a class="header__link" href="#"><span>Услуги</span></a>
+                <a class="header__link" href="#"><span>Галерея</span></a>
+                <a class="header__link" href="#"><span>Контакты</span></a>
+                <a class="header__link" href="#"><span>О нас</span></a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+
+    <section>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/bg.jpeg" alt=""></div>
+              <div class="swiper-slide"><img src="img/bg.jpeg" alt=""></div>
+              <div class="swiper-slide"><img src="img/bg.jpeg" alt=""></div>
+              <div class="swiper-slide"><img src="img/bg.jpeg" alt=""></div>
+              <div class="swiper-slide"><img src="img/bg.jpeg" alt=""></div>
+            </div>
+            <div class="autoplay-progress">
+              <svg viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="20"></circle>
+              </svg>
+              <span></span>
+            </div>
+          </div>
+          <div class="container">
+            <div class="main">
+              <div class="main__title">
+                <h1>Добро пожаловать в <span>"ECO REST"</span> - ваша оазисная зона для рыбалки и полноценного отдыха на природе!</h1>
+                <p>Мы создали идеальное место, где время тянется медленнее, а впечатления остаются надолго.</p>
+                <div class="main__button">
+                  <buttom id="setT" class="open-modal main__btn" data-toggle="modal" data-target="#request" data-whatever="Получить консультацию">Заказать звонок</buttom>
+                  <a href="#" class="main__btn"><span>Прайс</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section>
+      <div class="offers">
+        <div class="offers__title">
+          <h2>Что мы предлогаем</h2>
+        </div>
+        <div class="offers__items">
+          <div class="offers__row">
+            <div class="offers__item hover-block">
+              <img src="img/water.jpeg" alt="">
+              <div class="offers__name">
+                <h3>Великолепный пруд</h3>
+              </div>
+              <div class="offers__dis">
+
+              </div>
+            </div>
+          </div>
+          <div class="offers__row">
+            <div class="offers__item">
+              <img src="img/water.jpeg" alt="">
+              <div class="offers__name">
+                <h3>Расслабляющая баня</h3>
+              </div>
+              <div class="offers__dis">
+
+              </div>
+            </div>
+          </div>
+          <div class="offers__row">
+            <div class="offers__item">
+              <img src="img/water.jpeg" alt="">
+              <div class="offers__name">
+                <h3>Безграничная территория</h3>
+              </div>
+              <div class="offers__dis">
+
+              </div>
+            </div>
+          </div>
+          <div class="offers__row">
+            <div class="offers__item">
+              <img src="img/water.jpeg" alt="">
+              <div class="offers__name">
+                <h3>Уютная беседка</h3>
+              </div>
+              <div class="offers__dis">
+
+              </div>
+            </div>
+          </div>
+          <div class="offers__row">
+            <div class="offers__item">
+              <img src="img/water.jpeg" alt="">
+              <div class="offers__name">
+                <h3>Комфортабельные спальные домики</h3>
+              </div>
+              <div class="offers__dis">
+
+              </div>
+            </div>
+          </div>
+          <div class="offers__row">
+            <div class="offers__item">
+              <img src="img/water.jpeg" alt="">
+              <div class="offers__name">
+                <h3>Развлечения на любой вкус</h3>
+              </div>
+              <div class="offers__dis">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="price">
+        <div class="price__title">
+          <h2>Прайс-лист</h2>
+        </div>
+        <div class="price__items">
+          <div class="price__item">
+            <!-- <div class="price__img">
+              <img src="img/bg.jpeg" alt="">
+            </div> -->
+            <div class="price__dis">
+              <p class="price__name">Рыбалка:</p>
+              <ul>
+                <li>День (12 часов): 400 рублей (за одного человека)</li>
+                <li>Сутки: 900 рублей (за одного человека)</li>
+              </ul>
+              <p class="price__name">Прокат лодки:</p>
+              <ul>
+                <li>1 час: 300 рублей</li>
+              </ul>
+              <p class="price__name">Аренда летней беседки:</p>
+              <ul>
+                <li>Час: 300 рублей (минимум 3 часа)</li>
+              </ul>
+              <p class="price__name">Аренда тёплой беседки:</p>
+              <ul>
+                <li>Час: 1000 рублей (минимум 3 часа)</li>
+                <li>Сутки: 8000 рублей</li>
+              </ul>
+              <p class="price__name">Пойманная рыба:</p>
+              <ul>
+                <li>Карп: 120 рублей за килограмм</li>
+                <li>Белый Амур: 120 рублей за килограмм</li>
+                <li>Форель: 850 рублей за килограмм</li>
+              </ul>
+              <p class="price__text">Также, если вы устали от рыбалки, мы предлагаем отдохнуть в нашем благоустроенном домике на 5 человек. Стоимость аренды составляет 3000 рублей в сутки.</p>
+              <p class="price__text">Мы надеемся, что  Вы найдете то, что ищете для отличной рыбалки и отдыха! Если у вас есть какие-либо вопросы, оставьте заявку и мы перезвоним Вам в течении 5 минут.</p>
+              <buttom id="setT" class="open-modal price__btn" data-toggle="modal" data-target="#request" data-whatever="Оставить заявку">Оставить заявку</buttom>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="about">
+        <div class="about__title">
+          <h2>О нас</h2>
+        </div>
+        <div class="about__items">
+          <div class="about__item">
+            <div class="about__dis">
+              <h4>Добро пожаловать в ECOREST – ваше идеальное место для уникального опыта рыбалки и незабываемого отдыха на природе.</h4>
+              <p>Мы - команда энтузиастов, объединенных общей страстью к природе и любовью к рыбной ловле. В ECOREST мы стремимся создать идеальную среду, где вы сможете насладиться тишиной, красотой окружающей природы и приятной компанией друзей или семьи.</p>
+              <p>Наши услуги разнообразны и охватывают все необходимое для комфортного проведения времени на рыбалке. Мы предлагаем широкий выбор услуг, начиная от проката лодок и аренды удочек, до сдачи в аренду уютных беседок и благоустроенных домиков. Кроме того, у нас есть все необходимое для приготовления барбекю и проведения увлекательных гриль-вечеринок.
+              </p>
+              <p>В ECOREST мы ценим экологическую ответственность и стараемся сохранить баланс с природой. Мы призываем наших гостей быть внимательными к окружающей среде, не нарушать природные ресурсы и следовать принципам экологически чистого отдыха.
+              </p>
+              <p>Мы гордимся нашим профессиональным и дружелюбным персоналом, который всегда готов оказать вам помощь и создать незабываемый опыт. В ECOREST мы стремимся превзойти ваши ожидания и сделать каждое ваше посещение особенным и запоминающимся.</p>
+              <p>Присоединяйтесь к нам в ECOREST и откройте для себя уникальный мир рыбалки и отдыха в гармонии с природой. Мы уверены, что у вас останутся яркие воспоминания и желание вернуться снова и снова.</p>
+              <p>Добро пожаловать в ECOREST – ваше истинное убежище на природе!</p>
+            </div>
+            <div class="about__video">
+              <video src=""></video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2637.5369318232!2d52.898867077217695!3d57.19135688028234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTfCsDExJzI4LjkiTiA1MsKwNTQnMDUuMiJF!5e1!3m2!1sru!2snl!4v1687522104590!5m2!1sru!2snl" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    
+    <footer class="footer">
+    <div class="container">
+
+    </div>
+
+    <div class="modal fade" id="request" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="img/close.svg"  alt="">
+                </div>
+                <div class="modal-body">
+                    <div class="modal-right">
+                        <div class="modal-title"><h4></h4></div>
+                        <div class="modal-description">Оставьте заявку чтобы получить консультацию</div>
+                        <form class="modal-form">
+                            <input type="text" class="form-control" name="name" placeholder="Ваше имя">
+                            <input type="text" class="form-control phone" name="phone" placeholder="Введите телефон *" required>
+                            <input type="text"  class="form-control" name="uemail" placeholder="Ваш email" >
+                            <input type="hidden" name="formname" id="formname" value="">
+                            <input type="hidden" name="url" value="http://<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
+                            <input type="hidden" name="utm" value="<?php 
+                            $order = '';
+                if (!empty($_COOKIE['utm'])) {
+                  foreach ($_COOKIE['utm'] as $i => $row) {
+                    $order .= $i . ': ' . $row . "\r\n";
+                  }
+                }
+                echo $order;
+                ?>
+                        
+                            <button style="width: 100%;" type="submit" onclick="ym(93886424,'reachGoal','sendform')">Отправить заявку</button>
+                            <span style=" font-size: 12px; color: #787878; font-weight: normal;">Отправляя форму, вы соглашаетесь с <a href="/privacy-policy" target="_blank">политикой конфиденциальности</a></span>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="t" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="mod_wrp">
+            <img src="img/close.svg" data-dismiss='modal' alt="" class="close">
+                <p class="ft1">Спасибо</p>
+                <p class="ft2" style="margin-bottom:0!important">Мы свяжемся с Вами в ближайшее время</p> 
+          </div>
+        </div>
+      </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js?ver=5.6.8" id="boot3-js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js?ver=5.6.8" id="boot5-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

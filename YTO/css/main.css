@@ -1,0 +1,734 @@
+@font-face {
+  font-family: "Jura-300";
+  font-display: swap;
+  src: url("../fonts/Jura-300.woff") format("woff"), url("../fonts/Jura-300.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jura-400";
+  font-display: swap;
+  src: url("../fonts/Jura-400.woff") format("woff"), url("../fonts/Jura-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jura-500";
+  font-display: swap;
+  src: url("../fonts/Jura-500.woff") format("woff"), url("../fonts/Jura-500.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jura-600";
+  font-display: swap;
+  src: url("../fonts/Jura-600.woff") format("woff"), url("../fonts/Jura-600.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jura-700";
+  font-display: swap;
+  src: url("../fonts/Jura-700.woff") format("woff"), url("../fonts/Jura-700.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-300";
+  font-display: swap;
+  src: url("../fonts/Roboto-300.woff") format("woff"), url("../fonts/Roboto-300.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-400";
+  font-display: swap;
+  src: url("../fonts/Roboto-400.woff") format("woff"), url("../fonts/Roboto-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-700";
+  font-display: swap;
+  src: url("../fonts/Roboto-700.woff") format("woff"), url("../fonts/Roboto-700.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Jura-400";
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  scroll-behavior: smooth;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  padding: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+p {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+  font-family: "Roboto-700";
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  background: #3f3e40;
+  padding: 20px 0px 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.header__wrapper {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+.header__logo a {
+  display: block;
+  width: 108px;
+  height: 35px;
+}
+
+.header__logo a img {
+  width: 100%;
+  height: auto;
+}
+
+.header__logo-text {
+  width: 168px;
+}
+
+.header__logo-text p {
+  font-family: "Jura-600";
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.header__logo-text p span {
+  color: #ff141f;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 31px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 16px;
+}
+
+.header__nav a {
+  display: block;
+}
+
+.header__nav a span {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22.857px;
+  -webkit-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.header__nav a span:hover {
+  color: #ff141f;
+}
+
+.header__tell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 8px;
+}
+
+.header__whatsapp-icon a {
+  width: 33px;
+  height: 31px;
+}
+
+.header__whatsapp-icon a img {
+  width: 100%;
+  height: auto;
+}
+
+.header__phone-icon {
+  display: none;
+}
+
+.header__phone-icon a {
+  width: 33px;
+  height: 31px;
+}
+
+.header__phone-icon a img {
+  width: 100%;
+  height: auto;
+}
+
+.header__phone {
+  display: block;
+}
+
+.header__phone a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: "Jura-700";
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  -webkit-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.header__phone a span {
+  font-family: "Jura-300";
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.header__phone a:hover {
+  color: #ff141f;
+}
+
+.main-banner {
+  width: 100%;
+  position: relative;
+  margin-top: 98px;
+}
+
+.main-banner__play {
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+
+.main-banner__img {
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+
+.main-banner__img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-banner__video {
+  width: 100%;
+  height: 600px;
+  display: none;
+}
+
+.main-banner__video video {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-banner__center {
+  position: absolute;
+  top: 95px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.main-banner__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 17px;
+}
+
+.main-banner__text p {
+  color: #252b33;
+  font-family: "Jura-500";
+  font-size: 24px;
+  line-height: 40px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.main-banner__text h1 {
+  background-color: #fff;
+  color: #ff141f;
+  font-family: "Roboto-700";
+  font-size: 48px;
+  line-height: 58px;
+  padding: 0 10px;
+}
+
+.main-banner__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2px;
+}
+
+.main-banner__btn span {
+  height: 2px;
+  width: 100%;
+  background-color: #ff141f;
+}
+
+.main-banner__btn button {
+  padding: 11px 10px 18px 10px;
+  background-color: #ff141f;
+  color: #fff;
+  font-family: "Jura-600";
+  font-size: 22px;
+  line-height: 22.857px;
+}
+
+.catalog {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.catalog__title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.catalog__title h2 {
+  color: #282425;
+  font-family: "Roboto-700";
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.catalog__title p {
+  color: #949599;
+  text-align: center;
+  font-family: "Roboto-400";
+  font-size: 18px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+}
+
+.catalog__title p svg {
+  width: 168px;
+  height: 12px;
+}
+
+.catalog__items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.catalog .hvr__images {
+  position: relative;
+}
+
+.catalog .hvr__sectors {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.catalog .hvr__sector {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.catalog .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.catalog .images img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.catalog .image {
+  display: block;
+}
+
+.catalog .hvr__dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-transform: translate(0px, -10px);
+      -ms-transform: translate(0px, -10px);
+          transform: translate(0px, -10px);
+}
+
+.catalog .hvr__dot {
+  width: 50px;
+  height: 5px;
+  margin: 2px 2px 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.catalog .hvr__dot--active {
+  background: #ff141f;
+}
+
+.catalog__item {
+  max-width: 370px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+}
+
+.catalog__description {
+  padding: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.catalog__description h3 {
+  color: #282425;
+  font-family: "Roboto-700";
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.catalog__description p {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.catalog__description p span {
+  color: #282425;
+  text-align: justify;
+  font-family: "Jura-500";
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.catalog__description h4 {
+  color: #282425;
+  text-align: center;
+  font-family: "Roboto-700";
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.catalog__description button {
+  width: 100%;
+  border-radius: 1px;
+  background: #ff141f;
+  color: #fff;
+  text-align: center;
+  font-family: "Jura-600";
+  font-size: 20px;
+  padding: 12px 0;
+}
+
+@media (min-width: 320px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header__phone-icon {
+    display: block;
+  }
+
+  .header__phone {
+    display: none;
+  }
+
+  .catalog__item {
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header__nav {
+    display: none;
+  }
+
+  .catalog__item {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 768px) {
+  .catalog__items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}

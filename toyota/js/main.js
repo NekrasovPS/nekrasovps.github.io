@@ -20,29 +20,6 @@ $(document).ready(function () {
     $(".mobile__open").removeClass("open");
     $("body").removeClass("open");
   });
-
-  // // Обработчик клика по бургер-меню
-  // $(".burger-menu").click(function () {
-  //   $(this).toggleClass("open");
-  //   $("nav").toggleClass("active");
-  // });
-
-  // Обработчик клика по ссылке в меню
-  $("nav a").click(function (event) {
-    event.preventDefault();
-    $("body").removeClass("open");
-    $(".mobile__open").removeClass("open");
-    $("nav").removeClass("active");
-
-    var target = $(this).data('target'); // получаем значение атрибута data-target
-  
-    setTimeout(function(){
-      $('html, body').animate({
-        scrollTop: $(target).offset().top // плавно скроллим до элемента с нужным id
-      });
-    }, 700)
-    // window.location.href = $(this).attr("href");
-  });
 });
 
 $(".slider").slick({
@@ -50,13 +27,14 @@ $(".slider").slick({
   slidesToScroll: 1,
   arrows: false,
   fade: true,
-  asNavFor: ".elips, .colors",
+  autoplay: true,
+  asNavFor: ".elips, .colors, .banner",
 });
 
 $(".elips").slick({
   slidesToShow: 5,
   slidesToScroll: 1,
-  asNavFor: ".slider, .colors",
+  asNavFor: ".slider, .colors, .banner",
   centerMode: true,
   focusOnSelect: true,
 });
@@ -67,6 +45,15 @@ $(".colors").slick({
   arrows: false,
   fade: true,
   asNavFor: ".elips",
+});
+
+$(".banner").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  autoplay: true,
+  asNavFor: ".elips, .colors",
 });
 
 (function ($) {
@@ -171,3 +158,57 @@ $(document).ready(function() {
 
 
 
+$(document).ready(function() {
+  $('.tell').mask('+7(999) 999-99-99');
+  $(".modal-content__form").submit(function(){
+    $.ajax({
+    type: "POST",
+    url: "/mail.php",
+    data: $(".modal-content__form").serialize(),
+    success: function(html)
+    {
+      $('#request').modal('toggle');
+              $('#t').modal('toggle');
+      $('#t2').modal('toggle');
+    }
+    });
+    return false;
+  
+});
+// $(".form2").validate({
+// submitHandler: function(form) {
+//     $.ajax({
+//     type: "POST",
+//     url: "/mail.php",
+//     data: $(".form2").serialize(),
+//     success: function(html)
+//     {
+//               $('#t').modal('toggle');
+//     }
+//     });
+//     return false;
+//   }
+// });
+});
+
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  arrows: true,
+  fade: true,
+  asNavFor: '.slider-nav',
+  prevArrow: '<button type = "button" class = "slick-prev"> Предыдущая </ button>',
+  nextArrow: '<button type = "button" class = "slick-next"> Next </ button>'
+  });
+  $('.slider-nav').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: false,
+  centerMode: true,
+  focusOnSelect: true
+  });
+
+
+  

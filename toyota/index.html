@@ -13,16 +13,16 @@
     <div class="container">
         <div class="header col-12">
             <div class="header__logo col-3 col-sm-1 col-md-2 col-xl-2 col-xxl-3">
-                <img src="img/logo.svg" alt="Логотип" class="header__img">
+                <a href="\"><img src="img/logo.svg" alt="Логотип" class="header__img"></a>
             </div>
             <div class="header__nav col">
                 <div class="header__list">
                     <ul class="header__ul">
-                        <li><a href="#catalog">Каталог</a></li>
+                        <li><a href="index.html#catalog">Каталог</a></li>
                         <li><a href="#">Меню</a></li>
                         <li><a href="#">Меню</a></li>
-                        <li><a href="#">Меню</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="index.html#contact">Контакты</a></li>
+                        <li><a href="http://test.izhtransport.ru/#about">О нас</a></li>
                     </ul>
                 </div>
             </div>
@@ -34,21 +34,21 @@
         <div class="mobile">
             <div class="container">
                 <div class="mobile__header">
-                    <div class="mobile__logo"><img src="img/logo.svg" alt=""></div>
+                    <a href="\" class="mobile__logo"><img src="img/logo.svg" alt=""></a>
                     <div class="mobile__menu"><img src="img/menu.svg" alt=""></div>
                 </div>
                 <div class="mobile__open">
                     <div class="mobile__top">
-                        <div class="mobile__logo"><img src="img/logo.svg" alt=""></div>
+                        <a href="\" class="mobile__logo"><img src="img/logo.svg" alt=""></a>
                         <div class="mobile__close"><img src="img/close.svg" alt=""></div>
                     </div>
                     <nav class="mobile__nav">
                         <ul class="mobile__ul">
-                            <li><a href="#catalog" class="link-remove" data-target="#catalog">Каталог</a></li>
-                            <li><a href="#" class="link-remove">Меню</a></li>
-                            <li><a href="#" class="link-remove">Меню</a></li>
-                            <li><a href="#" class="link-remove">Меню</a></li>
-                            <li><a href="#" class="link-remove">Контакты</a></li>
+                            <li><a href="http://test.izhtransport.ru/#catalog">Каталог</a></li>
+                            <li><a href="#">Меню</a></li>
+                            <li><a href="#">Меню</a></li>
+                            <li><a href="http://test.izhtransport.ru/#contact">Контакты</a></li>
+                            <li><a href="http://test.izhtransport.ru/#about">О нас</a></li>
                         </ul>
                     </nav>
                     <div class="mobile__phone">
@@ -172,6 +172,28 @@
         </div>
       </div>
     </section>
+    <!-- баннер -->
+    <section>
+      <div class="baner">
+        <div class="container">
+          <div class="baner__inner">
+            <div class="baner__left">
+              <h2>Бесплатно подберём новый автомобиль из Китая <br><span>Доставим и растаможим</span></h2>
+              <button class="open-modal">Подобрать авто</button>
+            </div>
+            <div class="baner__right">
+              <div class="baner__animation banner">
+                <img class="baner__img" src="img/baner-1.png" alt="">
+                <img class="baner__img" src="img/baner-2.png" alt="">
+                <img class="baner__img" src="img/baner-3.png" alt="">
+                <img class="baner__img" src="img/baner-5.png" alt="">
+                <img class="baner__img" src="img/baner-4.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- каталок -->
     <section id="catalog">
       <div class="catalog">
@@ -180,55 +202,63 @@
           <div class="catalog__items">
             <div class="catalog__item animation">
               <div class="images">
-                <img src="img/car-item.png">
-                <img src="img/car-item.png">
-                <img src="img/car-item.png">
+                <img src="img/toyota_rav4-1.jpg">
+                <img src="img/toyota_rav4-2.jpg">
+                <img src="img/toyota_rav4-3.jpg">
               </div>
               <div class="catalog__discription">
-                <h2>Toyota RAV4 V (XA50)</h2>
-                <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
-                <p><span>Коробка:</span><span>Автомат</span></p>
-                <p><span>Привод:</span><span>Полный</span></p>
-                <p><span>Год:</span><span>2023г</span></p>
-                <h3>3  000 000 ₽ </h3>
-                <h4>цена в китае</h4>
-                <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                <a href="raw.html">
+                  <h2>TOYOTA RAV 4</h2>
+                  <p><span>Страна марки:</span><span>Япония</span></p>
+                  <p><span>Тип двигателя:</span><span>бензин</span></p>
+                  <p><span>Топливо:</span><span>АИ-92</span></p>
+                  <p><span>Год:</span><span>2023г</span></p>
+                  <h3>3  000 000 ₽ </h3>
+                  <h4>цена в китае</h4>
+                </a>
+                  <button class="open-modal"><span>Узнать цену под ключ</span></button>
+               
               </div>
             </div>
             <div class="catalog__item animation">
-              <div class="images">
-                <img src="img/car-item.png">
-                <img src="img/car-item.png">
-                <img src="img/car-item.png">
-              </div>
+                <div class="images">
+                  <img src="img/toyota_camry-1.jpg">
+                  <img src="img/toyota_camry-2.jpg">
+                  <img src="img/toyota_camry-3.jpg">
+                </div>
               <div class="catalog__discription">
-                <h2>Toyota RAV4 V (XA50)</h2>
-                <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
-                <p><span>Коробка:</span><span>Автомат</span></p>
-                <p><span>Привод:</span><span>Полный</span></p>
-                <p><span>Год:</span><span>2023г</span></p>
-                <h3>3  000 000 ₽ </h3>
-                <h4>цена в китае</h4>
-                <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                <a href="camry.html">
+                  <h2>Toyota Camry</h2>
+                  <p><span>Страна марки:</span><span>Япония</span></p>
+                  <p><span>Тип двигателя:</span><span>бензин</span></p>
+                  <p><span>Топливо:</span><span>АИ-92</span></p>
+                  <p><span>Год:</span><span>2023г</span></p>
+                  <h3>3  000 000 ₽ </h3>
+                  <h4>цена в китае</h4>
+                </a>
+                  <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                
               </div>
               <div class="catalog__label"><span>В наличии</span></div>
               
             </div>
             <div class="catalog__item animation">
               <div class="images">
-                <img src="img/car-item.png">
+                <img src="img/car-black.png">
                 <img src="img/bg-2.jpg">
                 <img src="img/car-item.png">
               </div>
               <div class="catalog__discription">
-                <h2>Toyota RAV4 V (XA50)</h2>
-                <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
-                <p><span>Коробка:</span><span>Автомат</span></p>
-                <p><span>Привод:</span><span>Полный</span></p>
-                <p><span>Год:</span><span>2023г</span></p>
-                <h3>3  000 000 ₽ </h3>
-                <h4>цена в китае</h4>
-                <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                <a href="car.html">
+                  <h2>Toyota RAV4 V (XA50)</h2>
+                  <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
+                  <p><span>Коробка:</span><span>Автомат</span></p>
+                  <p><span>Привод:</span><span>Полный</span></p>
+                  <p><span>Год:</span><span>2023г</span></p>
+                  <h3>3  000 000 ₽ </h3>
+                  <h4>цена в китае</h4>
+                  <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                </a>
               </div>
             </div>
             <div class="catalog__item animation">
@@ -238,14 +268,16 @@
                 <img src="img/car-item.png">
               </div>
               <div class="catalog__discription">
-                <h2>Toyota RAV4 V (XA50)</h2>
-                <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
-                <p><span>Коробка:</span><span>Автомат</span></p>
-                <p><span>Привод:</span><span>Полный</span></p>
-                <p><span>Год:</span><span>2023г</span></p>
-                <h3>3  000 000 ₽ </h3>
-                <h4>цена в китае</h4>
-                <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                <a href="car.html">
+                  <h2>Toyota RAV4 V (XA50)</h2>
+                  <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
+                  <p><span>Коробка:</span><span>Автомат</span></p>
+                  <p><span>Привод:</span><span>Полный</span></p>
+                  <p><span>Год:</span><span>2023г</span></p>
+                  <h3>3  000 000 ₽ </h3>
+                  <h4>цена в китае</h4>
+                  <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                </a>
               </div>
             </div>
             <div class="catalog__item animation">
@@ -255,14 +287,16 @@
                 <img src="img/car-item.png">
               </div>
               <div class="catalog__discription">
-                <h2>Toyota RAV4 V (XA50)</h2>
-                <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
-                <p><span>Коробка:</span><span>Автомат</span></p>
-                <p><span>Привод:</span><span>Полный</span></p>
-                <p><span>Год:</span><span>2023г</span></p>
-                <h3>3  000 000 ₽ </h3>
-                <h4>цена в китае</h4>
-                <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                <a href="car.html">
+                  <h2>Toyota RAV4 V (XA50)</h2>
+                  <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
+                  <p><span>Коробка:</span><span>Автомат</span></p>
+                  <p><span>Привод:</span><span>Полный</span></p>
+                  <p><span>Год:</span><span>2023г</span></p>
+                  <h3>3  000 000 ₽ </h3>
+                  <h4>цена в китае</h4>
+                  <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                </a>
               </div>
             </div>
             <div class="catalog__item animation">
@@ -272,14 +306,16 @@
                 <img src="img/car-item.png">
               </div>
               <div class="catalog__discription">
-                <h2>Toyota RAV4 V (XA50)</h2>
-                <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
-                <p><span>Коробка:</span><span>Автомат</span></p>
-                <p><span>Привод:</span><span>Полный</span></p>
-                <p><span>Год:</span><span>2023г</span></p>
-                <h3>3  000 000 ₽ </h3>
-                <h4>цена в китае</h4>
-                <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                <a href="car.html">
+                  <h2>Toyota RAV4 V (XA50)</h2>
+                  <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
+                  <p><span>Коробка:</span><span>Автомат</span></p>
+                  <p><span>Привод:</span><span>Полный</span></p>
+                  <p><span>Год:</span><span>2023г</span></p>
+                  <h3>3  000 000 ₽ </h3>
+                  <h4>цена в китае</h4>
+                  <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                </a>
               </div>
             </div>
             <div class="catalog__item animation">
@@ -289,14 +325,16 @@
                 <img src="img/car-item.png">
               </div>
               <div class="catalog__discription">
-                <h2>Toyota RAV4 V (XA50)</h2>
-                <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
-                <p><span>Коробка:</span><span>Автомат</span></p>
-                <p><span>Привод:</span><span>Полный</span></p>
-                <p><span>Год:</span><span>2023г</span></p>
-                <h3>3  000 000 ₽ </h3>
-                <h4>цена в китае</h4>
-                <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                <a href="car.html">
+                  <h2>Toyota RAV4 V (XA50)</h2>
+                  <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
+                  <p><span>Коробка:</span><span>Автомат</span></p>
+                  <p><span>Привод:</span><span>Полный</span></p>
+                  <p><span>Год:</span><span>2023г</span></p>
+                  <h3>3  000 000 ₽ </h3>
+                  <h4>цена в китае</h4>
+                  <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                </a>
               </div>
             </div>
             <div class="catalog__item animation">
@@ -306,14 +344,16 @@
                 <img src="img/car-item.png">
               </div>
               <div class="catalog__discription">
-                <h2>Toyota RAV4 V (XA50)</h2>
-                <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
-                <p><span>Коробка:</span><span>Автомат</span></p>
-                <p><span>Привод:</span><span>Полный</span></p>
-                <p><span>Год:</span><span>2023г</span></p>
-                <h3>3  000 000 ₽ </h3>
-                <h4>цена в китае</h4>
-                <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                <a href="car.html">
+                  <h2>Toyota RAV4 V (XA50)</h2>
+                  <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
+                  <p><span>Коробка:</span><span>Автомат</span></p>
+                  <p><span>Привод:</span><span>Полный</span></p>
+                  <p><span>Год:</span><span>2023г</span></p>
+                  <h3>3  000 000 ₽ </h3>
+                  <h4>цена в китае</h4>
+                  <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                </a>
               </div>
             </div>
             <div class="catalog__item animation">
@@ -323,17 +363,28 @@
                 <img src="img/car-item.png">
               </div>
               <div class="catalog__discription">
-                <h2>Toyota RAV4 V (XA50)</h2>
-                <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
-                <p><span>Коробка:</span><span>Автомат</span></p>
-                <p><span>Привод:</span><span>Полный</span></p>
-                <p><span>Год:</span><span>2023г</span></p>
-                <h3>3  000 000 ₽ </h3>
-                <h4>цена в китае</h4>
-                <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                <a href="car.html">
+                  <h2>Toyota RAV4 V (XA50)</h2>
+                  <p><span>Двигатель:</span><span>2.0 л / 171 л.с. / бензин</span></p>
+                  <p><span>Коробка:</span><span>Автомат</span></p>
+                  <p><span>Привод:</span><span>Полный</span></p>
+                  <p><span>Год:</span><span>2023г</span></p>
+                  <h3>3  000 000 ₽ </h3>
+                  <h4>цена в китае</h4>
+                  <button class="open-modal"><span>Узнать цену под ключ</span></button>
+                </a>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <!-- Оплата и покупки -->
+    <section>
+      <div class="pay">
+        <div class="container">
+          <div class="pay__title"><h2>Оплата и покупки</h2></div>
+          
         </div>
       </div>
     </section>
@@ -344,32 +395,42 @@
           <div class="accordeon__title animation"><h2>Часто задаваемые вопросы</h2></div>
           <div class="accordeon__items animation" id="accordeon">
             <div class="accordeon__item acc-head">
-              <p>How much is my case worth?</p>
+              <p>Какие преимущества может предложить покупка машины из Китая?</p>
               <img src="img/plus.svg" alt="картинка">
             </div>
             <div class="accordeon__item acc-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe ex nesciunt, quidem quis illo cupiditate, quod maxime. Tenetur, ex quos. Magnam quasi iure facere minus velit voluptate accusamus hic!
+              <p>Покупка машины из Китая может быть более выгодной, чем покупка машины на местном рынке, так как китайские производители могут предложить более низкие цены и широкий выбор моделей. Однако, необходимо учитывать риски, связанные с покупкой товаров за границей.</p>
             </div>
             <div class="accordeon__item acc-head">
-              <p> What should I do right after car accidect</p>
+              <p>Какие особенности отличают автомобили Toyota от конкурентов?</p>
               <img src="img/plus.svg" alt="картинка">
             </div>
             <div class="accordeon__item acc-body">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe ex nesciunt, quidem quis illo cupiditate, quod maxime. Tenetur, ex quos. Magnam quasi iure facere minus velit voluptate accusamus hic!</p>
+              <p>Автомобили Toyota известны своей надежностью, экономичностью и долговечностью. Кроме того, многие модели Toyota имеют высокий уровень безопасности и современные технологии.</p>
             </div>
             <div class="accordeon__item acc-head">
-              How much is my case worth?
+              <p>Какие автомобили производит компания Toyota?</p>
               <img src="img/plus.svg" alt="картинка">
             </div>
             <div class="accordeon__item acc-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe ex nesciunt, quidem quis illo cupiditate, quod maxime. Tenetur, ex quos. Magnam quasi iure facere minus velit voluptate accusamus hic!
+              <p>Toyota производит широкий спектр автомобилей, включая седаны, хэтчбеки, внедорожники, кроссоверы, пикапы, минивэны и многое другое.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Отзывы -->
+    <!-- <section>
+      <div class="review">
+        <div class="container">
+          <div class="review__title"><h2>Отзывы</h2></div>
+          
+          
+        </div>
+      </div>
+    </section> -->
     <!-- Контакты -->
-    <section>
+    <section id="contact">
       <div class="contact">
         <div class="container">
           <div class="contact__title animation"><h2>Контакты</h2></div>
@@ -384,6 +445,22 @@
         </div>
       </div>
     </section>
+    <!-- О нас -->
+    <section id="about">
+      <div class="about">
+        <div class="container">
+          <div class="about__title"><h2>О нас</h2></div>
+          <div class="about__left">
+            <p>Наша компания - это надежный партнер в сфере продажи автомобилей Toyota из Китая. Мы занимаемся этим бизнесом уже много лет и за это время накопили огромный опыт в выборе лучших автомобилей Toyota, которые удовлетворят потребности самых взыскательных клиентов.</p>
+            <p>Мы работаем напрямую с крупнейшими китайскими производителями Toyota, что позволяет нам предоставлять нашим клиентам лучшие цены на рынке, а также гарантировать высочайшее качество продукции. Мы профессионально отбираем каждый автомобиль Toyota, чтобы убедиться, что он соответствует высоким стандартам нашей компании.</p>
+            <p>Наша миссия - сделать покупку автомобиля Toyota из Китая максимально простой и безопасной для наших клиентов. Мы предоставляем полный комплекс услуг, включая организацию доставки автомобиля в любую точку мира, таможенное оформление и регистрацию транспортного средства.
+            </p>
+            <p>Мы ценим доверие и уважение наших клиентов, поэтому всегда стремимся предоставлять им только лучшее обслуживание. Мы гордимся своей репутацией и готовы подтвердить нашу надежность и профессионализм на практике.</p>
+            <p>С нами покупка автомобиля Toyota из Китая - это легко и выгодно!"</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Модальное окно -->
     <div id="modal" class="modal">
       <div class="modal-content">
@@ -391,29 +468,25 @@
           <button class="close-modal"><img src="img/close-modal.svg" alt=""></button>
         </div>
         <h2>Заголовок модального окна</h2>
-        <form class="modal-content__form" id="feedback-form">
+        <p>Оставле заявку чтобы получить консультацию</p>
+        <form class="modal-content__form" id="feedback-form" method="post">
           <div class="form-group">
-            <label for="name">Имя:</label>
-            <input type="text" id="name" name="name" required placeholder="Например: Павел">
+            <input type="text" id="name" name="name" required placeholder="Имя:">
           </div>
           <div class="form-group">
-            <label for="tell">Телефон:</label>
-            <input type="tell" id="tell" name="tell" required placeholder="Например: 8 (800) 555-35-35">
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required placeholder="Например: psnekr@gmail.com">
+            <input class="tell" type="tell" id="tell" name="tell" required placeholder="Телефон:">
           </div>
           <button class="modal-content__btn" type="submit">Отправить</button>
         </form>
+        <p>Отправляя форму, вы соглашаетесь с политикой конфиденциальности</p>
       </div>
     </div>
     <footer>
     <div class="container">
         <div class="footer">
-            <div class="footer__logo"><img src="img/logo.svg" alt=""></div>
+            <a href="\" class="footer__logo"><img src="img/logo.svg" alt=""></a>
             <ul class="footer__ul">
-                <li><a href="#catalog" class="link-remove" data-target="#catalog">Каталог</a></li>
+                <li><a href="#catalog" class="link-remove">Каталог</a></li>
                 <li><a href="#" class="link-remove">Меню</a></li>
                 <li><a href="#" class="link-remove">Меню</a></li>
                 <li><a href="#" class="link-remove">Меню</a></li>
@@ -422,8 +495,9 @@
         </div>
     </div>
 </footer>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js?ver=5.6.8'></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="js/jquery.mask.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.min.js"></script>
   </body>

@@ -911,14 +911,7 @@ h6 {
   }
 
   .main__video::before {
-    content: "";
-    background-color: rgba(0, 0, 0, 0.6980392157);
-    width: 100%;
-    height: -webkit-fill-available;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 20px;
+    display: none;
   }
 
   .main__wrapper {

@@ -420,11 +420,19 @@ h6 {
 .nav__item {
   display: inline-block;
   padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.nav__item:hover {
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+  background-color: #fff;
 }
 
 .nav__item--active {
   border: 2px solid #b8ffec;
   border-radius: 6px;
+  background-color: #fff;
 }
 
 .nav__link {

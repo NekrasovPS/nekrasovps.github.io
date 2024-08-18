@@ -1,0 +1,405 @@
+@font-face {
+  font-family: "TTLakes-ExtraBold";
+  font-display: swap;
+  src: url("../fonts/TTLakes-ExtraBold.woff") format("woff"), url("../fonts/TTLakes-ExtraBold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes-DemiBold";
+  font-display: swap;
+  src: url("../fonts/TTLakes-DemiBold.woff") format("woff"), url("../fonts/TTLakes-DemiBold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes-Black";
+  font-display: swap;
+  src: url("../fonts/TTLakes-Black.woff") format("woff"), url("../fonts/TTLakes-Black.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes-Bold";
+  font-display: swap;
+  src: url("../fonts/TTLakes-Bold.woff") format("woff"), url("../fonts/TTLakes-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes-ExtraLight";
+  font-display: swap;
+  src: url("../fonts/TTLakes-ExtraLight.woff") format("woff"), url("../fonts/TTLakes-ExtraLight.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes-Light";
+  font-display: swap;
+  src: url("../fonts/TTLakes-Light.woff") format("woff"), url("../fonts/TTLakes-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes-Regular";
+  font-display: swap;
+  src: url("../fonts/TTLakes-Regular.woff") format("woff"), url("../fonts/TTLakes-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes-Medium";
+  font-display: swap;
+  src: url("../fonts/TTLakes-Medium.woff") format("woff"), url("../fonts/TTLakes-Medium.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes-Thin";
+  font-display: swap;
+  src: url("../fonts/TTLakes-Thin.woff") format("woff"), url("../fonts/TTLakes-Thin.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "TTLakes-Regular";
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  scroll-behavior: smooth;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  padding: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+  font-family: "TTLakes-Bold";
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  width: 320px;
+  height: 100vh;
+  -webkit-box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2);
+          box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  overflow-y: auto;
+}
+
+.menu__wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 18.5px 24px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu__top {
+  width: 100%;
+  height: auto;
+}
+
+.menu__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__center {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.menu__list li {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.menu__list li a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: "TTLakes-Medium";
+  color: #1b1c21;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.200000003px;
+  position: relative;
+}
+
+.menu__list li a:hover {
+  color: #7e7e82;
+}
+
+.menu__list li a:hover:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -24px;
+  width: 4px;
+  height: 32px;
+  border-bottom-right-radius: 60px;
+  border-top-right-radius: 60px;
+  background: #41f6d7;
+}
+
+.menu__list li:last-child {
+  margin-bottom: 0;
+}
+
+.menu__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.close {
+  margin-right: 16.5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.close:hover {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.logo {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.search {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.search:hover {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.social a {
+  margin-right: 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.social a:last-child {
+  margin-right: 0;
+}
+
+.email {
+  margin-top: 16px;
+}
+
+.email a {
+  font-family: "TTLakes-Medium";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.200000003px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.email a:hover {
+  color: #7E7E82;
+}
+
+.tell {
+  margin-top: 12px;
+}
+
+.tell a {
+  font-family: "TTLakes-Bold";
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6000000238px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.tell a:hover {
+  color: #7E7E82;
+}
+
+.trans {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.trans p {
+  margin-right: 7px;
+  width: 25px;
+  height: 24px;
+}
+
+.trans p a {
+  font-family: "TTLakes-Medium";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.200000003px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.trans p a:hover {
+  color: #7E7E82;
+}
+
+.trans p a.active {
+  color: #7E7E82;
+}
+
+.trans p:last-child {
+  margin-right: 0;
+}

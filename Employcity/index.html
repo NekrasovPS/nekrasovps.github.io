@@ -57,7 +57,7 @@
                 </ul>
               </div>
               <div class="main__btn">
-                <a href="#">заказать</a>
+                <a href="#form">заказать</a>
                 <a href="#">подробнее</a>
               </div>
             </div>
@@ -105,26 +105,26 @@
                   <p>Excepteur sint occaecat cupidatat non proident</p>
                 </div>
               </div>
-              <form class="form">
+              <form class="form" id="form">
                 <div class="form__row">
                   <div class="form__items">
                     <div class="form__item">
                       <div class="select-wrapper">
-                        <select name="" id="">
-                          <option>Выберите тип системы</option>
-                          <option>Sed ut perspiciatis</option>
-                          <option>Nemo enim ipsam</option>
-                          <option>Et harum quidem</option>
-                          <option>Temporibus autem</option>
-                          <option>Itaque earum rerum</option>
+                        <select name="system_type" id="systemType">
+                          <option value="">Выберите тип системы</option>
+                          <option value="perspiciatis">Sed ut perspiciatis</option>
+                          <option value="ipsam">Nemo enim ipsam</option>
+                          <option value="harum">Et harum quidem</option>
+                          <option value="temporibus">Temporibus autem</option>
+                          <option value="earum">Itaque earum rerum</option>
                         </select>
                       </div>
                     </div>
                     <div class="form__item">
-                      <input type="email" placeholder="Ваш e-mail">
+                      <input type="email" name="email" placeholder="Ваш e-mail" id="emailInput">
                     </div>
                     <div class="form__item">
-                      <input type="text" placeholder="Ваше имя">
+                      <input type="text" name="name" placeholder="Ваше имя" id="nameInput">
                     </div>
                   </div>
                 </div>
@@ -133,13 +133,13 @@
                     <div class="form__line">
                       <div class="form__span">
                         <span class="range-label">Sed ut perspiciatis, unde omnis iste natus</span>
-                        <span class="range-value">75%</span>
+                        <span class="range-value" id="rangeValue">75%</span>
                       </div>
-                      <input type="range" min="0" max="100" value="75" class="slider" id="myRange">
+                      <input type="range" name="progress" min="0" max="100" value="75" class="slider" id="myRange">
                     </div>
                     <div class="form__file">
                       <div class="file-upload-wrapper">
-                        <input type="file" id="fileInput" class="file-input">
+                        <input type="file" name="file" id="fileInput" class="file-input">
                         <label for="fileInput" class="file-label">
                           <img src="img/file.svg" alt="Иконка файла" class="file-icon">
                           ПРИКРЕПИТЬ ФАЙЛ
@@ -154,6 +154,7 @@
                   </div>
                 </div>
               </form>
+              
             </div>
           </div>
         </div>

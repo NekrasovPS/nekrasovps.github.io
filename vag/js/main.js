@@ -1,9 +1,52 @@
-const burger = document.getElementById("burger");
-const menu = document.getElementById("menu");
+document.addEventListener("DOMContentLoaded", function () {
+  const burger = document.getElementById("burger");
+  const menu = document.getElementById("menu");
 
-burger.addEventListener("click", function () {
-  burger.classList.toggle("active");
-  menu.classList.toggle("active");
+  burger.addEventListener("click", function () {
+    burger.classList.toggle("active");
+    menu.classList.toggle("active");
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const msc = document.getElementById("msc");
+  const spb = document.getElementById("spb");
+
+  const mscBlock = document.querySelector(".msc");
+  const spbBlock = document.querySelector(".spb");
+
+  msc.addEventListener("click", function () {
+    mscBlock.style.transform = "translateY(-1000px)";
+  });
+
+  spb.addEventListener("click", function () {
+    spbBlock.style.transform = "translateY(-1000px)";
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const openForm = document.querySelectorAll(".feedback");
+  const form = document.querySelector(".callback");
+  const body = document.querySelector("body");
+
+  openForm.forEach(function (openForm) {
+    openForm.addEventListener("click", function (event) {
+      event.preventDefault();
+      form.classList.add("active");
+      body.style.overflow = "hidden";
+    });
+  });
+
+  form.addEventListener("click", function () {
+    form.classList.remove("active");
+    body.style.overflow = "auto";
+  });
+
+  form
+    .querySelector(".callback__wrapper")
+    .addEventListener("click", function (event) {
+      event.stopPropagation();
+    });
 });
 
 $(".phone").mask("+7(999) 999-99-99");
